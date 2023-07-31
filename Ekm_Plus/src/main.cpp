@@ -4373,7 +4373,7 @@ unsigned char Kapasite_Kontrol(void)
       _ms = EKM.MS;
       Kontrol_Asamasi = 0;   
     } 
-    else if((EKM.MS - _ms) > 3000)     /// sn'3 kontrol
+    else if((EKM.MS - _ms) > 5000)     /// sn'5 kontrol
     {
       _ms = EKM.MS;
       Kapasite_Gr = EKM.Tank_Kapasitesi*1000;
