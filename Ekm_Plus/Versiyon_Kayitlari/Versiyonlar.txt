@@ -1,0 +1,109 @@
+
+V1R1.10.2
+- Data bank 1234yf markaları düzenlendi
+- Seçilen gaz tipi kayıt edildi
+- Header dosyaları include klasörüne taşındı
+- wifi şifresi yanlış girildiğinde 2. denemede doğru olsa bile bağlanmama sorunu giderildi(eski versiyonlarda yapılmıştı,test edildi)
+- Açılma sayısı kayıt edilmesi düzenlendi, kayıt edilmeyen durumlar giderildi
+
+V1R2.0
+- Yazıcı dil hatası düzeltildi
+- Ekranda taşma olan bazı yerler düzeltildi
+- Mail atma eklendi
+- Kalan süre gösterme fonk. düzeltildi
+- Wifi bağlanamadıysa saatte 1 defa tekrar deneyecek
+- Mail atmadaki problem kütüphane değişikliği ile çözüldü. Tahminimce eski kütüphanedeki sorun, maile girecek kadar beklememesi.
+- Model gösterimdeki hatalar giderildi
+- Tarih saat yerine gönderici maili girme konuldu. Tarih saat ayarı için aynı yerde sağ tuşa basmak gerekiyor(Yazıcı yoksa ayar sayfa gelmez)
+
+V1R2.1
+- mail gönderiminde yazıcı çıktısı verme düzeltildi
+- default alıcı maili eklendi
+- valf testte kompresör küçük yazılmış, buyutuldu
+- default gönderici maili Brescon yapıldı
+V1R2.2
+- Mail gönderme öncesinde wifi bağlandığında ekranda bağlandı yazacak.
+- Vakum ve kaçak bekleme sıranda ekranda yazan GEC yazısı, GEC (OK) şeklinde düzeltildi.
+- E-Posta yazısında a harfinin kayıklı giderildi.
+V1R2.3
+- Baglandı yazısı 1sn ekranda kalacak
+- Gec(OK) yerine ENT ve GEc yazıldı
+- Seri no Sıra no olarak değiştirildi
+- OK yazıları ENT ile değiştirildi
+- Yazılım guncelleme ver veri gönderme adresi smartcon'a özel yapıldı
+- Kullanım sıfırlamada sıra no'da sıfırlandı
+V1R2.4
+- default yuklemeden cihaz adı değişti.
+- Yazıcı default var yapıldı
+- wifi loglar kaldırırıldı
+- Yazici ilk çıktı hatası düzeltildi
+- LoadCell dout pinine denk gelen pin internal pullup yapılamıyor. Çizime pullup direnci eklenmeli
+- Yazıcı ayarı main'den önce manuel olarak var'da kalmış bu yuzden ilk açılmada yazıcı var gibi davranyor,
+sonrasında eepromdan verileri okuyunca yazıcı yok'a geçiyormuş. Girişteki yazıcı var kaldırıldı. Cihaz ayarlarından 
+yazıcı var yapılırsa hata durumu artık tekrar görülmez.
+V1R2.5
+- Mail gönderimi sırasında yazıcıdan çıktı gelme sorunu düzeltildi. 
+esp32-hal-log.h dosyası içinde ARDUHAL_LOG_LEVEL (-1) yapıldı. Bu sorunu çözdü. 
+- Ayrıca log yazdırması yapabilecek her yer kapatıldı
+- .tmp uzantılı dosyaları silmemek gerekiyor. Sanırım yaptığım kütüphane ayarları o şekilde tutuluyor.
+Geçen hafta gereksiz görerek 1 tanesini silmiştim. Yazıcı hatası bundan kaynaklı olmalı. Benim bilgisayardan yüklendiği için ayarlar
+korundu, ancak git'e aktarmadı. Elci'deki pc'nin kütüphane ayarları ile yazılım derlenip yüklendiği için printerda loglar görüldü.
+V1R2.6
+- Gaz çekme sonunda çekilen gr 65000+ gözükmesi düzeltildi.
+V1R2.8
+- Ayarlar kısmından wifi bağlanma eklendi.
+- Tarih saat ayarına giriş düzeltildi
+- Kullanım bilgileri kısmına aşağı ok eklendi
+- bazı yerlere önlem olarak butonları temizle eklendi
+V1R2.9
+- Giriş 2 ekranında esc basınca giriş 1 ekranına geçecek çekilde yapıldı.
+- Sıra no sadece mail atarsa veya yazdırırsa artacak.
+- Kullanım bilgileri ekranında Filtre KG yazızı FILTRE KALAN Olarak değiştirildi
+- wifi bağlantısında esc ve ent yazıları eklendi
+- Wifi bağlan yazısı WI-FI olarak değiştirildi
+- Komresör kapatmama sorunu düzeltildi.
+V1R2.10
+- default Filtre kapasitesi 150 yapıldı
+- Tüpten gaz çekme kısmına tüp kapasitesi ve çekilebilir max. miktarı yazıdırıldı.
+- Tüpten çekme'de çekilecek miktar otomatik olarak kalan tüm boş alan gösterilecek
+- Filtre kapasitesi değiştirildiğinde kalan miktar yeni kapasiteden kullanım miktarı düşülerek gösterilecek
+- ENT ESC parantezleri düzeltildi
+V1R2.11
+-tüpten gaz çekme ekranı tank kap gösterimi, kg dan gr olarak 5 hane yapıldı.(rev.ikaya)
+V1R2.12(rev.ikaya)
+-tüpten gaz çekme işleminde ilk teraziyi görmüyordu.giriş sayfasına terazi,vak,bas okuma eklendi
+-tüpten gaz çekmede 500gr tolerans kaldırıldı.
+V1R2.13
+- Lehçe dili eklendi.
+- Bazı yazım hataları düzeltildi
+- Dil dosyası düzenlendi, kullanılmayan ve kullanılmayacak olan yazılar kaldırıldı
+V1R2.14
+- Bazı kelime taşmalarının düzeltilmesi
+V1R2.15
+-işlem sonu print email lehçesi düzeltildi(rev. ikaya)
+-Filtre kapasite kalan kayıt yeri 200000den 150000 yapıldı(30/11/22)(rev. ikaya)
+V1R2.16 (rev. ikaya-01/12/22)
+-filtre kap=100kg yapıldı.(FILTRE_KALAN_KAPASITE_KAYIT_YERI, 100000);(FILTRE_KAPASITE_KAYIT_YERI,100);
+-dil dosyası firma ing ve lehçe bilgileri smartcon yapıldı.tamamlandı yazısı ortalandı
+V1R2.17
+- Vakum 0 olduğunda gaz kontrolü eklendi
+V1R2.18
+-gaz yetersiz e buzer eklendi(ikaya)
+-versiyon numarası düzeltildi
+V1R2.19
+-tarih ayar tuşu hata giderildi.
+-satış yeri ayrımı yapıldı(SMARTCON veya TURKIYE)
+V1R2.20
+-açılış sayfasına satış yeri gösterimi eklendi.(Türkiye ise elci Smartcon ise brescon net adresi çıkar)
+V1R2.21 10/02/2023
+-SSR kartları vak ve komp. dc soketleri 2liden 4lü yapıldı. servis karışıklık yaşamasın diye yeni versiyon numarası verildi.
+V1R2.22 11/04/2023
+-4.dil SIRPÇA dili eklendi
+V1R2.23 18/04/2023
+-5.dil Arnavutça dili eklendi
+-araç data 2020den 2022 ye güncellendi  (alfa remeo ilk modellde yukarı tuşta reset atıyor)
+-
+V1R2.24 24/07/2023 r. ikaya
+-tüpten cek sonunda cekilen gr ekranında bekliyor.
+V1R2.24 29/07/2023 
+-gaz çekme işleminde tüp kapasite kontrolü eklendi.
