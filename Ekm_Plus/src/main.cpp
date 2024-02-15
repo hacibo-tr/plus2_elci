@@ -306,6 +306,25 @@ void Eepromdan_Verileri_Al(void)
 {
   char Eeprom_Kontrolu[5] = {0};
 
+EEPROM.readString(EEPROM_VERI_KONTROL_YERI, (char*)Eeprom_Kontrolu, 2);
+
+  if ((Eeprom_Kontrolu[0] != 'K') && (SATIS_YERI == TURKIYE))
+  { 
+      EEPROM.writeString(EEPROM_VERI_KONTROL_YERI, "K");
+      EEPROM.writeString(GONDERICI_MAIL_KAYIT_YERI, "elciservis@gmail.com");
+      EEPROM.writeString(GONDERICI_MAIL_SIFRE_KAYIT_YERI, "cingfyhreujogpgg");
+      EEPROM.writeString(SON_ALICI_MAIL_KAYIT_YERI, "elciservis@gmail.com");//  ibrahimkaya1781@gmail.com
+  }
+
+  if ((Eeprom_Kontrolu[0] != 'K') && (SATIS_YERI == SMARTCON))
+  {  
+      EEPROM.writeString(EEPROM_VERI_KONTROL_YERI, "K");
+      EEPROM.writeString(GONDERICI_MAIL_KAYIT_YERI, "bresconeu@gmail.com");
+      EEPROM.writeString(GONDERICI_MAIL_SIFRE_KAYIT_YERI, "tjqmshawktynubzq");
+      EEPROM.writeString(SON_ALICI_MAIL_KAYIT_YERI, "bresconeu@gmail.com");  
+  }
+  Eeprom_Kontrolu[0] = 0;
+
   EEPROM.readString(EEPROM_KONTROL_YERI, (char*)Eeprom_Kontrolu, 2);
   if (Eeprom_Kontrolu[0] != 'A')
   {
@@ -313,17 +332,7 @@ void Eepromdan_Verileri_Al(void)
 
     EEPROM.writeString(CIHAZ_ADI_KAYIT_YERI, "EKMPLUS+");
     EEPROM.writeString(WIFI_AD_KAYIT_YERI, "EKM_PLUS");
-    
-    //EEPROM.writeString(CIHAZ_ADI_KAYIT_YERI, "SMARTCON");
-    //EEPROM.writeString(WIFI_AD_KAYIT_YERI, "SMARTCON");
-
-    EEPROM.writeString(GONDERICI_MAIL_KAYIT_YERI, "abcde.fghij@gmail.com");
-    EEPROM.writeString(GONDERICI_MAIL_SIFRE_KAYIT_YERI, "tjqmshawktynubzq");
-    EEPROM.writeString(SON_ALICI_MAIL_KAYIT_YERI, "abcde.fghij@gmail.com");
     EEPROM.writeString(WIFI_SIFRE_KAYIT_YERI, "el11121314");
-    
-    // EEPROM.writeString(WIFI_AD_KAYIT_YERI, "TurkTelekom_T3102");
-    // EEPROM.writeString(WIFI_SIFRE_KAYIT_YERI, "6p7d4vxY");
 
     EEPROM.writeString(YAZ_VERSIYON_KAYIT_YERI, "00");
     EEPROM.writeString(YAZ_REVIZYON_KAYIT_YERI, "00");
@@ -4373,7 +4382,7 @@ unsigned char Kapasite_Kontrol(void)
       _ms = EKM.MS;
       Kontrol_Asamasi = 0;   
     } 
-    else if((EKM.MS - _ms) > 5000)     /// sn'5 kontrol
+    else if((EKM.MS - _ms) > 4000)     /// sn'4 kontrol
     {
       _ms = EKM.MS;
       Kapasite_Gr = EKM.Tank_Kapasitesi*1000;
@@ -8831,12 +8840,12 @@ void Sayfalari_Sorgula(void)
     {
       Kayittan_Yazi_Yaz(1, SATIR_2, R1234_YF_Yeri);
     }
-    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.24",1);
+    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.25",1);
     //Yazi_Yaz(1,SATIR_3,"Plus_  _",1);
     //Yazi_Yaz(6,SATIR_3,EKM.Yaz_Versiyon,1);
     //Yazi_Yaz(9,SATIR_3,EKM.Yaz_Revizyon,1);
     strcpy(EKM.Yaz_Versiyon,"V1");
-    strcpy(EKM.Yaz_Revizyon,"R2.24");
+    strcpy(EKM.Yaz_Revizyon,"R2.25");
     
 
 

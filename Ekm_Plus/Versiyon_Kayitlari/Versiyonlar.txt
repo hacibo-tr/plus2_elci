@@ -107,3 +107,6 @@ V1R2.24 24/07/2023 r. ikaya
 -tüpten cek sonunda cekilen gr ekranında bekliyor.
 V1R2.24 29/07/2023 
 -gaz çekme işleminde 5sn de bir tüp kapasite kontrolü eklendi.plus2_elci cihanın klonudur
+
+V1R2.25 15/02/2024
+-mail gönderme hatası düzeltildi.

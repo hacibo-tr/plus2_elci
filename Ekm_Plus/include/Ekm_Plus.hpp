@@ -33,8 +33,8 @@
 #define TURKIYE                 1
 #define SMARTCON                2
 
-#define SATIS_YERI              TURKIYE
-
+#define SATIS_YERI              TURKIYE//
+//#define SATIS_YERI              SMARTCON
 #define Geri_Buton     0
 #define Giris_Buton    1
 #define Yukari_Buton   2
@@ -136,6 +136,7 @@
 #define GONDERICI_MAIL_KAYIT_YERI             725 ///35 byte
 #define GONDERICI_MAIL_SIFRE_KAYIT_YERI       760 ///25
 #define SON_ALICI_MAIL_KAYIT_YERI             785 //35
+#define EEPROM_VERI_KONTROL_YERI              810 //5
 
 
 // #define Sifirlama                               0
