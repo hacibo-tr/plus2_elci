@@ -110,3 +110,4 @@ V1R2.24 29/07/2023
 
 V1R2.25 15/02/2024
 -mail gönderme hatası düzeltildi.
+-sıcaklık okumadaki eksik düzeltildi.ısı ölçümü 12bitten 9bit yapıldı.

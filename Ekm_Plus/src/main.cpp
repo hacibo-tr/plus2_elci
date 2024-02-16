@@ -4382,7 +4382,7 @@ unsigned char Kapasite_Kontrol(void)
       _ms = EKM.MS;
       Kontrol_Asamasi = 0;   
     } 
-    else if((EKM.MS - _ms) > 4000)     /// sn'4 kontrol
+    else if((EKM.MS - _ms) > 5000)     /// sn'5 kontrol
     {
       _ms = EKM.MS;
       Kapasite_Gr = EKM.Tank_Kapasitesi*1000;
@@ -10528,7 +10528,7 @@ void setup(void)
 
   Sicaklik_Sensoru.begin();
   delay(10);
-  Sicaklik_Sensoru.setResolution(12);
+  Sicaklik_Sensoru.setResolution(9);
 
   Buton[Giris_Buton].Olay = OLAY_YOK;
   Buton[Geri_Buton].Olay = OLAY_YOK;
