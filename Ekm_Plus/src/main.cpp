@@ -8840,12 +8840,12 @@ void Sayfalari_Sorgula(void)
     {
       Kayittan_Yazi_Yaz(1, SATIR_2, R1234_YF_Yeri);
     }
-    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.25",1);
+    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.26",1);
     //Yazi_Yaz(1,SATIR_3,"Plus_  _",1);
     //Yazi_Yaz(6,SATIR_3,EKM.Yaz_Versiyon,1);
     //Yazi_Yaz(9,SATIR_3,EKM.Yaz_Revizyon,1);
     strcpy(EKM.Yaz_Versiyon,"V1");
-    strcpy(EKM.Yaz_Revizyon,"R2.25");
+    strcpy(EKM.Yaz_Revizyon,"R2.26");
     
 
 

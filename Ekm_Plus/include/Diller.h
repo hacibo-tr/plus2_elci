@@ -209,6 +209,7 @@ enum Text_Yerleri
 
 
 const char* const Dil_Listesi[] PROGMEM = {
+//"TURKCE"            ,"INGILIZCE"          ,"LEHÇE-POLONYA"        ,"SIRPCA"              ,"ARNAVUTÇA"             
 "TUP KAPASITE"        ,"CYLINDER CAP."       ,"POJEMNOSC ZBIORNIKA" ,"KAPACITET BOCE "     ,"KAPACITETI BOMBOLES" ,          //0
 "FILTRE KAPASITE"     ,"FILTER CAP."         ,"POJEMNOSC FILTRA"    ,"KAPACITET FILTERA"   ,"KAPACITETI FILTERIT" ,                      //1
 "R134a"               ,"R134a"               ,"R134a"               ,"R134a"               ,"R134A"               ,         //2
@@ -219,18 +220,18 @@ const char* const Dil_Listesi[] PROGMEM = {
 "ARACTAN GAZ CEK"     ,"REC. FROM VEHICLE"   ,"ODZYSK Z POJAZDU"    ,"OBRADA IZ VOZILA"    ,"TERHJEK NGA VETURA"  ,                       //7 "IZVLACENJE IZ VOZILA"
 "ARACA GAZ DOLDUR"    ,"CHARGE VEHICLE"      ,"NAPELNIANIE POJAZDU" ,"PUNJENJE VOZILA"     ,"MBUSHE MAKINEN"      ,                  //8
 "TUPDEN GAZ CEK"      ,"REC. FROM NEW TANK"  ,"NAPELNIANIE ZBIOR."  ,"IZVL.IZ NOVE BOCE"   ,"TERHJEK NGA BOMBOLA" ,                   //9 ??? 20 karakter
-"ARAC VERI"           ,"DATABASE"            ,"BAZA DANYCH"         ,"BAZA PODATAKA"       ,"TE DHENAT MAK."      ,                //10
+"ARAC VERI"           ,"DATABASE"            ,"PROCEDURA AUTOMAT."  ,"BAZA PODATAKA"       ,"TE DHENAT MAK."      ,                //10
 "ISLEM"               ,"PROCESS"             ,"WYKONAJ"             ,"PROCES"              ,"PROCES"              ,       //11
 "LUTFEN BEKLEYIN..."  ,"PLEASE WAIT..."      ,"PROSZE CZEKAC"       ,"MOLIMO SACEKAJTE "   ,"JU LUTEM PRISNI"     ,               //12
 "    BEKLEYIN...     ","   PLEASE WAIT...   ","  PROSZE CZEKAC...  ","MOLIMO SACEKAJTE "   ,"JU LUTEM PRISNI"     ,               //13
 "KACAK KONTROL"       ,"LEAK CONTROL"        ,"TEST SZCZELN."       ,"TEST CURENJA "       ,"KONTROLI I RRJEDHJES",                   //14
 "VAKUM YAPILIYOR"     ,"VACUUMING...   "     ,"PROZNIA W TRAKCIE.." ,"VAKUUMIRANJE"        ,"VAKUMIMI"            ,      //15 
 "SON CEK. GR :"       ,"LAST REC. GR:"       ,"OS.ODZYSK[g]:"       ,"POSL.IZVL.gr"        ,"GR E TERHEQUR"       ,                        //16 ??? 13 karakter
-"VAKUM SAAT  :"       ,"VACUUM HOUR :"       ,"PROZNIO[min]:"       ,"VREME VAKUM.:"       ,"KOHA E VAKUMIMIT"    ,                          //17 VREME VAKUMIRANJA
+"VAKUM SAAT  :"       ,"VACUUM HOUR :"       ,"PROZNIA[min]:"       ,"VREME VAKUM.:"       ,"KOHA E VAKUMIMIT"    ,                          //17 VREME VAKUMIRANJA
 "FILTRE KALAN:"       ,"FILTER REST :"       ,"PRZEFIL.[kg]:"       ,"FILTER      :"       ,"FIL.KOH.MEBTUR"      ,                       //18     
 "TUPTEN C. KG:"       ,"FROM TUBE KG:"       ,"WPROWADZ[kg]:"       ,"IZ CREVA    :"       ,"NGA TUBAT"           ,                 //19     
 "CEKILEN KG   :"      ,"RECOVERED KG :"      ,"ODZYSK. [kg]:"       ,"IZVUCENO KG :"       ,"E TERHJEKUR(KG)"     ,                      //20     
-"DOLDURULAN KG:"      ,"TOTAL FILL KG:"      ,"NAPEL.  [kg]:"       ,"UK.NAPUNJ KG:"       ,"E MBUSHUR  (KG)"     ,                     //21 ??? 14 karakter    
+"DOLDURULAN KG:"      ,"TOTAL FILL KG:"      ,"NAPELN. [kg]:"       ,"UK.NAPUNJ KG:"       ,"E MBUSHUR  (KG)"     ,                     //21 ??? 14 karakter    
 "   HAVA TAHLIYESI   ","    AIR PURGING     ","OCZYSZCZANIE PRZEWOD","IZBACIV. VAZDUHA"    ,"LIRIMI I TEPRICES"   ,                      //22
 "KACAK VAR"           ,"LEAK IN SYSTEM"      ,"WYCIEK W UKLADZIE"   ,"CURENJE U SISTEMU"   ,"RRJEDHJE NE SISTEM"  ,                      //23
 "ISLEM YAPILAMADI"    ,"PROCESS WAS ENDED"   ,"PROCES ZAKONCZONY"   ,"PROCES JE ZAVRSEN"   ,"PROCESI PERFUNDOJ"   ,                    //24
@@ -272,8 +273,8 @@ const char* const Dil_Listesi[] PROGMEM = {
 "YENI YAG      [ml]:" ,"NEW OIL       [ml]:" ,"OLEJ PAG       [ml]:","NOVO ULJE  (ml)"     ,"VAJI I RI"           ,     //60
 "UV YAG        [ml]:" ,"UV OIL        [ml]:" ,"BARWNIK UV     [ml]:","UV BOJA    (ml)"     ,"UV NGJYRA"           ,    //61
 "HIBRIT YAG    [ml]:" ,"HIBRIT OIL    [ml]:" ,"OLEJ POE       [ml]:","HIBRIDNO ULJE(ml)"   ,"VAJI HIBRIT"         ,     //62
-"DOLDURULAN GAZ[GR]:" ,"FILLED REFRIG.[GR]:" ,"ILOSC CZYNNIKA  [g]:","NAPUNJENO GASA (gr)" ,"SHUMA E MBUSHUR"     ,        //63
-"CEKILEN GAZ   [GR]:" ,"RECOVER REFRIG.[GR]:","ODZYSKAJ CHLODZ.[g]:","IZVUCENO GASA  (gr)" ,"SHUMA E TERHEQUR"    ,        //64                
+"DOLDURULAN GAZ[GR]:" ,"FILLED REFRIG.[GR]:" ,"NAPELNI. CZYNNIK[g]:","NAPUNJENO GASA (gr)" ,"SHUMA E MBUSHUR"     ,        //63
+"CEKILEN GAZ   [GR]:" ,"RECOVER REFRIG.[GR]:","ODZYSKANY CZYNNIK[g]","IZVUCENO GASA  (gr)" ,"SHUMA E TERHEQUR"    ,        //64                
 "PLAKA:"              ,"PLATE:"              ,"NUMER REJ.:"         ,"REGISTARSKI BROJ"    ,"REGJISTRIMI"         ,  //65                   
 "IMZA/KASE"           ,"SIGNATURE/STAMP"     ,"PODPIS"              ,"POTPIS"              ,"NENSHKRIMI"          ,                         //66       
 "VALF TEST"           ,"VALVE TEST"          ,"TEST ZAWOROW"        ,"TEST VENTILA"        ,"TEST VALFI"          ,                        //67            
@@ -306,7 +307,7 @@ const char* const Dil_Listesi[] PROGMEM = {
 "HORTUM TEMIZLEME"    ,"HOSE FLUSH"          ,"PLUKANIE PRZEOWDOW"  ,"CREVO ZA ISPIRANJE"  ,"PASTRIMI GYPAVE"     ,          //94 
 "ISLEM YAPILIYOR"     ,"IN PROGRESS..."      ,"OPERACJA W TRAKCIE"  ,"U TOKU.."            ,"NE PROCES"           ,   //95
 "YAPILIYOR BEKLEYIN"  ,"IN PROGRESS WAIT..." ,"PROSZE CZEKAC"       ,"PROCES JE U TOKU"    ,"NE PROCES PRISNI"    ,         //96
-"YENI YAG DOLDURUN(^)","FILL NEW OIL(^)"     ,"NAP NOWYM OLEJEM"    ,"UBACITE NOVO ULJE"   ,"MBUSHENI VAJIN E RI" ,           //97
+"YENI YAG DOLDURUN(^)","FILL NEW OIL(^)"     ,"NAP NOWYM OLEJEM(^)","UBACITE NOVO ULJE(^)" ,"MBUSHENI VAJIN E RI^",           //97
 "AYARLAR"             ,"SETTINGS"            ,"USTAWIENIA"          ,"PODESAVANJE"         ,"CILESIMET"           ,         //98
 "SENSORLER"           ,"SENSORS"             ,"CZUJNIKI"            ,"SENZORI"             ,"SENZOR"              ,           //99
 "KALIBRASYON"         ,"CALIBRATION"         ,"KALIBRACJA"          ,"KALIBRACIJA"         ,"KALIBRIMI"           ,            //100
@@ -321,11 +322,11 @@ const char* const Dil_Listesi[] PROGMEM = {
 "WIFI BULUNAMADI"     ,"WIFI NOT FOUND"      ,"NIE ODNALEZIONO WIFI","WiFi NIJE PRONADJEN" ,"WIFI NUK U GJET"     ,         //109
 "GUNCELLEME ICIN"     ,"FOR UPDATE"          ,"ABY ZAKTUALIZOWAC"   ,"ZA NADOGRADNJU"      ,"PER PERDITESIME"     ,        //110
 "BAGLANTI YAPIN"      ,"CONNECT THE WIFI "   ,"PODLACZ WIFI"        ,"POVEZITE NA WiFi"    ,"LIDHUNI"             ,                  //111
-"MANUEL"              ,"MANUEL"              ,"INSTRUKCJA"          ,"UPUTSTVO"            ,"MANUEL"              ,                //112
+"MANUEL"              ,"MANUEL"              ,"TRYB RECZNY"         ,"UPUTSTVO"            ,"MANUEL"              ,                //112
 "VAKUM ZAMANI  [DK]:" , "VACUUM TIME [MIN]:" ,"CZAS PROZNI[MIN]:"   ,"VREME VAKUMA [MIN]"  ,"KOHA E VAKUMIMIT"    ,                         //113    
 "KACAK KONTROL [DK]:" , "LEAK CONTROL[MIN]:" ,"P.SZCZELNOSCI [MIN]:","KONTROLA CURENJA"    ,"KOHA E KONTROLIT"    ,                        //114    
-"GAZ MIKTARI   [GR]:" , "GAS MARJIN   [GR]:" ,"TOLERANCJA GAZU [g]:","KOLICINA GASA(GR)"   ,"SASIA GASIT(GR)"     ,                      //115
-"YENI YAG DOLUM[GR]:" , "NEW OIL FILL [GR]:" ,"NAP. OLEJEM PAG [g]:","NOVO ULJE PUNJENJE"  ,"VAJI I RI(GR)"       ,                   //116
+"GAZ MIKTARI   [GR]:" , "GAS MARJIN   [GR]:" ,"ILOSC GAZU [g]:"     ,"KOLICINA GASA(GR)"   ,"SASIA GASIT(GR)"     ,                      //115
+"YENI YAG DOLUM[GR]:" , "NEW OIL FILL [GR]:" ,"NAP. OLEJEM[g]:"     ,"NOVO ULJE PUNJENJE"  ,"VAJI I RI(GR)"       ,                   //116
 "ISLEM BASLASIN MI?"  , "START PROSES?"      ,"ROZPOCZAC PROCES?"   ,"POCINJANJE PROCESA"  ,"TE NIS PROCESI?"     ,                    //117
 "HAYIR"               ,"NO "                 ,"NIE"                 ,"NE"                  ,"JO"                  ,      //118
 "EVET "               ,"YES"                 ,"TAK"                 ,"DA"                  ,"PO"                  ,     //119
@@ -392,7 +393,7 @@ const char* const Dil_Listesi[] PROGMEM = {
 "TANKTA GAZ VAR!"     ,"TANK HAVE A GAS!"    ,"GAZ W ZBIORNIKU!"    ,"REZERVOAR IMA GAS"   ,"KA GAS NE BOMB"      ,                          //180
 "YAZICI TEST"         ,"PRINTER TEST"        ,"TEST DRUKARKI"       ,"TEST STAMPANJA"      ,"TESTO PRINTER"       ,                          //181
 "CIHAZ ADI DEGISTIR"  ,"CHANGE DEVICE NAME"  ,"ZMIEN NAZWE URZADZ." ,"NOVI NAZIV MASINE"   ,"NDERRO.EMR.MAK"      ,          //182"PROMENI NAZIV MASINE"PROMENITE IME UREĐAJA
-"GONDERICI E-MAILI"   ,"SENDER E-MAIL ADDRES","POCZTA EMAIL NADAWC" ,"E-MAIL POSILJAOCA"   ,"DERGUESI.EMAIL"      ,                          //183    
+"GONDERICI E-MAILI"   ,"SENDER E-MAIL ADDRES","EMAIL NADAWCY"       ,"E-MAIL POSILJAOCA"   ,"DERGUESI.EMAIL"      ,                          //183    
 "MAIL SIFRESI GIRIN"  ,"ENTER MAIL PASSWORD" ,"WPISZ HASLO DO POCZ.","UNESITE E-MAIL"      ,"PASS.EMAIL"          ,                          //184
 "ALICI E-MAILI"       ,"RECIPIENT E-MAIL"    ,"EMAIL KLIENTA"       ,"E-MAIL PRIMAOCA"     ,"PRANUESI.EMIAL"      ,                         //185
 "E-POSTA"             ,"E-MAIL"              ,"E-MAIL"              ,"E-MAIL"              ,"E-MAIL"              ,                         //186
