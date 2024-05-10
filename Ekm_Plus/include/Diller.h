@@ -326,7 +326,7 @@ const char* const Dil_Listesi[] PROGMEM = {
 "VAKUM ZAMANI  [DK]:" , "VACUUM TIME [MIN]:" ,"CZAS PROZNI[MIN]:"   ,"VREME VAKUMA [MIN]"  ,"KOHA E VAKUMIMIT"    ,                         //113    
 "KACAK KONTROL [DK]:" , "LEAK CONTROL[MIN]:" ,"P.SZCZELNOSCI [MIN]:","KONTROLA CURENJA"    ,"KOHA E KONTROLIT"    ,                        //114    
 "GAZ MIKTARI   [GR]:" , "GAS MARJIN   [GR]:" ,"ILOSC GAZU [g]:"     ,"KOLICINA GASA(GR)"   ,"SASIA GASIT(GR)"     ,                      //115
-"YENI YAG DOLUM[GR]:" , "NEW OIL FILL [GR]:" ,"NAP. OLEJEM[g]:"     ,"NOVO ULJE PUNJENJE"  ,"VAJI I RI(GR)"       ,                   //116
+"YENI YAG DOLUM     " , "NEW OIL FILL      " ,"NAP. OLEJEM    "     ,"NOVO ULJE PUNJENJE"  ,"VAJI I RI    "       ,                   //116
 "ISLEM BASLASIN MI?"  , "START PROSES?"      ,"ROZPOCZAC PROCES?"   ,"POCINJANJE PROCESA"  ,"TE NIS PROCESI?"     ,                    //117
 "HAYIR"               ,"NO "                 ,"NIE"                 ,"NE"                  ,"JO"                  ,      //118
 "EVET "               ,"YES"                 ,"TAK"                 ,"DA"                  ,"PO"                  ,     //119
@@ -393,7 +393,7 @@ const char* const Dil_Listesi[] PROGMEM = {
 "TANKTA GAZ VAR!"     ,"TANK HAVE A GAS!"    ,"GAZ W ZBIORNIKU!"    ,"REZERVOAR IMA GAS"   ,"KA GAS NE BOMB"      ,                          //180
 "YAZICI TEST"         ,"PRINTER TEST"        ,"TEST DRUKARKI"       ,"TEST STAMPANJA"      ,"TESTO PRINTER"       ,                          //181
 "CIHAZ ADI DEGISTIR"  ,"CHANGE DEVICE NAME"  ,"ZMIEN NAZWE URZADZ." ,"NOVI NAZIV MASINE"   ,"NDERRO.EMR.MAK"      ,          //182"PROMENI NAZIV MASINE"PROMENITE IME UREĐAJA
-"GONDERICI E-MAILI"   ,"SENDER E-MAIL ADDRES","EMAIL NADAWCY"       ,"E-MAIL POSILJAOCA"   ,"DERGUESI.EMAIL"      ,                          //183    
+"GONDERICI E-MAILI"   ,"SENDER E-MAIL ADDRES","EMAIL NADAWCY      ","E-MAIL POSILJAOCA"   ,"DERGUESI.EMAIL"      ,                          //183    
 "MAIL SIFRESI GIRIN"  ,"ENTER MAIL PASSWORD" ,"WPISZ HASLO DO POCZ.","UNESITE E-MAIL"      ,"PASS.EMAIL"          ,                          //184
 "ALICI E-MAILI"       ,"RECIPIENT E-MAIL"    ,"EMAIL KLIENTA"       ,"E-MAIL PRIMAOCA"     ,"PRANUESI.EMIAL"      ,                         //185
 "E-POSTA"             ,"E-MAIL"              ,"E-MAIL"              ,"E-MAIL"              ,"E-MAIL"              ,                         //186
