@@ -168,7 +168,7 @@ const char* const model_134[] PROGMEM = {
 "Alfa Romeo#166#1998-2001#700#",//--Alfa Romeo--67
 "Alfa Romeo#166#2001-2009#650#",//--Alfa Romeo--71
 "Alfa Romeo#Brera#2006-2015#550#",//--Alfa Romeo--75
-"Alfa Romeo#Giulia#2016-2022#535#",//--Alfa Romeo--79
+"Alfa Romeo#Giulia#2016-2024#535#",//--Alfa Romeo--79
 "Alfa Romeo#Giulietta#2006-2022#450#",//--Alfa Romeo--83
 "Alfa Romeo#GT#2004-2010#550#",//--Alfa Romeo--87
 "Alfa Romeo#GT Coupe 1.9JTD#2003-2006#600#",//--Alfa Romeo--91
@@ -211,7 +211,7 @@ const char* const model_134[] PROGMEM = {
 "Audi#A5 Sportback / 6 Cylnder#2012-2016#630#",//--Audi--239
 "Audi#A5 Cabriolet / Coupe#2007-2012#570#",//--Audi--243
 "Audi#A5 Cabriolet / Coupe#2012-2016#550#",//--Audi--247
-"Audi#A5#2016-2022#590#",//--Audi--251
+"Audi#A5#2016-2024#590#",//--Audi--251
 "Audi#A6#1994-1997#750#",//--Audi--255
 "Audi#A6#1997-1998#825#",//--Audi--259
 "Audi#A6 20mm Condanser#1998-1999#750#",//--Audi--263
@@ -261,14 +261,16 @@ const char* const model_134[] PROGMEM = {
 "Audi#Q5 FYB 17-#2017-2018#525#",//--Audi--439
 "Audi#Q5 FYB 17-2,0 TFSI#2016-2018#590#",//--Audi--443
 "Audi#Q5 Hiybrid#2011-2015#840#",//--Audi--447
-"Audi#Q5 2.0 MHEV Hiybrid R134A#2017-2022#590#",//--Audi--451
+"Audi#Q5 2.0 MHEV Hiybrid R134A#2017-2024#590#",//--Audi--451
 "Audi#Q7#2005-2022#700#",//--Audi--455
 "Audi#Q7 with Rear A/C#2005-2022#950#",//--Audi--459
 "Audi#Q7 E-TRON PHEV  Hybrid#2016-2018#890#",//--Audi--463
 "Audi#RS 3 (5 Cylinder motor)#2011-2015#500#",//--Audi--467
 "Audi#RS 3#2016-2018#570#",//--Audi--471
 "Audi#RS 4#2012-2018#570#",//--Audi--475
+"Audi#RS 4#2019-2024#590#",//--Audi--475
 "Audi#RS 5#2010-2018#570#",//--Audi--479
+"Audi#RS 5#2019-2024#590#",//--Audi--475
 "Audi#RS 6#2016-2018#540#",//--Audi--483
 "Audi#RS 7#2016-2018#530#",//--Audi--487
 "Audi#RS Q3#2015-2018#520#",//--Audi--491
@@ -301,7 +303,7 @@ const char* const model_134[] PROGMEM = {
 "Audi#SQ5#2013-2018#550#",//--Audi--599
 "Audi#SQ5 08-17 condens No.8K0XXX XXX#2013-2018#570#",//--Audi--603
 "Audi#SQ5 08-17 condens No.8T0XXX XXX C#2013-2018#630#",//--Audi--607
-"Audi#SQ5 FYB 3,0#2017-2022#590#",//--Audi--611
+"Audi#SQ5 FYB 3,0#2017-2024#590#",//--Audi--611
 "Audi#SQ7#2016-2019#700#",//--Audi--615
 "Audi#SQ7 with Rear A/C#2016-2019#950#",//--Audi--619
 "Audi#SQ7 4.0D TDI#2019-2022#680#",//--Audi--623
@@ -309,7 +311,7 @@ const char* const model_134[] PROGMEM = {
 "Audi#TT 8N Condanser 20 mm#1998-2006#750#",//--Audi--631
 "Audi#TT 8N Condanser 16 mm#1998-2006#650#",//--Audi--635
 "Audi#TT 8J#2006-2015#525#",//--Audi--639
-"Audi#TT#2016-2022#500#",//--Audi--643
+"Audi#TT#2016-2023#500#",//--Audi--643
 "Audi#TT TFSI RS#2016-2022#570#",//--Audi--647
 "Audi#V8#1992-1993#875#",//--Audi--651
 "BMW#1-Series (E87) 116i/118i/120i#2004-2007#500#",//--653-1123BMW--655
@@ -317,12 +319,14 @@ const char* const model_134[] PROGMEM = {
 "BMW#1-Series (E87) 120i/125i/130i/135i#2007-2011#500#",//--BMW--663
 "BMW#1-Series (E87) 118d/120d/123d#2007-2011#590#",//--BMW--667
 "BMW#1-Series (F20)#2011-2019#550#",//--BMW--671
-"BMW#1-Series (F40)#2019-2022#520#",//--BMW--675
-"BMW#2-Series ACTIVE TOURER#2014-2022#480#",//--BMW--679
+"BMW#1-Series (F40)#2019-2024#520#",//--BMW--675
+"BMW#1-Series 2.0 120d xDrive #2019-2024#480#",//--BMW--675
+"BMW#2-Series ACTIVE TOURER#2014-2024#480#",//--BMW--679
 "BMW#2-Series CABRIOLET#2015-2018#500#",//--BMW--683
 "BMW#2-Series CABRIOLET M240i/xDrive#2015-2020#550#",//--BMW--687
 "BMW#2-Series COUPE#2014-2020#550#",//--BMW--691
-"BMW#2-Series GRAN TOURER#2015-2022#480#",//--BMW--695
+"BMW#2-Series GRAN TOURER#2015-2024#480#",//--BMW--695
+"BMW#2-Series GRAN COUPE#2021-2024#520#",//--BMW--695
 "BMW#3-Series (E30)#1992-1993#800#",//--BMW--699
 "BMW#3-Series (E36) Round Condanser#1993-2000#1000#",//--BMW--703
 "BMW#3-Series (E36) Flat Condanser#1993-2000#825#",//--BMW--707
@@ -348,10 +352,10 @@ const char* const model_134[] PROGMEM = {
 "BMW#5-Series (E60/61) 530d/535d#2003-2010#700#",//--BMW--787
 "BMW#5-Series (F10/F11)#2010-2016#850#",//--BMW--791
 "BMW#5-Series Gran Turismo (F07)#2009-2015#850#",//--BMW--795
-"BMW#5-Series#2017-2018#550#",//--BMW--799
+"BMW#5-Series#2017-2024#550#",//--BMW--799
 "BMW#5-Series 520i/530i/540i#2017-2022#600#",//--BMW--803
-"BMW#5-Series 530e Hybrid#2017-2022#750#",//--BMW--807
-"BMW#5-Series 550i/ 4,4 M5#2017-2022#650#",//--BMW--811
+"BMW#5-Series 520e/530e/545e Hybrid#2017-2023#750#",//--BMW--807
+"BMW#5-Series 550i/ 4,4 M5#2017-2023#650#",//--BMW--811
 "BMW#6-Series (E63/E64) 630i/645Ci/650i#2004-2011#810#",//--BMW--815
 "BMW#6-Series (F12/F13) 640i/650i#2011-2018#850#",//--BMW--819
 "BMW#6-Series GRAN TURSIMO#2017-2018#600#",//--BMW--823
@@ -363,10 +367,10 @@ const char* const model_134[] PROGMEM = {
 "BMW#7-Series (E38)#1998-2001#680#",//--BMW--847
 "BMW#7-Series / d#2016-2022#550#",//--BMW--851
 "BMW#7-Series / d with Rear A/C#2016-2022#800#",//--BMW--855
-"BMW#7-Series 730i/740i#2016-2022#600#",//--BMW--859
-"BMW#7-Series 730i/740i with Rear A/C#2016-2022#850#",//--BMW--863
-"BMW#7-Series 750i/760i#2016-2022#650#",//--BMW--867
-"BMW#7-Series 750i/760i with Rear A/C#2016-2022#880#",//--BMW--871
+"BMW#7-Series 730i/740i#2016-2024#600#",//--BMW--859
+"BMW#7-Series 730i/740i with Rear A/C#2016-2024#850#",//--BMW--863
+"BMW#7-Series 750i/760i#2016-2024#650#",//--BMW--867
+"BMW#7-Series 750i/760i with Rear A/C#2016-2024#880#",//--BMW--871
 "BMW#750 L7 (E38)#1994-2001#1270#",//--BMW--875
 "BMW#750 L7 (E38) with Rear A/C#1994-2001#1400#",//--BMW--879
 "BMW#725 tds (E38)#1996-2001#1210#",//--BMW--883
@@ -381,12 +385,13 @@ const char* const model_134[] PROGMEM = {
 "BMW#7-Series 745e Hybrid#2019-2022#750#",//--BMW--919
 "BMW#8-Series (E31)#1993-1999#1550#",//--BMW--923
 "BMW#8-Series / d xDrive#2018-2022#650#",//--BMW--927
-"BMW#8-Series / 4.4M850i xDrive#2020-2022#650#",//--BMW--931
-"BMW#8-Series / 840i xDrive#2018-2022#550#",//--BMW--935
-"BMW#8-Series /d xDrive Hybrid#2020-2022#550#",//--BMW--939
+"BMW#8-Series / 4.4M850i xDrive#2020-2024#650#",//--BMW--931
+"BMW#8-Series / 840i xDrive#2018-2024#550#",//--BMW--935
+"BMW#8-Series /d xDrive Hybrid#2020-2024#550#",//--BMW--939
 "BMW#i3#2013-2022#750#",//--BMW--943
 "BMW#i3 Heat pump#2013-2022#970#",//--BMW--947
 "BMW#i8#2014-2022#630#",//--BMW--951
+"BMW#iX#2021-2024#675#",//--BMW--951
 "BMW#X1 (E84)#2009-2015#600#",//--BMW--955
 "BMW#X1#2016-2022#480#",//--BMW--959
 "BMW#X1 sDrive 18i/20i#2020-2022#500#",//--BMW--963
@@ -401,34 +406,36 @@ const char* const model_134[] PROGMEM = {
 "BMW#X3 (E83) 2.0i/2.5i/3.0i#2004-2010#740#",//--BMW--999
 "BMW#X3 (E83) 2.0d (N47)#2007-2010#700#",//--BMW--1003
 "BMW#X3 (F25)#2010-2016#480#",//--BMW--1007
-"BMW#X3#2017-2022#550#",//--BMW--1011
+"BMW#X3#2017-2024#550#",//--BMW--1011
 "BMW#X4 (F26)#2014-2018#480#",//--BMW--1015
-"BMW#X4#2019-2022#550#",//--BMW--1019
+"BMW#X4#2019-2024#550#",//--BMW--1019
 "BMW#X5 (E53)#2000-2007#440#",//--BMW--1023
 "BMW#X5 (E70) 3.5d/4.4i/3.0d#2007-2018#700#",//--BMW--1027
 "BMW#X5 (E70) 3.0Sd/3.0Si/4.8i/M#2007-2018#700#",//--BMW--1031
 "BMW#X5 M50d#2018-2020#650#",//--BMW--1035
-"BMW#X5#2019-2022#600#",//--BMW--1039
+"BMW#X5#2019-2023#600#",//--BMW--1039
 "BMW#X5 40i#2019-2022#580#",//--BMW--1043
 "BMW#X5 40i 5-zone climate#2019-2022#800#",//--BMW--1047
-"BMW#X5 4.4 50i#2019-2022#650#",//--BMW--1051
-"BMW#X5 4.4 50i 5-zone climate#2019-2022#900#",//--BMW--1055
+"BMW#X5 4.4 50i#2019-2024#650#",//--BMW--1051
+"BMW#X5 4.4 50i 5-zone climate#2019-2024#900#",//--BMW--1055
 "BMW#X5 3.0 xDrive 45e#2019-2020#850#",//--BMW--1059
 "BMW#X6 (E71/E72) 3.0dx/3.5dx/3.5ix#2008-2018#700#",//--BMW--1063
 "BMW#X6 (E71/E72) 5.0ix/4.0d#2008-2018#700#",//--BMW--1067
 "BMW#X6 (F16/F86)#2016-2019#675#",//--BMW--1071
 "BMW#X6 (G06)#2019-2022#650#",//--BMW--1075
 "BMW#X6 (E71/E72) Hybrid N63#2009-2018#925#",//--BMW--1079
+"BMW#X6 Motor Code S68#2023-2024#550#",//--BMW--1079
 "BMW#X7 3.0 M50d M50i#2018-2020#650#",//--BMW--1083
 "BMW#X7 3.0 M50d M50i 5-zone climate#2018-2020#900#",//--BMW--1087
-"BMW#X7#2018-2022#600#",//--BMW--1091
-"BMW#X7 5-zone climate#2018-2022#850#",//--BMW--1095
-"BMW#X7 40i#2018-2022#580#",//--BMW--1099
-"BMW#X7 40i 5-zone climate#2018-2022#800#",//--BMW--1103
+"BMW#X7#2018-2024#600#",//--BMW--1091
+"BMW#X7 5-zone climate#2018-2024#850#",//--BMW--1095
+"BMW#X7 40i#2018-2024#580#",//--BMW--1099
+"BMW#X7 40i 5-zone climate#2018-2024#800#",//--BMW--1103
+"BMW#X7 4.4M 50i-60i#2019-2024#650#",//--BMW--1103
 "BMW#Z3 Round Condanser#1997-2003#1000#",//--BMW--1107
 "BMW#Z3 Flat Condanser#1997-2003#825#",//--BMW--1111
 "BMW#Z4 (E85)#2003-2005#740#",//--BMW--1115
-"BMW#Z4 (E89)(G29) Sdrive 23i/30i/35i/35is#2009-2022#550#",//--BMW--1119
+"BMW#Z4 (E89)(G29) Sdrive 23i/30i/35i/35is#2009-2024#550#",//--BMW--1119
 "BMW#Z8 (E52)#2000-2003#710#",//--BMW--1123
 "Cadillac#ATS#2012-2019#550#",//--1125-1163Cadillac--1127
 "Cadillac#BLS 2.0T/2.0T flex power/1.9D#2005-2010#680#",//--Cadillac--1131
@@ -500,8 +507,8 @@ const char* const model_134[] PROGMEM = {
 "Citroen#Berlingo#2003-2008#575#",//--Citroen--1395
 "Citroen#Berlingo (B9)#2008-2018#450#",//--Citroen--1399
 "Citroen#Berlingo III 0,4X2 67hp#2013-2018#525#",//--Citroen--1403
-"Citroen#Berlingo IV 1930cm CONDANSER#2018-2022#470#",//--Citroen--1407
-"Citroen#Berlingo IV 2350cm CONDANSER#2018-2022#600#",//--Citroen--1411
+"Citroen#Berlingo IV 1930cm CONDANSER#2018-2024#470#",//--Citroen--1407
+"Citroen#Berlingo IV 2350cm CONDANSER#2018-2024#600#",//--Citroen--1411
 "Citroen#C1 1.0i#2005-2012#450#",//--Citroen--1415
 "Citroen#C1 1.4HDi#2005-2010#500#",//--Citroen--1419
 "Citroen#C1 II#2005-2022#400#",//--Citroen--1423
@@ -513,8 +520,8 @@ const char* const model_134[] PROGMEM = {
 "Citroen#C3 10041 until#2002-2010#625#",//--Citroen--1447
 "Citroen#C3 10042 upwards#2002-2010#500#",//--Citroen--1451
 "Citroen#C3 III#2009-2016#425#",//--Citroen--1455
-"Citroen#C3 IV#2016-2020#425#",//--Citroen--1459
-"Citroen#C3 Aircross#2017-2022#425#",//--Citroen--1463
+"Citroen#C3 IV#2016-2024#425#",//--Citroen--1459
+"Citroen#C3 Aircross#2017-2024#425#",//--Citroen--1463
 "Citroen#C3 Picasso#2009-2015#450#",//--Citroen--1467
 "Citroen#C3 Pluriel#2003-2004#625#",//--Citroen--1471
 "Citroen#C3 Pluriel#2004-2010#500#",//--Citroen--1475
@@ -532,8 +539,11 @@ const char* const model_134[] PROGMEM = {
 "Citroen#C5 II 2.2 HDi (DW12B)/2.7HDi#2006-2008#525#",//--Citroen--1523
 "Citroen#C5 III 1.6i/1.8i/2.0i/1.6HDi/3.0HDi#2008-2017#625#",//--Citroen--1527
 "Citroen#C5 III 2.0HDi (RHF)#2008-2017#625#",//--Citroen--1531
-"Citroen#C5 Aircross 1930cm Condanser#2018-2022#475#",//--Citroen--1535
-"Citroen#C5 Aircross 2350cm Condanser#2018-2022#575#",//--Citroen--1539
+"Citroen#C5 Aircross 1900cm Condanser#2018-2024#475#",//--Citroen--1535
+"Citroen#C5 Aircross 2300cmX16mm Condanser#2018-2024#575#",//--Citroen--1539
+"Citroen#C5 Aircross 2300cmX12mm Condanser#2018-2024#540#",//--Citroen--1539
+"Citroen#C5 Aircross 1.6 Hybrid 2300cmX16mm Cond.#2018-2024#700#",//--Citroen--1539
+"Citroen#C5 Aircross 1.6 Hybrid 2300cmX16mm C.LP#2018-2024#625#",//--Citroen--1539
 "Citroen#C5 III 2.0HDi (RHE/RHH)#2010-2017#525#",//--Citroen--1543
 "Citroen#C6 2.7HDi/2.2HDi/3.0HDi#2005-2013#525#",//--Citroen--1547
 "Citroen#C6 3.0iV6#2005-2009#625#",//--Citroen--1551
@@ -557,11 +567,21 @@ const char* const model_134[] PROGMEM = {
 "Citroen#Dispatch IV#2016-2022#500#",//--Citroen--1623
 "Citroen#Dispatch IV 2.0 HDI#2016-2022#475#",//--Citroen--1627
 "Citroen#Dispatch IV 2.0 HDI Van#2016-2022#500#",//--Citroen--1631
-"Citroen#Dispatch IV 2.0 HDI dual zone very hot climates#2016-2022#875#",//--Citroen--1635
-"Citroen#Dispatch IV 1.5/1.6 HDI with rear a/c#2016-2022#675#",//--Citroen--1639
-"Citroen#Dispatch IV 1.5/1.6 HDI dual zone a/c#2016-2022#975#",//--Citroen--1643
-"Citroen#Dispatch IV 2.0 HDI dual zone a/c#2016-2022#775#",//--Citroen--1647
+"Citroen#Dispatch IV 2.0 HDI 144Hp 1930cm2 Cond.#2020-2024#475#",//--Citroen--1631
+"Citroen#Dispatch IV 2.0 HDI 144Hp 2350cm2 Cond.#2020-2024#575#",//--Citroen--1631
+"Citroen#Dispatch IV 2.0 HDI dual zone vh clima.#2016-2024#875#",//--Citroen--1635
+"Citroen#Dispatch IV 1.5/1.6 HDI with rear a/c#2016-2024#675#",//--Citroen--1639
+"Citroen#Dispatch IV 1.5/1.6 HDI dual zone a/c#2016-2024#975#",//--Citroen--1643
+"Citroen#Dispatch IV 1.5 Blue HDI #2016-2024#500#",//--Citroen--1643
+"Citroen#Dispatch IV 2.0 HDI dual zone a/c#2016-2024#775#",//--Citroen--1647
 "Citroen#e-Berlingo Hybrid#2017-2022#525#",//--Citroen--1651
+"Citroen#e-Berlingo Hybrid 1900cmX12mm Condanser#2021-2024#575#",//--Citroen--1651
+"Citroen#e-Berlingo Hybrid 2300cmX16mm Condanser#2021-2024#625#",//--Citroen--1651
+"Citroen#e-Dispatch/e-Jumpy IV 1930cm Condanser#2020-2024#475#",//--Citroen--1651
+"Citroen#e-Dispatch/e-Jumpy IV 2350cm Condanser#2020-2024#575#",//--Citroen--1651
+"Citroen#e-Relay/e-Jumper III #2020-2024#550#",//--Citroen--1651
+"Citroen#e-Relay/e-Jumper III with rear a/c#2020-2024#950#",//--Citroen--1651
+"Citroen#e-Relay/e-Jumper III Minibus #2020-2024#2600#",//--Citroen--1651
 "Citroen#Evasion#1994-2002#975#",//--Citroen--1655
 "Citroen#Jumper/Relay II 2.0i/2.0DHDi#2002-2006#800#",//--Citroen--1659
 "Citroen#Jumper/Relay II 2.2DHDi/2.8DHDi#2002-2006#800#",//--Citroen--1663
@@ -574,7 +594,7 @@ const char* const model_134[] PROGMEM = {
 "Citroen#Jumper IV 2,0 Blue HDI#2018-2020#475#",//--Citroen--1691
 "Citroen#Jumper IV 2,0 Blue HDI Van#2018-2020#500#",//--Citroen--1695
 "Citroen#Jumper IV 2,0 Blue HDI with rear a/c#2018-2020#775#",//--Citroen--1699
-"Citroen#Jumper IV 2,0 Blue HDIvery hot climates with rear#2018-2020#875#",//--Citroen--1703
+"Citroen#Jumper IV 2,0 Blue HDI vh climates wr.#2018-2020#875#",//--Citroen--1703
 "Citroen#Jumpy I / II#1994-2006#950#",//--Citroen--1707
 "Citroen#Jumpy 1.6DHDi/2.0DHDi#2007-2015#540#",//--Citroen--1711
 "Citroen#Jumpy HDi with rear a/c short wheelbase#2007-2015#850#",//--Citroen--1715
@@ -586,16 +606,19 @@ const char* const model_134[] PROGMEM = {
 "Citroen#Relay/Jumper#1994-1996#1000#",//--Citroen--1739
 "Citroen#Relay/Jumper with rear a/c#1994-1996#1200#",//--Citroen--1743
 "Citroen#Relay/Jumper#1996-2002#800#",//--Citroen--1747
+"Citroen#Relay/Jumper III#2019-2024#550#",//--Citroen--1747
+"Citroen#Relay/Jumper III with rear a/c#2019-2024#950#",//--Citroen--1747
+"Citroen#Relay/Jumper III Minibus#2019-2024#2600#",//--Citroen--1747
 "Citroen#Jumpy 2.0i with rear a/c#1996-2002#1000#",//--Citroen--1751
 "Citroen#Saxo#1996-1996#600#",//--Citroen--1755
 "Citroen#Saxo#1996-2000#775#",//--Citroen--1759
-"Citroen#Space Tourer#2016-2022#500#",//--Citroen--1763
-"Citroen#Space Tourer 2.0 HDI#2016-2022#475#",//--Citroen--1767
-"Citroen#Space Tourer Van 2.0 HDI#2016-2022#500#",//--Citroen--1771
-"Citroen#Space Tourer (VERY HOT CLIMATES)#2016-2022#675#",//--Citroen--1775
+"Citroen#Space Tourer#2016-2024#500#",//--Citroen--1763
+"Citroen#Space Tourer 2.0 HDI#2016-2024#475#",//--Citroen--1767
+"Citroen#Space Tourer Van 2.0 HDI#2016-2024#500#",//--Citroen--1771
+"Citroen#Space Tourer (VERY HOT CLIMATES)#2016-2024#675#",//--Citroen--1775
 "Citroen#Space Tourer 2.0 HDI (VERY HOT CLIMATES)#2016-2022#875#",//--Citroen--1779
-"Citroen#Space Tourer (DUAL ZONE)#2016-2022#975#",//--Citroen--1783
-"Citroen#Space Tourer 2.0 HDI(DUAL ZONE)#2016-2022#775#",//--Citroen--1787
+"Citroen#Space Tourer (DUAL ZONE)#2016-2024#975#",//--Citroen--1783
+"Citroen#Space Tourer 2.0 HDI(DUAL ZONE)#2016-2024#775#",//--Citroen--1787
 "Citroen#Synergie/Evasion#1994-2000#975#",//--Citroen--1791
 "Citroen#Xantia SD 7H 15#1993-2000#775#",//--Citroen--1795
 "Citroen#Xantia SD 7V 16#1993-2000#875#",//--Citroen--1799
@@ -616,16 +639,18 @@ const char* const model_134[] PROGMEM = {
 "Citroen#Xsara Picasso#1999-2000#675#",//--Citroen--1859
 "Citroen#ZX#1993-1998#925#",//--Citroen--1863
 "Dacia#Dokker motor#2012-2019#475#",//--1865-1907Dacia--1867
-"Dacia#Duster#2010-2022#475#",//--Dacia--1871
+"Dacia#Duster#2010-2024#475#",//--Dacia--1871
 "Dacia#Lodgy#2012-2018#475#",//--Dacia--1875
 "Dacia#Logan/MCV/Van/Pick up (133)#2005-2013#475#",//--Dacia--1879
 "Dacia#Logan/MCV/Van/Pick up (134)#2005-2013#780#",//--Dacia--1883
 "Dacia#Logan#2014-2020#480#",//--Dacia--1887
 "Dacia#Logan 1.0 SCe75#2016-2020#480#",//--Dacia--1891
+"Dacia#Logan#2021-2024#475#",//--Dacia--1887
 "Dacia#Sandero#2008-2015#475#",//--Dacia--1895
 "Dacia#Sandero II#2013-2018#450#",//--Dacia--1899
 "Dacia#Sandero#2015-2022#480#",//--Dacia--1903
 "Dacia#Symbol II#2016-2018#480#",//--Dacia--1907
+"Dacia#Jogger#2021-2024#475#",//--Dacia--1887
 "Daewoo#Aranos / Cielo#1995-1997#730#",//--1909-2023Daewoo--1911
 "Daewoo#Espero#1995-1997#730#",//--Daewoo--1915
 "Daewoo#D-Line#2000-2011#850#",//--Daewoo--1919
@@ -689,11 +714,18 @@ const char* const model_134[] PROGMEM = {
 "Dodge#Nitro#2007-2015#510#",//--Dodge--2151
 "Ds#Ds- 3#2015-2018#425#",//--2153-2207Ds--2155
 "Ds#Ds- 3 II#2015-2018#425#",//--Ds--2159
-"Ds#Ds- 3 Crossback 12mm Condanser#2019-2022#450#",//--Ds--2163
-"Ds#Ds- 3 Crossback 16mm Condanser#2019-2022#500#",//--Ds--2167
+"Ds#Ds- 3 Crossback 12mm Condanser#2019-2024#400#",//--Ds--2163
+"Ds#Ds- 3 Crossback 16mm Condanser#2019-2024#435#",//--Ds--2167
+"Ds#Ds- 3 Crossback 12mm Condan. with heater#2019-2024#475#",//--Ds--2163
+"Ds#Ds- 3 Crossback 16mm Condan. with heater#2019-2024#510#",//--Ds--2167
 "Ds#Ds- 4#2015-2018#425#",//--Ds--2171
 "Ds#Ds- 4 Crossback#2015-2018#425#",//--Ds--2175
 "Ds#Ds- 4 II#2015-2018#425#",//--Ds--2179
+"Ds#Ds- 4 III 19,3dm2 Condanser#2021-2024#500#",//--Ds--2179
+"Ds#Ds- 4 III 23dm2 Condanser#2021-2024#575#",//--Ds--2179
+"Ds#Ds- 4 III 28dm2 Condanser#2021-2024#600#",//--Ds--2179
+"Ds#Ds- 4 III 1.6 e-Tense 23dm2 Condanser#2021-2024#625#",//--Ds--2179
+"Ds#Ds- 4 III 1.6 e-Tense 23,5dm2 Condanser#2021-2024#700#",//--Ds--2179
 "Ds#Ds- 5#2015-2019#450#",//--Ds--2183
 "Ds#Ds- 5 Hybrid#2015-2018#450#",//--Ds--2187
 "Ds#Ds- 7 12mm Condanser#2015-2022#475#",//--Ds--2191
@@ -701,9 +733,11 @@ const char* const model_134[] PROGMEM = {
 "Ds#Ds- 7 19mm Condanser#2018-2022#475#",//--Ds--2199
 "Ds#Ds- 7 23mm Condanser#2018-2022#575#",//--Ds--2203
 "Ds#Ds- 7 28mm Condanser#2018-2022#625#",//--Ds--2207
+"Ds#Ds- 7 e-Tense 2300cmX16mm Condanser#2018-2024#700#",//--Ds--2207
+"Ds#Ds- 7 1.6 e-Tense 2300cmX16mm Cond. LP#2018-2024#625#",//--Ds--2207
 "Fiat#124 Spider#2016-2019#420#",//--2209-2535Fiat--2211
-"Fiat#500 / 500C Twin Air#2007-2022#450#",//--Fiat--2215
-"Fiat#500L#2012-2022#450#",//--Fiat--2219
+"Fiat#500 / 500C Twin Air#2007-2024#450#",//--Fiat--2215
+"Fiat#500L#2012-2024#450#",//--Fiat--2219
 "Fiat#Albea#2000-2007#600#",//--Fiat--2223
 "Fiat#Barchetta#1996-2006#600#",//--Fiat--2227
 "Fiat#Bravo/Brava#1995-2000#625#",//--Fiat--2231
@@ -720,15 +754,23 @@ const char* const model_134[] PROGMEM = {
 "Fiat#Doblo 1.2i/1.6i/1.4i#2001-2010#600#",//--Fiat--2275
 "Fiat#Doblo 1.9JTD/1.3JTD#2002-2010#600#",//--Fiat--2279
 "Fiat#Doblo (152)#2010-2022#450#",//--Fiat--2283
+"Fiat#Doblo 19dm2X12mm Condanser#2022-2024#470#",//--Fiat--2283
+"Fiat#Doblo 23dm2X16mm Condanser Top Exit#2022-2024#575#",//--Fiat--2283
+"Fiat#Doblo 23dm2X16mm Condanser Bottom Exit#2022-2024#600#",//--Fiat--2283
+"Fiat#e-Doblo 19dm2X12mm Condanser#2022-2024#575#",//--Fiat--2283
+"Fiat#e-Doblo 23dm2X16mm Condanser Top Exit#2022-2024#625#",//--Fiat--2283
+"Fiat#e-Doblo 23dm2X16mm Condanser Bottom Exit#2022-2024#625#",//--Fiat--2283
 "Fiat#Ducato/Talento#1994-2002#850#",//--Fiat--2287
 "Fiat#Ducato/Talento with rear a/c#1994-2002#1000#",//--Fiat--2291
 "Fiat#Ducato (244)#2002-2006#900#",//--Fiat--2295
 "Fiat#Ducato (244) with rear a/c#2002-2006#1000#",//--Fiat--2299
 "Fiat#Ducato (244) Panorama#2002-2006#800#",//--Fiat--2303
-"Fiat#Ducato 2.2D/2.3D/3.0D#2006-2020#550#",//--Fiat--2307
-"Fiat#Ducato 2.2D/2.3D/3.0D with rear a/c#2006-2020#950#",//--Fiat--2311
+"Fiat#Ducato 2.2D/2.3D/3.0D#2006-2024#550#",//--Fiat--2307
+"Fiat#Ducato 2.2D/2.3D/3.0D with rear a/c#2006-2024#950#",//--Fiat--2311
 "Fiat#Ducato 2,3D Ecojet#2017-2018#550#",//--Fiat--2315
-"Fiat#Egea#2015-2022#450#",//--Fiat--2319
+"Fiat#Egea#2015-2024#450#",//--Fiat--2319
+"Fiat#e-Scudo 1930cm2 Condanser#2022-2024#525#",//--Fiat--2319
+"Fiat#e-Ulysse 1930cm2 Condanser#2022-2024#525#",//--Fiat--2319
 "Fiat#Freemont#2011-2018#625#",//--Fiat--2323
 "Fiat#Freemont with rear a/c#2011-2018#910#",//--Fiat--2327
 "Fiat#Fiorino#2008-2020#480#",//--Fiat--2331
@@ -751,7 +793,7 @@ const char* const model_134[] PROGMEM = {
 "Fiat#Palio/Weekend 1.7TD#1998-2000#750#",//--Fiat--2399
 "Fiat#Panda (169) 1.1i/1.2i#2003-2011#500#",//--Fiat--2403
 "Fiat#Panda (169) 1.3JTD#2003-2011#500#",//--Fiat--2407
-"Fiat#Panda#2012-2022#450#",//--Fiat--2411
+"Fiat#Panda#2012-2024#450#",//--Fiat--2411
 "Fiat#Punto#1993-1999#675#",//--Fiat--2415
 "Fiat#Punto (188) 1.2i/1.2i16V/1.9D#1999-2003#550#",//--Fiat--2419
 "Fiat#Punto (188) 1.9DJTD#1999-2003#550#",//--Fiat--2423
@@ -766,6 +808,7 @@ const char* const model_134[] PROGMEM = {
 "Fiat#Scudo 1.6D/2.0D#2007-2015#540#",//--Fiat--2459
 "Fiat#Scudo with rear a/c short wheelbase#2007-2015#850#",//--Fiat--2463
 "Fiat#Scudo with rear a/c long wheelbase#2007-2015#950#",//--Fiat--2467
+"Fiat#Scudo 1900cm2X12mm Condanser#2022-2024#500#",//--Fiat--2455
 "Fiat#Sedici#2006-2015#430#",//--Fiat--2471
 "Fiat#Seicento#1997-2009#500#",//--Fiat--2475
 "Fiat#Siena#1997-2003#750#",//--Fiat--2479
@@ -780,9 +823,13 @@ const char* const model_134[] PROGMEM = {
 "Fiat#Talento with rear a/c#2016-2019#880#",//--Fiat--2515
 "Fiat#Tempra#1994-1997#730#",//--Fiat--2519
 "Fiat#Tipo#1994-1995#730#",//--Fiat--2523
-"Fiat#Tipo New#2015-2022#450#",//--Fiat--2527
+"Fiat#Tipo New#2015-2024#450#",//--Fiat--2527
 "Fiat#Ulysse#1994-2002#975#",//--Fiat--2531
 "Fiat#Ulysse (179AX)#2002-2015#600#",//--Fiat--2535
+"Fiat#Ulysse 1900cm2X12mm Condanser#2022-2024#475#",//--Fiat--2455
+"Fiat#Ulysse 1900cm2X12mm Condanser DUAL ZONE#2022-2024#775#",//--Fiat--2455
+"Fiat#Ulysse 2300cm2X16mm Condanser#2022-2024#575#",//--Fiat--2455
+"Fiat#Ulysse 2300cm2X16mm Condanser DUAL ZONE#2022-2024#875#",//--Fiat--2455
 "Ford#B-Max 1.0 EcoBoost/1.6TDCi#2012-2018#600#",//--2537-2931Ford--2539
 "Ford#B-Max 1.5TDCi#2012-2018#550#",//--Ford--2543
 "Ford#B-Max 1.4i/1.6Ti (Sigma)#2012-2018#650#",//--Ford--2547
@@ -793,7 +840,7 @@ const char* const model_134[] PROGMEM = {
 "Ford#Escort#1994-2000#740#",//--Ford--2567
 "Ford#Ecosport / Escape#2012-2016#625#",//--Ford--2571
 "Ford#Ecosport 1.0 EcoBoost Otm.#2013-2022#700#",//--Ford--2575
-"Ford#Ecosport 1.0 EcoBoost#2018-2022#550#",//--Ford--2579
+"Ford#Ecosport 1.0 EcoBoost#2018-2024#550#",//--Ford--2579
 "Ford#Explorer (U2) 4.0iV6#1993-1998#600#",//--Ford--2583
 "Ford#Explorer (U2) 4.0iV6#1998-2002#650#",//--Ford--2587
 "Ford#Explorer   4.0 OHC 207hp#1998-2002#850#",//--Ford--2591
@@ -849,7 +896,8 @@ const char* const model_134[] PROGMEM = {
 "Ford#Mondeo 6-speed automatic#2007-2018#590#",//--Ford--2791
 "Ford#Mondeo  1,0 Eco-Boost 2,0 Duratorq#2014-2022#570#",//--Ford--2795
 "Ford#Mondeo  2.0 Hybrid#2015-2022#570#",//--Ford--2799
-"Ford#Mustang#2015-2022#600#",//--Ford--2803
+"Ford#Mustang#2015-2024#600#",//--Ford--2803
+"Ford#Mustang Right Hand Drive#2015-2024#650#",//--Ford--2803
 "Ford#Probe#1994-1998#1050#",//--Ford--2807
 "Ford#Puma#1997-2003#740#",//--Ford--2811
 "Ford#Ranger#1999-2003#550#",//--Ford--2815
@@ -864,8 +912,8 @@ const char* const model_134[] PROGMEM = {
 "Ford#Tourneo Connect 1.8i/1.8D TDCi#2002-2007#740#",//--Ford--2851
 "Ford#Transit/Tourneo COURIER1,0L/1,5L TDCI#2006-2018#620#",//--Ford--2855
 "Ford#Transit/Tourneo COURIER 1,6L TDCI#2006-2018#670#",//--Ford--2859
-"Ford#Transit/Tourneo COURIER#2018-2020#520#",//--Ford--2863
-"Ford#Transit/Tourneo COURIER   TDCI#2018-2020#500#",//--Ford--2867
+"Ford#Transit/Tourneo COURIER#2018-2024#520#",//--Ford--2863
+"Ford#Transit/Tourneo COURIER   TDCI#2018-2024#500#",//--Ford--2867
 "Ford#Transit/Tourneo Connect Van#2006-2018#525#",//--Ford--2871
 "Ford#Transit/Tourneo Connect1,0L/1,6L TDCI#2013-2018#575#",//--Ford--2875
 "Ford#Transit/Tourneo Connect1,6L/2,5L TDCI#2013-2018#675#",//--Ford--2879
@@ -879,9 +927,9 @@ const char* const model_134[] PROGMEM = {
 "Ford#Transit 2.3i/2.0TDCi#2001-2005#990#",//--Ford--2911
 "Ford#Transit/Tourneo#2006-2015#750#",//--Ford--2915
 "Ford#Transit/Tourneo with rear A/C#2006-2015#1400#",//--Ford--2919
-"Ford#Transit Custom#2012-2022#740#",//--Ford--2923
-"Ford#Transit Custom Bus with rear A/C#2012-2022#1050#",//--Ford--2927
-"Ford#Transit Custom Van with rear A/C#2012-2022#1150#",//--Ford--2931
+"Ford#Transit Custom#2012-2024#740#",//--Ford--2923
+"Ford#Transit Custom Bus with rear A/C#2012-2024#1050#",//--Ford--2927
+"Ford#Transit Custom Van with rear A/C#2012-2024#1150#",//--Ford--2931
 "Honda#Accord#1993-1998#725#",//--2933-3151Honda--2935
 "Honda#Accord dizel RHD#1996-1998#700#",//--Honda--2939
 "Honda#Accord dizel LHD#1996-1998#650#",//--Honda--2943
@@ -950,6 +998,7 @@ const char* const model_134[] PROGMEM = {
 "Hyundai#Azera 3.3i/2.2D CRDi#2007-2015#500#",//--Hyundai--3195
 "Hyundai#Azera#2016-2018#575#",//--Hyundai--3199
 "Hyundai#Bayon#2020-2022#470#",//--Hyundai--3203
+"Hyundai#Bayon#2023-2024#500#",//--Hyundai--3203
 "Hyundai#Coupe#1996-2001#700#",//--Hyundai--3207
 "Hyundai#Coupe (GK)#2002-2009#600#",//--Hyundai--3211
 "Hyundai#Creta#2016-2020#450#",//--Hyundai--3215
@@ -973,20 +1022,27 @@ const char* const model_134[] PROGMEM = {
 "Hyundai#H1/H300 with rear A/C#2008-2020#850#",//--Hyundai--3287
 "Hyundai#i10#2008-2015#450#",//--Hyundai--3291
 "Hyundai#i10#2015-2020#400#",//--Hyundai--3295
-"Hyundai#i10#2020-2022#430#",//--Hyundai--3299
+"Hyundai#i10#2020-2024#430#",//--Hyundai--3299
 "Hyundai#i20#2009-2015#450#",//--Hyundai--3303
 "Hyundai#i20#2015-2020#470#",//--Hyundai--3307
-"Hyundai#i20#2020-2022#430#",//--Hyundai--3311
-"Hyundai#i30#2008-2022#500#",//--Hyundai--3315
+"Hyundai#i20#2020-2024#500#",//--Hyundai--3311
+"Hyundai#i30#2008-2024#500#",//--Hyundai--3315
 "Hyundai#i40 1.6GDi/2.0GDi/1.7CRDi#2011-2020#550#",//--Hyundai--3319
 "Hyundai#i800/iLoad/iMax#2008-2014#650#",//--Hyundai--3323
 "Hyundai#i800/iLoad/iMax with rear a/c#2008-2014#850#",//--Hyundai--3327
 "Hyundai#i800/iLoad/iMax 2.5D CRDi#2008-2020#650#",//--Hyundai--3331
 "Hyundai#i800/iLoad/iMax with rear a/c#2008-2020#850#",//--Hyundai--3335
-"Hyundai#IONIQ electric (poe oil)#2016-2022#550#",//--Hyundai--3339
-"Hyundai#IONIQ electric With heat pump (poe oil)#2016-2022#1100#",//--Hyundai--3343
-"Hyundai#IONIQ 1,6 GDI Hybrid (poe oil)#2016-2022#600#",//--Hyundai--3347
-"Hyundai#Kona#2017-2022#500#",//--Hyundai--3351
+"Hyundai#IONIQ electric (poe oil)#2016-2024#550#",//--Hyundai--3339
+"Hyundai#IONIQ electric With heat pump (poe oil)#2016-2020#1100#",//--Hyundai--3343
+"Hyundai#IONIQ electric With heat pump (poe oil)#2020-2024#1000#",//--Hyundai--3343
+"Hyundai#IONIQ 5 electric With heat pump poe oil#2021-2024#950#",//--Hyundai--3343
+"Hyundai#IONIQ 5 electric (poe oil)#2021-2024#750#",//--Hyundai--3339
+"Hyundai#IONIQ 1,6 GDI Hybrid (poe oil)#2016-2024#600#",//--Hyundai--3347
+"Hyundai#IONIQ 6 electric (poe oil)#2023-2024#750#",//--Hyundai--3339
+"Hyundai#IONIQ 6 electric With heat pump poe oil#2023-2024#950#",//--Hyundai--3339
+"Hyundai#Kona#2017-2024#500#",//--Hyundai--3351
+"Hyundai#Kona 1.6 GDI Hybrid#2019-2024#475#",//--Hyundai--3351
+"Hyundai#Kona 2.0 T.GDI Hybrid#2021-2024#500#",//--Hyundai--3351
 "Hyundai#ix20#2010-2019#550#",//--Hyundai--3355
 "Hyundai#ix35#2010-2015#510#",//--Hyundai--3359
 "Hyundai#ix35 Fuel cell 100kw#2013-2018#550#",//--Hyundai--3363
@@ -1007,10 +1063,18 @@ const char* const model_134[] PROGMEM = {
 "Hyundai#Santa Fe (CM) with rear a/c#2006-2018#800#",//--Hyundai--3423
 "Hyundai#Santa Fe (CM)#2018-2020#700#",//--Hyundai--3427
 "Hyundai#Santa Fe (CM) with rear a/c#2018-2020#850#",//--Hyundai--3431
+"Hyundai#Santa Fe 2.2 CRDI#2021-2024#650#",//--Hyundai--3427
+"Hyundai#Santa Fe 2.2 CRDI with rear a/c#2021-2024#850#",//--Hyundai--3427
+"Hyundai#Santa Fe 2.5#2021-2024#650#",//--Hyundai--3427
+"Hyundai#Santa Fe 2.5 with rear a/c#2021-2024#850#",//--Hyundai--3427
+"Hyundai#Santa Fe 3.5#2021-2024#650#",//--Hyundai--3427
+"Hyundai#Santa Fe 3.5 with rear a/c#2021-2024#850#",//--Hyundai--3427
+"Hyundai#Santa Fe 2.2D#2021-2024#650#",//--Hyundai--3427
 "Hyundai#Satellite#1997-2007#650#",//--Hyundai--3435
 "Hyundai#Satellite with rear a/c#1997-2007#1300#",//--Hyundai--3439
 "Hyundai#Satellite#2008-2018#650#",//--Hyundai--3443
 "Hyundai#Satellite with rear a/c#2008-2018#850#",//--Hyundai--3447
+"Hyundai#Staria 2.2D with rear a/c#2021-2024#1050#",//--Hyundai--3443
 "Hyundai#Solaris#2010-2017#420#",//--Hyundai--3451
 "Hyundai#Sonata#1993-1994#800#",//--Hyundai--3455
 "Hyundai#Sonata#1995-1997#725#",//--Hyundai--3459
@@ -1029,8 +1093,8 @@ const char* const model_134[] PROGMEM = {
 "Hyundai#Trajet with rear a/c#2000-2003#850#",//--Hyundai--3511
 "Hyundai#Tiburon#2002-2009#600#",//--Hyundai--3515
 "Hyundai#Tuscon#2004-2010#510#",//--Hyundai--3519
-"Hyundai#Tuscon#2011-2022#600#",//--Hyundai--3523
-"Hyundai#Tuscon  1.6 T-GDI Hybrid#2021-2022#650#",//--Hyundai--3527
+"Hyundai#Tuscon#2011-2024#600#",//--Hyundai--3523
+"Hyundai#Tuscon  1.6 T-GDI Hybrid#2021-2024#650#",//--Hyundai--3527
 "Hyundai#Veloster 1.6GDi#2011-2017#420#",//--Hyundai--3531
 "Hyundai#Veloster#2017-2018#445#",//--Hyundai--3535
 "Hyundai#Veracruz#2008-2016#700#",//--Hyundai--3539
@@ -1050,7 +1114,8 @@ const char* const model_134[] PROGMEM = {
 "Isuzu#Campo 3.1D Turbo#1990-2003#650#",//--Isuzu--3595
 "Isuzu#Rodeo/D-Max 2.5D/3.0D#2003-2012#650#",//--Isuzu--3599
 "Isuzu#D-Max 2.5D/3.0D#2013-2022#530#",//--Isuzu--3603
-"Isuzu#D-Max 2.5D/3.0D with rear a/c#2013-2022#800#",//--Isuzu--3607
+"Isuzu#D-Max 2.5D/3.0D with rear a/c#2013-2023#800#",//--Isuzu--3607
+"Isuzu#D-Max 1.9D #2021-2024#530#",//--Isuzu--3603
 "Isuzu#Grafter 1.9D#2017-2020#350#",//--Isuzu--3611
 "Isuzu#N Series 5.2D#2005-2011#450#",//--Isuzu--3615
 "Isuzu#TF#2002-2003#650#",//--Isuzu--3619
@@ -1061,13 +1126,13 @@ const char* const model_134[] PROGMEM = {
 "Iveco#Daily 2,8 CNG/3,0D HPT/ 3,0D HPI#2006-2010#440#",//--Iveco--3639
 "Iveco#Daily#2011-2014#450#",//--Iveco--3643
 "Iveco#Daily Minibus#2011-2014#1200#",//--Iveco--3647
-"Iveco#Daily#2014-2019#475#",//--Iveco--3651
+"Iveco#Daily#2014-2024#475#",//--Iveco--3651
 "Jaguar#Daimler Double Six 6.0i#1994-1997#1100#",//--3653-3795Jaguar--3655
 "Jaguar#Daimler 4.0V8#1997-2004#675#",//--Jaguar--3659
-"Jaguar#E-Pace#2017-2022#650#",//--Jaguar--3663
-"Jaguar#F-Pace#2016-2022#550#",//--Jaguar--3667
+"Jaguar#E-Pace#2017-2024#650#",//--Jaguar--3663
+"Jaguar#F-Pace#2016-2024#550#",//--Jaguar--3667
 "Jaguar#F-Type Coupe#2014-2020#700#",//--Jaguar--3671
-"Jaguar#I-Pace Electric#2018-2022#850#",//--Jaguar--3675
+"Jaguar#I-Pace Electric#2018-2024#850#",//--Jaguar--3675
 "Jaguar#S-Type VIN M45255#1999-2002#800#",//--Jaguar--3679
 "Jaguar#S-Type VIN M45255#2002-2008#750#",//--Jaguar--3683
 "Jaguar#S-Type 2.7D#2004-2008#700#",//--Jaguar--3687
@@ -1115,7 +1180,7 @@ const char* const model_134[] PROGMEM = {
 "Jeep#Patriot 2.0 CRD/2.4i#2007-2013#510#",//--Jeep--3855
 "Jeep#Wrangler#1994-1996#900#",//--Jeep--3859
 "Jeep#Wrangler (TJ)#1996-2006#565#",//--Jeep--3863
-"Jeep#Wrangler#2018-2022#540#",//--Jeep--3867
+"Jeep#Wrangler#2018-2024#540#",//--Jeep--3867
 "Jeep#Wrangler (JK) 2.8CRD/3.8i#2007-2018#510#",//--Jeep--3871
 "Kia#Carens#1999-2006#800#",//--3873-4147Kia--3875
 "Kia#Carens II#2006-2013#450#",//--Kia--3879
@@ -1124,15 +1189,17 @@ const char* const model_134[] PROGMEM = {
 "Kia#Carnival 2.5i GV6#2001-2006#1000#",//--Kia--3891
 "Kia#Carnival#2006-2015#800#",//--Kia--3895
 "Kia#Grand Carnival - Sedona#2016-2018#1125#",//--Kia--3899
-"Kia#Ceed#2006-2022#500#",//--Kia--3903
+"Kia#Ceed#2006-2024#500#",//--Kia--3903
 "Kia#Cerato#2004-2008#500#",//--Kia--3907
 "Kia#Cerato dizel/Benzin#2008-2022#500#",//--Kia--3911
 "Kia#Clarus/Credos 1.8#1996-2003#700#",//--Kia--3915
 "Kia#Clarus/Credos 2.0#1996-2003#700#",//--Kia--3919
 "Kia#Niro  Hybrid#2019-2020#550#",//--Kia--3923
+"Kia#EV6 Electric#2021-2024#800#",//--Kia--3927
+"Kia#EV6 Electric with heat pump#2021-2024#900#",//--Kia--3927
 "Kia#e-Niro Electric#2019-2022#650#",//--Kia--3927
 "Kia#e-Niro Electric with heat pump#2019-2022#1000#",//--Kia--3931
-"Kia#e-Soul Electric#2019-2022#600#",//--Kia--3935
+"Kia#e-Soul Electric#2019-2024#600#",//--Kia--3935
 "Kia#Joice#2000-2006#730#",//--Kia--3939
 "Kia#K2500#2004-2007#450#",//--Kia--3943
 "Kia#K2700#2000-2004#450#",//--Kia--3947
@@ -1143,6 +1210,9 @@ const char* const model_134[] PROGMEM = {
 "Kia#Magentis (MG)#2005-2015#500#",//--Kia--3967
 "Kia#Mentor#1994-2004#700#",//--Kia--3971
 "Kia#Niro  Hybrid#2016-2018#550#",//--Kia--3975
+"Kia#Niro  0BEV 150kw#2022-2024#750#",//--Kia--3975
+"Kia#Niro  0BEV 150kw with heat pump#2022-2024#850#",//--Kia--3975
+"Kia#Niro 1.6GDI Hybrid#2022-2024#500#",//--Kia--3975
 "Kia#Opirus#2003-2007#650#",//--Kia--3979
 "Kia#Optima#2015-2020#570#",//--Kia--3983
 "Kia#Optima#2011-2014#550#",//--Kia--3987
@@ -1151,15 +1221,16 @@ const char* const model_134[] PROGMEM = {
 "Kia#Optima#2002-2005#680#",//--Kia--3999
 "Kia#Picanto#2004-2011#450#",//--Kia--4003
 "Kia#Picanto (TA)#2011-2020#370#",//--Kia--4007
-"Kia#Picanto#2020-2022#400#",//--Kia--4011
+"Kia#Picanto#2020-2024#400#",//--Kia--4011
 "Kia#Pregio#1997-2007#850#",//--Kia--4015
-"Kia#Pro-Ceed#2015-2022#500#",//--Kia--4019
+"Kia#Pro-Ceed#2015-2024#500#",//--Kia--4019
 "Kia#Pride#2000-2010#570#",//--Kia--4023
 "Kia#Rio#2000-2005#650#",//--Kia--4027
 "Kia#Rio II#2005-2015#500#",//--Kia--4031
 "Kia#Rio III (UB)#2011-2016#420#",//--Kia--4035
-"Kia#Rio#2017-2022#450#",//--Kia--4039
-"Kia#Seltos#2020-2022#500#",//--Kia--4043
+"Kia#Rio#2017-2024#450#",//--Kia--4039
+"Kia#Rio 1.6 MPI #2017-2024#420#",//--Kia--4039
+"Kia#Seltos#2020-2024#500#",//--Kia--4043
 "Kia#Sedona#2000-2006#1150#",//--Kia--4047
 "Kia#Sedona#2007-2013#650#",//--Kia--4051
 "Kia#Sedona Diesel with rear a/c#2007-2013#800#",//--Kia--4055
@@ -1170,21 +1241,25 @@ const char* const model_134[] PROGMEM = {
 "Kia#Sportage#1995-2003#700#",//--Kia--4075
 "Kia#Sportage#2004-2015#510#",//--Kia--4079
 "Kia#Sportage Dizel (QL)#2015-2016#550#",//--Kia--4083
-"Kia#Sportage#2017-2022#600#",//--Kia--4087
-"Kia#Stinger#2017-2022#650#",//--Kia--4091
-"Kia#Stonic#2017-2020#450#",//--Kia--4095
+"Kia#Sportage#2017-2024#600#",//--Kia--4087
+"Kia#Stinger#2017-2024#650#",//--Kia--4091
+"Kia#Stonic#2017-2024#450#",//--Kia--4095
 "Kia#Sorento#2002-2007#600#",//--Kia--4099
 "Kia#Sorento 3.3i/2.5 CRDi#2007-2015#540#",//--Kia--4103
 "Kia#Sorento (XM)#2009-2015#600#",//--Kia--4107
 "Kia#Sorento with rear a/c#2009-2015#750#",//--Kia--4111
 "Kia#Sorento (UM)#2015-2020#700#",//--Kia--4115
 "Kia#Sorento (UM) with rear a/c#2015-2020#850#",//--Kia--4119
-"Kia#Sorento#2020-2022#650#",//--Kia--4123
+"Kia#Sorento#2020-2024#650#",//--Kia--4123
 "Kia#Sorento with rear a/c#2020-2022#850#",//--Kia--4127
+"Kia#Sorento 1.6 T-GDI Plug-in#2021-2024#700#",//--Kia--4123
+"Kia#Sorento 1.6 T-GDI Plug-in with rear a/c#2021-2024#1000#",//--Kia--4123
+"Kia#Sorento 1.6 T-GDI PHEV 4WD#2021-2024#700#",//--Kia--4123
 "Kia#Soul#2009-2018#550#",//--Kia--4131
-"Kia#Soul#2019-2022#450#",//--Kia--4135
+"Kia#Soul#2019-2024#450#",//--Kia--4135
 "Kia#Soul 0 EV Hybrid (Komp.poe oil)#2014-2018#550#",//--Kia--4139
-"Kia#XCeed#2019-2022#500#",//--Kia--4143
+"Kia#e-Soul Electiric#2019-2024#600#",//--Kia--4135
+"Kia#XCeed#2019-2024#500#",//--Kia--4143
 "Kia#Venga#2009-2019#550#",//--Kia--4147
 "Lancia#Dedra#1993-1995#900#",//--4149-4267Lancia--4151
 "Lancia#Dedra#1996-1999#730#",//--Lancia--4155
@@ -1220,8 +1295,8 @@ const char* const model_134[] PROGMEM = {
 "Land Rover#Defender TD5 motor 10P#1999-2007#750#",//--Land Rover--4275
 "Land Rover#Defender TD5 motor 15P#2001-2007#750#",//--Land Rover--4279
 "Land Rover#Defender 2.2 / 2.4TD4#2006-2015#600#",//--Land Rover--4283
-"Land Rover#Defender#2019-2022#650#",//--Land Rover--4287
-"Land Rover#Defender three zone a/c#2019-2022#1000#",//--Land Rover--4291
+"Land Rover#Defender#2019-2024#650#",//--Land Rover--4287
+"Land Rover#Defender three zone a/c#2019-2024#1000#",//--Land Rover--4291
 "Land Rover#Discovery#1994-1998#900#",//--Land Rover--4295
 "Land Rover#Discovery with rear a/c#1994-1998#1150#",//--Land Rover--4299
 "Land Rover#Discovery#1998-2004#700#",//--Land Rover--4303
@@ -1237,9 +1312,9 @@ const char* const model_134[] PROGMEM = {
 "Land Rover#Discovery IV (LA) 3.0TDV6/5.0i#2009-2016#625#",//--Land Rover--4343
 "Land Rover#Discovery IV (LA) 3.0TDV6 with rear a/c#2009-2016#900#",//--Land Rover--4347
 "Land Rover#Discovery#2017-2022#800#",//--Land Rover--4351
-"Land Rover#Discovery Four zone#2017-2022#1150#",//--Land Rover--4355
-"Land Rover#Discovery SPORT#2020-2022#525#",//--Land Rover--4359
-"Land Rover#Discovery SPORT with rear a/c#2020-2022#725#",//--Land Rover--4363
+"Land Rover#Discovery Four zone#2017-2024#1150#",//--Land Rover--4355
+"Land Rover#Discovery SPORT#2020-2024#525#",//--Land Rover--4359
+"Land Rover#Discovery SPORT with rear a/c#2020-2024#725#",//--Land Rover--4363
 "Land Rover#Evoque#2017-2020#650#",//--Land Rover--4367
 "Land Rover#Freelander#1997-2000#725#",//--Land Rover--4371
 "Land Rover#Freelander#2000-2006#540#",//--Land Rover--4375
@@ -1253,13 +1328,13 @@ const char* const model_134[] PROGMEM = {
 "Land Rover#Range RoverIII(LM)4.4i(448S2)/3.0TD#2002-2006#510#",//--Land Rover--4407
 "Land Rover#Range RoverIII 4.4i(448PN)/4.2i Sup#2005-2013#700#",//--Land Rover--4411
 "Land Rover#Range Rov 2.0/3.0/4.4SDV8/SDV6/TDV6#2014-2020#800#",//--Land Rover--4415
-"Land Rover#Range Rov2.0/3.0/4.4SDV8/SDV6/TDV6 four-zone#2017-2020#1150#",//--Land Rover--4419
+"Land Rover#Range Rov2.0/3.0/4.4SDV8/SDV6/TDV6 fzone#2017-2020#1150#",//--Land Rover--4419
 "Land Rover#Range Rover 2.0 P400e#2020-2022#950#",//--Land Rover--4423
 "Land Rover#Range Rover 2.0 P400e four-zone#2020-2022#1100#",//--Land Rover--4427
 "Land Rover#Range Rover 3.0#2019-2022#800#",//--Land Rover--4431
 "Land Rover#Range Rover 3.0  four-zone#2019-2022#1000#",//--Land Rover--4435
 "Land Rover#Range Rover Evoque#2011-2015#650#",//--Land Rover--4439
-"Land Rover#Range Rover Evoque#2020-2022#525#",//--Land Rover--4443
+"Land Rover#Range Rover Evoque#2020-2024#525#",//--Land Rover--4443
 "Land Rover#Range Rover Sport4.4i(448PN)/4.2i S#2005-2009#600#",//--Land Rover--4447
 "Land Rover#Range Rover Sport 2.7D TDV6#2005-2009#600#",//--Land Rover--4451
 "Land Rover#Range Rover Sport 3.0D TDV6#2009-2013#600#",//--Land Rover--4455
@@ -1282,8 +1357,8 @@ const char* const model_134[] PROGMEM = {
 "LDV#V80 with rear a/c LWB#2015-2022#1750#",//--LDV--4523
 "LDV#V80 Auxiliary condenser#2015-2022#2020#",//--LDV--4527
 "Lexus#CT 200h#2010-2022#470#",//--4529-4715Lexus--4531
-"Lexus#ES#2019-2020#610#",//--Lexus--4535
-"Lexus#ES 300h Hybrid#2019-2020#550#",//--Lexus--4539
+"Lexus#ES#2019-2024#610#",//--Lexus--4535
+"Lexus#ES 300h Hybrid#2019-2024#550#",//--Lexus--4539
 "Lexus#GS 300#1994-1997#850#",//--Lexus--4543
 "Lexus#GS 300#1997-2005#600#",//--Lexus--4547
 "Lexus#GS 300 (GRS/URZ)#2005-2015#450#",//--Lexus--4551
@@ -1304,7 +1379,7 @@ const char* const model_134[] PROGMEM = {
 "Lexus#IS 300h 2,5#2013-2020#570#",//--Lexus--4611
 "Lexus#IS 250/220d/5.0F#2005-2015#440#",//--Lexus--4615
 "Lexus#IS / RC Hybrid (Komp.poe oil)#2013-2022#570#",//--Lexus--4619
-"Lexus#LC#2017-2022#550#",//--Lexus--4623
+"Lexus#LC#2017-2024#550#",//--Lexus--4623
 "Lexus#LS 400#1993-2000#700#",//--Lexus--4627
 "Lexus#LS 400 with rear a/c#1993-2000#950#",//--Lexus--4631
 "Lexus#LS 430#2018-2020#650#",//--Lexus--4635
@@ -1312,9 +1387,9 @@ const char* const model_134[] PROGMEM = {
 "Lexus#LS 4,6 460#2006-2013#600#",//--Lexus--4643
 "Lexus#LS 460 with rear a/c#2006-2013#750#",//--Lexus--4647
 "Lexus#LS4,6 285kw(387hp)/AWD 272kw(370hp)460#2012-2018#550#",//--Lexus--4651
-"Lexus#LS4,6 285kw(387hp)/AWD 272kw(370hp)with rear#2012-2018#700#",//--Lexus--4655
-"Lexus#LS 3,4 500 4WD#2018-2022#650#",//--Lexus--4659
-"Lexus#LS 3,4 500 4WD with rear a/c#2018-2022#970#",//--Lexus--4663
+"Lexus#LS4,6 285kw387hp/AWD 272kw370hpwith rear#2012-2018#700#",//--Lexus--4655
+"Lexus#LS 3,4 500 4WD#2018-2024#650#",//--Lexus--4659
+"Lexus#LS 3,4 500 4WD with rear a/c#2018-2024#970#",//--Lexus--4663
 "Lexus#LS 600h(Komp.poe oil)#2007-2009#900#",//--Lexus--4667
 "Lexus#LS 600h (Komp.poe oil)#2009-2018#840#",//--Lexus--4671
 "Lexus#NX Hybrid (Komp.poe oil)#2014-2022#500#",//--Lexus--4675
@@ -1326,8 +1401,10 @@ const char* const model_134[] PROGMEM = {
 "Lexus#RX 400h#2005-2010#600#",//--Lexus--4699
 "Lexus#RX 450h#2009-2015#600#",//--Lexus--4703
 "Lexus#RX#2016-2022#500#",//--Lexus--4707
+"Lexus#RZ Hybrid#2022-2024#620#",//--Lexus--4707
 "Lexus#SC 430#2001-2006#700#",//--Lexus--4711
-"Lexus#UX#2019-2022#470#",//--Lexus--4715
+"Lexus#UX#2019-2024#470#",//--Lexus--4715
+"Lexus#UX 150kw Hybrid#2021-2024#610#",//--Lexus--4715
 "Mcc/Smart#City Coupe /Cabrio#1999-2003#620#",//--4717-4751Mcc/Smart--4719
 "Mcc/Smart#City Coupe /Cabrio#2003-2004#450#",//--Mcc/Smart--4723
 "Mcc/Smart#Forfour#2014-2019#475#",//--Mcc/Smart--4727
@@ -1341,11 +1418,13 @@ const char* const model_134[] PROGMEM = {
 "Mazda#2 kond 3mm (f)#2003-2007#650#",//--Mazda--4759
 "Mazda#2#2007-2015#500#",//--Mazda--4763
 "Mazda#2 Engine 1,5- 1,5D#2016-2022#420#",//--Mazda--4767
+"Mazda#2 DJ#2021-2024#420#",//--Mazda--4763
 "Mazda#3 1.4i/1.6i/2.0i#2003-2009#500#",//--Mazda--4771
 "Mazda#3 1.6D#2003-2009#650#",//--Mazda--4775
 "Mazda#3 2.0D/2.3MPS#2007-2009#500#",//--Mazda--4779
 "Mazda#3 (BL)#2009-2015#475#",//--Mazda--4783
 "Mazda#3#2016-2022#490#",//--Mazda--4787
+"Mazda#3 BP#2021-2024#490#",//--Mazda--4787
 "Mazda#5 1.8i/2.0i/2.0D CRD#2005-2010#500#",//--Mazda--4791
 "Mazda#5 (CW)#2010-2015#480#",//--Mazda--4795
 "Mazda#6 LHD 1.8i/2.0i/2.3i#2002-2007#470#",//--Mazda--4799
@@ -1354,7 +1433,7 @@ const char* const model_134[] PROGMEM = {
 "Mazda#6 RHD 2.0D Turbo#2002-2007#430#",//--Mazda--4811
 "Mazda#6 1.8i/2.0i/2.5i#2007-2015#500#",//--Mazda--4815
 "Mazda#6 2.0D/2.2D#2007-2015#525#",//--Mazda--4819
-"Mazda#6#2016-2021#490#",//--Mazda--4823
+"Mazda#6#2016-2024#490#",//--Mazda--4823
 "Mazda#121#1993-1994#650#",//--Mazda--4827
 "Mazda#121#1995-2003#740#",//--Mazda--4831
 "Mazda#323#1994-1996#750#",//--Mazda--4835
@@ -1369,10 +1448,12 @@ const char* const model_134[] PROGMEM = {
 "Mazda#BT-50 2.5D/3.0D#2012-2015#650#",//--Mazda--4871
 "Mazda#CX 7 2.3i/2.2D#2007-2015#490#",//--Mazda--4875
 "Mazda#CX 9 3.7i#2007-2015#690#",//--Mazda--4879
-"Mazda#CX 3#2016-2020#420#",//--Mazda--4883
-"Mazda#CX 5#2012-2022#490#",//--Mazda--4887
+"Mazda#CX 3#2016-2024#420#",//--Mazda--4883
+"Mazda#CX 5#2012-2024#490#",//--Mazda--4887
 "Mazda#CX 9#2017-2018#725#",//--Mazda--4891
-"Mazda#CX 30#2019-2022#490#",//--Mazda--4895
+"Mazda#CX 30#2019-2024#490#",//--Mazda--4895
+"Mazda#CX 60 2.5 PHEV #2022-2024#840#",//--Mazda--4895
+"Mazda#CX 60 3.3 MHEV #2022-2024#670#",//--Mazda--4895
 "Mazda#Demio LHD#1998-2004#650#",//--Mazda--4899
 "Mazda#Demio RHD#1998-2004#600#",//--Mazda--4903
 "Mazda#E-Series#1995-2000#550#",//--Mazda--4907
@@ -1384,7 +1465,7 @@ const char* const model_134[] PROGMEM = {
 "Mazda#MX5 (NB) 200000 until#1998-2005#700#",//--Mazda--4931
 "Mazda#MX5 (NB) 200001 upwards#1998-2005#425#",//--Mazda--4935
 "Mazda#MX5 (NC)#2005-2015#450#",//--Mazda--4939
-"Mazda#MX5 (NC)#2016-2022#420#",//--Mazda--4943
+"Mazda#MX5 (NC)#2016-2024#420#",//--Mazda--4943
 "Mazda#MX6#1992-1994#775#",//--Mazda--4947
 "Mazda#MX6#1994-1998#700#",//--Mazda--4951
 "Mazda#MPV3.0i#1994-1999#1050#",//--Mazda--4955
@@ -1403,29 +1484,32 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#A-Class (W169) 200CDI/200 Turbo#2004-2011#840#",//--Mercedes--5007
 "Mercedes#A-Class (176)#2012-2018#650#",//--Mercedes--5011
 "Mercedes#A-Class 2,0 A45 AMG 4Matic#2015-2018#670#",//--Mercedes--5015
-"Mercedes#A-Class#2018-2022#590#",//--Mercedes--5019
-"Mercedes#A-Class 1.3 A250e#2018-2020#660#",//--Mercedes--5023
+"Mercedes#A-Class 2,0 A45 AMG 4Matic 285kw#2019-2024#1010#",//--Mercedes--5015
+"Mercedes#A-Class 2,0 A45 AMG 4Matic 310kw#2019-2024#1200#",//--Mercedes--5015
+"Mercedes#A-Class#2018-2024#590#",//--Mercedes--5019
+"Mercedes#A-Class 1.3 A250e#2018-2024#660#",//--Mercedes--5023
 "Mercedes#B-Class (W245) 150/200/180CDI/170#2005-2011#770#",//--Mercedes--5027
 "Mercedes#B-Class (W245) 200 Turbo/200CDI#2005-2011#840#",//--Mercedes--5031
 "Mercedes#B-Class (246)#2011-2018#650#",//--Mercedes--5035
 "Mercedes#B-Class B250E / Electric Drive#2015-2018#720#",//--Mercedes--5039
 "Mercedes#B-Class#2019-2022#590#",//--Mercedes--5043
-"Mercedes#B-Class Hybrid#2020-2022#660#",//--Mercedes--5047
+"Mercedes#B-Class Hybrid#2020-2024#660#",//--Mercedes--5047
 "Mercedes#C-Class (W202) VIN 1A 168 524#1993-2000#950#",//--Mercedes--5051
 "Mercedes#C-Class (W202) VIN 1A 168 525#1993-2000#850#",//--Mercedes--5055
 "Mercedes#C-Class (W 203)#2000-2004#725#",//--Mercedes--5059
 "Mercedes#C-Class (W203) Facelift#2004-2007#850#",//--Mercedes--5063
 "Mercedes#C-Class (204)#2007-2014#590#",//--Mercedes--5067
 "Mercedes#C-Class (205)#2014-2022#630#",//--Mercedes--5071
-"Mercedes#C-Class Coupe#2018-2022#630#",//--Mercedes--5075
+"Mercedes#C-Class Coupe#2018-2024#630#",//--Mercedes--5075
 "Mercedes#C-Class 2,0 C350E / C350 Hybrid#2015-2018#670#",//--Mercedes--5079
 "Mercedes#C-Class 2,1 C300 Hybrid#2015-2018#710#",//--Mercedes--5083
-"Mercedes#C-Class Cabriolet Coupe 4,0 C63 AMG#2015-2020#610#",//--Mercedes--5087
+"Mercedes#C-Class Cabriolet Coupe 4,0 C63 AMG#2015-2024#610#",//--Mercedes--5087
 "Mercedes#C-Class 1.5/2.0 EQ Boost Hybrid#2021-2022#620#",//--Mercedes--5091
-"Mercedes#Citan#2012-2022#550#",//--Mercedes--5095
+"Mercedes#C-Class #2022-2024#650#",//--Mercedes--5067
+"Mercedes#Citan#2012-2024#550#",//--Mercedes--5095
 "Mercedes#CL (216)#2010-2015#1070#",//--Mercedes--5099
 "Mercedes#CLA Shooting Brake#2013-2018#650#",//--Mercedes--5103
-"Mercedes#CLA Coupe#2019-2022#690#",//--Mercedes--5107
+"Mercedes#CLA Coupe#2019-2024#690#",//--Mercedes--5107
 "Mercedes#CLA Coupe 2,0 45 AMG 4 Matic#2015-2018#670#",//--Mercedes--5111
 "Mercedes#CLC (203)#2008-2015#850#",//--Mercedes--5115
 "Mercedes#CLK (C208)#1997-2002#850#",//--Mercedes--5119
@@ -1433,8 +1517,8 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#CLS (C219)#2005-2015#950#",//--Mercedes--5127
 "Mercedes#CLS (218)#2011-2018#590#",//--Mercedes--5131
 "Mercedes#CLS 5,5 63 AMG#2014-2018#640#",//--Mercedes--5135
-"Mercedes#CLS#2018-2022#630#",//--Mercedes--5139
-"Mercedes#CLS 3,0 AMG Hybrid#2018-2022#590#",//--Mercedes--5143
+"Mercedes#CLS#2018-2024#630#",//--Mercedes--5139
+"Mercedes#CLS 3,0 AMG Hybrid#2018-2024#590#",//--Mercedes--5143
 "Mercedes#E-Class (W124)#1993-1996#950#",//--Mercedes--5147
 "Mercedes#E-Class (W124) with rear a/c#1993-1996#1150#",//--Mercedes--5151
 "Mercedes#E-Class (W210)#1995-2002#1000#",//--Mercedes--5155
@@ -1442,14 +1526,18 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#E-Class (W212)#2009-2015#590#",//--Mercedes--5163
 "Mercedes#E-Class (W212) 6.3 E63 AMG#2009-2018#640#",//--Mercedes--5167
 "Mercedes#E-Class (207) Coupe/Cabrio#2009-2018#590#",//--Mercedes--5171
-"Mercedes#E-Class E450/E53 EQ Boost#2018-2022#590#",//--Mercedes--5175
-"Mercedes#E-Class  Coupe/Cabriolet#2017-2022#630#",//--Mercedes--5179
-"Mercedes#E-Class 200d/E220d/E300d All-Terrain#2017-2022#610#",//--Mercedes--5183
-"Mercedes#E-Class  2,0 E350e Hybrid#2016-2022#670#",//--Mercedes--5187
+"Mercedes#E-Class E450/E53 EQ Boost#2018-2024#590#",//--Mercedes--5175
+"Mercedes#E-Class  Coupe/Cabriolet#2017-2024#630#",//--Mercedes--5179
+"Mercedes#E-Class 200d/E220d/E300d All-Terrain#2017-2024#610#",//--Mercedes--5183
+"Mercedes#E-Class  2,0 E350e Hybrid#2016-2024#670#",//--Mercedes--5187
 "Mercedes#E-Class  E350d E400d#2018-2020#630#",//--Mercedes--5191
 "Mercedes#Econic (957)#1998-2015#800#",//--Mercedes--5195
-"Mercedes#EQV Electric#2019-2022#660#",//--Mercedes--5199
-"Mercedes#e-Vito Electric#2018-2022#660#",//--Mercedes--5203
+"Mercedes#EQA Electric#2021-2024#710#",//--Mercedes--5199
+"Mercedes#EQB Electric#2021-2024#710#",//--Mercedes--5199
+"Mercedes#EQE Electric#2021-2024#950#",//--Mercedes--5199
+"Mercedes#EQS Electric#2021-2024#950#",//--Mercedes--5199
+"Mercedes#EQV Electric#2019-2024#660#",//--Mercedes--5199
+"Mercedes#e-Vito Electric#2018-2024#660#",//--Mercedes--5203
 "Mercedes#G 63 AMG#2017-2018#875#",//--Mercedes--5207
 "Mercedes#G 65 AMG#2017-2018#875#",//--Mercedes--5211
 "Mercedes#G 550#2017-2018#900#",//--Mercedes--5215
@@ -1459,21 +1547,25 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#GL-Class (X164)#2006-2015#970#",//--Mercedes--5231
 "Mercedes#GL-Class (X164) with rear a/c#2006-2015#1220#",//--Mercedes--5235
 "Mercedes#GLA#2014-2020#650#",//--Mercedes--5239
-"Mercedes#GLA#2020-2022#590#",//--Mercedes--5243
-"Mercedes#GLA 45 AMG 4Matic#2020-2022#1010#",//--Mercedes--5247
-"Mercedes#GLA 45 AMG S 4Matic#2020-2022#1200#",//--Mercedes--5251
-"Mercedes#GLB#2019-2022#690#",//--Mercedes--5255
-"Mercedes#GLC / Coupe#2015-2022#630#",//--Mercedes--5259
+"Mercedes#GLA#2020-2024#590#",//--Mercedes--5243
+"Mercedes#GLA 45 AMG 4Matic#2020-2024#1010#",//--Mercedes--5247
+"Mercedes#GLA 45 AMG S 4Matic#2020-2024#1200#",//--Mercedes--5251
+"Mercedes#GLB#2019-2024#690#",//--Mercedes--5255
+"Mercedes#GLC / Coupe#2015-2024#630#",//--Mercedes--5259
 "Mercedes#GLC / Coupe 2,0 E350e 4Matic Hybrid#2016-2019#670#",//--Mercedes--5263
+"Mercedes#GLC 300 - 400 4 Matic#2022-2024#660#",//--Mercedes--5259
 "Mercedes#GLE / Coupe / GLS#2015-2019#1050#",//--Mercedes--5267
 "Mercedes#GLE / Coupe / GLS  with rear a/c#2015-2019#1300#",//--Mercedes--5271
-"Mercedes#GLE#2019-2022#720#",//--Mercedes--5275
+"Mercedes#GLE#2019-2024#720#",//--Mercedes--5275
 "Mercedes#GLE 350d/450/580/AMG#2019-2022#770#",//--Mercedes--5279
+"Mercedes#GLE 2.9 400d 4Matic#2019-2024#680#",//--Mercedes--5275
 "Mercedes#GLS#2016-2019#1050#",//--Mercedes--5283
 "Mercedes#GLS with rear a/c#2016-2019#1300#",//--Mercedes--5287
-"Mercedes#GLS#2019-2022#720#",//--Mercedes--5291
-"Mercedes#GLS with rear a/c#2019-2022#1010#",//--Mercedes--5295
+"Mercedes#GLS#2019-2024#680#",//--Mercedes--5291
+"Mercedes#GLS with rear a/c#2019-2024#980#",//--Mercedes--5295
 "Mercedes#GLK (X204)#2008-2015#590#",//--Mercedes--5299
+"Mercedes#MARCO POLO#2019-2024#600#",//--Mercedes--5303
+"Mercedes#MARCO POLO with rear a/c#2019-2024#950#",//--Mercedes--5303
 "Mercedes#M-Class (W163)#1998-2005#750#",//--Mercedes--5303
 "Mercedes#M-Class (W164)#2005-2015#970#",//--Mercedes--5307
 "Mercedes#M-Klasse (W164) with rear a/c#2006-2015#1220#",//--Mercedes--5311
@@ -1483,10 +1575,12 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#MAYBACH with rear a/c#2017-2020#770#",//--Mercedes--5327
 "Mercedes#MAYBACH GLS with rear a/c#2020-2022#1010#",//--Mercedes--5331
 "Mercedes#MAYBACH GLS#2020-2022#720#",//--Mercedes--5335
+"Mercedes#MAYBACH GLS 3.0 480- 4.0 600 4Matic#2020-2024#680#",//--Mercedes--5335
+"Mercedes#MAYBACH GLS 3.0 480- 4.0 600 4Matic wra/c#2020-2024#980#",//--Mercedes--5335
 "Mercedes#R-Class (W251/V251)#2006-2015#970#",//--Mercedes--5339
 "Mercedes#R-Class (W251/V251) with rear a/c#2006-2015#1220#",//--Mercedes--5343
 "Mercedes#S-Class (W140) VIN 1A 128 373#1991-1999#1200#",//--Mercedes--5347
-"Mercedes#S-Class (W140) VIN1A128373 with rear a/c#1991-1999#1400#",//--Mercedes--5351
+"Mercedes#S-Class (W140) VIN1A128373 w. rear a/c#1991-1999#1400#",//--Mercedes--5351
 "Mercedes#S-Class (W140) VIN 1A 128 374R#1991-1999#1150#",//--Mercedes--5355
 "Mercedes#S-Class (W140) VIN1A128 374R with rear a/c#1991-1999#1250#",//--Mercedes--5359
 "Mercedes#S-Class (W220)#1998-2006#950#",//--Mercedes--5363
@@ -1498,8 +1592,10 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#S-Class S400 with rear a/c#2013-2015#870#",//--Mercedes--5387
 "Mercedes#S-Class Cabriolet / Coupe#2016-2022#660#",//--Mercedes--5391
 "Mercedes#S-Class Cabriolet / Coupe with rear a/c#2016-2022#770#",//--Mercedes--5395
-"Mercedes#S-Class S560e#2018-2022#710#",//--Mercedes--5399
-"Mercedes#S-Class S560e with rear a/c#2018-2022#820#",//--Mercedes--5403
+"Mercedes#S-Class S560e#2018-2024#730#",//--Mercedes--5399
+"Mercedes#S-Class S560e with rear a/c#2018-2024#810#",//--Mercedes--5403
+"Mercedes#S-Class #2020-2024#700#",//--Mercedes--5383
+"Mercedes#S-Class with rear a/c#2020-2024#790#",//--Mercedes--5383
 "Mercedes#SLC CLASS#2015-2020#550#",//--Mercedes--5407
 "Mercedes#SLK (R170)#1996-2004#850#",//--Mercedes--5411
 "Mercedes#SLK (R171)#2004-2011#670#",//--Mercedes--5415
@@ -1511,16 +1607,17 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#Sprinter with rear a/c#1995-2005#1300#",//--Mercedes--5439
 "Mercedes#Sprinter#2006-2018#800#",//--Mercedes--5443
 "Mercedes#Sprinter with rear a/c#2006-2018#1190#",//--Mercedes--5447
+"Mercedes#Sprinter#2018-2024#600#",//--Mercedes--5443
 "Mercedes#Sprinter hp A/C (H08)#2006-2018#1000#",//--Mercedes--5451
-"Mercedes#Sprinter 2.0d/2.1d#2019-2022#600#",//--Mercedes--5455
-"Mercedes#Sprinter D50/D51/D64#2018-2022#600#",//--Mercedes--5459
-"Mercedes#Sprinter G42/G43#2018-2022#800#",//--Mercedes--5463
-"Mercedes#Sprinter HH7 / HH9 /IR4#2018-2022#1725#",//--Mercedes--5467
-"Mercedes#Sprinter H08 and IR4#2018-2022#1800#",//--Mercedes--5471
-"Mercedes#Sprinter HH7/HH9 and IR6/IR7#2018-2022#1825#",//--Mercedes--5475
-"Mercedes#Sprinter H08 and IR6/IR7#2018-2022#1900#",//--Mercedes--5479
-"Mercedes#Sprinter HK4 and IR4 CEILING MOUNTED AIR CONDITIONER#2018-2022#1100#",//--Mercedes--5483
-"Mercedes#Sprinter HK4 and IR6/IR7 CEILING MOUNTED AIR CONDITIONER#2018-2022#1200#",//--Mercedes--5487
+"Mercedes#Sprinter 2.0d/2.1d#2019-2024#600#",//--Mercedes--5455
+"Mercedes#Sprinter D50/D51/D64#2018-2024#600#",//--Mercedes--5459
+"Mercedes#Sprinter G42/G43#2018-2024#800#",//--Mercedes--5463
+"Mercedes#Sprinter HH7 / HH9 /IR4#2018-2024#1725#",//--Mercedes--5467
+"Mercedes#Sprinter H08 and IR4#2018-2024#1800#",//--Mercedes--5471
+"Mercedes#Sprinter HH7/HH9 and IR6/IR7#2018-2024#1825#",//--Mercedes--5475
+"Mercedes#Sprinter H08 and IR6/IR7#2018-2024#1900#",//--Mercedes--5479
+"Mercedes#Sprinter HK4 and IR4 CEILING MOUNTED AC#2018-2024#1100#",//--Mercedes--5483
+"Mercedes#Sprinter HK4 and IR6/IR7 CEILING M. AC#2018-2024#1200#",//--Mercedes--5487
 "Mercedes#Vaneo (414)#2002-2006#600#",//--Mercedes--5491
 "Mercedes#Vario#1996-2013#1225#",//--Mercedes--5495
 "Mercedes#Vito/V-Klasse Denso 7SB16#1996-2003#850#",//--Mercedes--5499
@@ -1530,8 +1627,8 @@ const char* const model_134[] PROGMEM = {
 "Mercedes#Vito/Viano (W639)#2003-2014#550#",//--Mercedes--5515
 "Mercedes#Vito/Viano (W639) with rear a/c#2003-2014#840#",//--Mercedes--5519
 "Mercedes#Vito/Viano with rear a/c Long wheelbase#2003-2012#870#",//--Mercedes--5523
-"Mercedes#Vito#2014-2022#600#",//--Mercedes--5527
-"Mercedes#Vito with rear a/c#2014-2022#950#",//--Mercedes--5531
+"Mercedes#Vito#2014-2024#600#",//--Mercedes--5527
+"Mercedes#Vito with rear a/c#2014-2024#950#",//--Mercedes--5531
 "Mercedes#X-CLASS#2017-2019#500#",//--Mercedes--5535
 "Mercedes#X-CLASS 3.0 X350d 4Matic#2018-2020#1135#",//--Mercedes--5539
 "MG Motor#Expres RHD#2003-2005#550#",//--5541-5591MG Motor--5543
@@ -1551,10 +1648,10 @@ const char* const model_134[] PROGMEM = {
 "Mini Cooper#COUNTRYMAN 1.5 One D#2017-2022#550#",//--Mini Cooper--5599
 "Mini Cooper#COUNTRYMAN 1,5 Cooper Hybrid#2017-2022#650#",//--Mini Cooper--5603
 "Mini Cooper#Mini One/Cooper/Cooper S (R50/53)#2001-2009#415#",//--Mini Cooper--5607
-"Mini Cooper#Mini/Mini Clubman/Mini Countryman#2007-2022#490#",//--Mini Cooper--5611
+"Mini Cooper#Mini/Mini Clubman/Mini Countryman#2007-2024#490#",//--Mini Cooper--5611
 "Mini Cooper#Mini (R56/57, R55, R60)#2007-2018#490#",//--Mini Cooper--5615
-"Mini Cooper#Mini Hatch Electric#2020-2022#550#",//--Mini Cooper--5619
-"Mini Cooper#Mini Hatch 1.5/2.0#2020-2022#490#",//--Mini Cooper--5623
+"Mini Cooper#Mini Hatch Electric#2020-2024#550#",//--Mini Cooper--5619
+"Mini Cooper#Mini Hatch 1.5/2.0#2020-2024#490#",//--Mini Cooper--5623
 "Mitsubishi#3000 GT#1993-2000#765#",//--5625-5931Mitsubishi--5627
 "Mitsubishi#380#2005-2008#455#",//--Mitsubishi--5631
 "Mitsubishi#Attrage#2017-2018#290#",//--Mitsubishi--5635
@@ -1592,7 +1689,7 @@ const char* const model_134[] PROGMEM = {
 "Mitsubishi#L200#1994-1997#720#",//--Mitsubishi--5763
 "Mitsubishi#L200 2.4i/2.5D/2.5D Turbo#1997-2006#575#",//--Mitsubishi--5767
 "Mitsubishi#L200 2.5D DI#2006-2015#555#",//--Mitsubishi--5771
-"Mitsubishi#L200#2016-2022#520#",//--Mitsubishi--5775
+"Mitsubishi#L200#2016-2024#520#",//--Mitsubishi--5775
 "Mitsubishi#L300#1994-2004#725#",//--Mitsubishi--5779
 "Mitsubishi#L300 with rear a/c#1994-2004#1225#",//--Mitsubishi--5783
 "Mitsubishi#L400#1996-2005#650#",//--Mitsubishi--5787
@@ -1653,7 +1750,7 @@ const char* const model_134[] PROGMEM = {
 "Nissan#Interstar (X70) 2.5DdCi#2006-2015#750#",//--Nissan--6007
 "Nissan#Interstar(X70)2.5DdCi9K with rear a/c#2006-2015#1300#",//--Nissan--6011
 "Nissan#Interstar(X70)2.5DdCi16K with rear a/c#2006-2015#1400#",//--Nissan--6015
-"Nissan#Juke#2010-2022#450#",//--Nissan--6019
+"Nissan#Juke#2010-2024#450#",//--Nissan--6019
 "Nissan#Kubistar (X76) 1.2i/1.2i 16V#2003-2008#660#",//--Nissan--6023
 "Nissan#Kubistar (X76) 1.5DdCi/1.6i#2003-2008#660#",//--Nissan--6027
 "Nissan#Leaf#2010-2020#425#",//--Nissan--6031
@@ -1687,9 +1784,9 @@ const char* const model_134[] PROGMEM = {
 "Nissan#NV200 (M20) 1.5DdCi with rear a/c#2010-2018#650#",//--Nissan--6143
 "Nissan#NV300#2016-2022#590#",//--Nissan--6147
 "Nissan#NV300 with rear a/c#2016-2022#880#",//--Nissan--6151
-"Nissan#NV400 2,3 CDTI#2011-2019#580#",//--Nissan--6155
-"Nissan#NV400 2,3 CDTI 9 seat#2016-2019#1100#",//--Nissan--6159
-"Nissan#NV400 2,3 CDTI 16 seat#2016-2019#1700#",//--Nissan--6163
+"Nissan#NV400 2,3 CDTI#2011-2024#580#",//--Nissan--6155
+"Nissan#NV400 2,3 CDTI 9 seat#2016-2024#1100#",//--Nissan--6159
+"Nissan#NV400 2,3 CDTI 16 seat#2016-2024#1700#",//--Nissan--6163
 "Nissan#Pathfinder (R51) 4.0i/2.5D dCi#2004-2015#700#",//--Nissan--6167
 "Nissan#Pathfinder with rear a/c#2004-2015#850#",//--Nissan--6171
 "Nissan#Patrol GR (Y60)#1994-1998#600#",//--Nissan--6175
@@ -1712,6 +1809,7 @@ const char* const model_134[] PROGMEM = {
 "Nissan#Pulsar#2000-2006#450#",//--Nissan--6243
 "Nissan#Qashqai/Qashqai +2#2007-2015#450#",//--Nissan--6247
 "Nissan#Qashqai#2015-2022#500#",//--Nissan--6251
+"Nissan#Qashqai Hybrid#2021-2024#550#",//--Nissan--6251
 "Nissan#QX#1994-2000#650#",//--Nissan--6255
 "Nissan#Serena/Vanette Cargo RHD#1992-1996#650#",//--Nissan--6259
 "Nissan#Serena/Vanette Cargo RHD with rear a/c#1992-1996#775#",//--Nissan--6263
@@ -1727,6 +1825,7 @@ const char* const model_134[] PROGMEM = {
 "Nissan#Terrano II (R20)#1993-2008#750#",//--Nissan--6303
 "Nissan#Tiida 1.6i/1.8i#2007-2011#450#",//--Nissan--6307
 "Nissan#Tiida 1.5DdCi#2007-2011#450#",//--Nissan--6311
+"Nissan#Townstar Hybrid#2022-2024#550#",//--Nissan--6311
 "Nissan#Urvan (E24)#1994-1996#950#",//--Nissan--6315
 "Nissan#Urvan with rear a/c#1994-1996#1200#",//--Nissan--6319
 "Nissan#Vanette Cargo (C23H) 2.3D#1996-2001#600#",//--Nissan--6323
@@ -1734,6 +1833,7 @@ const char* const model_134[] PROGMEM = {
 "Nissan#X-Trail 2.0i/2.5i/2.2Di/2.2DdCi#2001-2007#500#",//--Nissan--6331
 "Nissan#X-Trail (T31) 2.0i/2.5i/2.0DdCi#2007-2015#450#",//--Nissan--6335
 "Nissan#X-Trail#2016-2022#500#",//--Nissan--6339
+"Nissan#X-Trail Hybrid#2022-2024#550#",//--Nissan--6339
 "Opel#Adam#2013-2015#450#",//--6341-6859Opel--6343
 "Opel#Adam#2016-2019#420#",//--Opel--6347
 "Opel#Agila (HOO) 1.1i/1.2i/1.3DCDTi#2000-2008#500#",//--Opel--6351
@@ -1772,6 +1872,10 @@ const char* const model_134[] PROGMEM = {
 "Opel#Astra J Cascada A14NET/A16XHT#2013-2016#600#",//--Opel--6483
 "Opel#Astra J Cascada A20DTH/A20DTR#2013-2016#630#",//--Opel--6487
 "Opel#Astra K#2015-2019#520#",//--Opel--6491
+"Opel#Astra L 1930cm2X 12mm Condanser#2021-2024#500#",//--Opel--6491
+"Opel#Astra L 2350cm2X 16mm Condanser#2021-2024#575#",//--Opel--6491
+"Opel#Astra L 1.6 Hybrid 2350cm2X16mm C.293402#2021-2024#625#",//--Opel--6491
+"Opel#Astra L 1.6 Hybrid 2350cm2X16mm C.181951#2021-2024#700#",//--Opel--6491
 "Opel#Brava#1993-2003#650#",//--Opel--6495
 "Opel#Cavalier/Vectra-A (7*)#1993-1995#750#",//--Opel--6499
 "Opel#Cavalier/Vectra-A (8*)#1994-1995#1000#",//--Opel--6503
@@ -1780,8 +1884,10 @@ const char* const model_134[] PROGMEM = {
 "Opel#Combo C Y17DTL#2001-2003#650#",//--Opel--6515
 "Opel#Combo C Y17DTL#2004-2015#560#",//--Opel--6519
 "Opel#Combo D (X12)#2012-2018#450#",//--Opel--6523
-"Opel#Combo E 1930cm3 Condanser#2018-2022#470#",//--Opel--6527
-"Opel#Combo E 2350cm3 Condanser#2018-2022#600#",//--Opel--6531
+"Opel#Combo E 1930cm3 Condanser#2018-2024#470#",//--Opel--6527
+"Opel#Combo E 2350cm3 Condanser#2018-2024#600#",//--Opel--6531
+"Opel#Combo E Electric 1900cm3 Condanser#2021-2024#575#",//--Opel--6527
+"Opel#Combo E Electric 2300cm3 Condanser#2021-2024#625#",//--Opel--6531
 "Opel#Corsa B/Combo#1993-2000#900#",//--Opel--6535
 "Opel#Corsa C Z10XE/Z10XEP/Z12XE/Z12XEP#2000-2007#650#",//--Opel--6539
 "Opel#Corsa C Z14XE/Z14XEP/Z16SE/Z18XE#2000-2007#650#",//--Opel--6543
@@ -1793,10 +1899,11 @@ const char* const model_134[] PROGMEM = {
 "Opel#Corsa E 1,3 CDTI-1,6VXR-1,4 TURBO#2015-2018#420#",//--Opel--6567
 "Opel#Corsa E#2015-2018#450#",//--Opel--6571
 "Opel#Corsa E#2019-2020#420#",//--Opel--6575
-"Opel#Corsa F#2019-2022#370#",//--Opel--6579
-"Opel#Corsa F 1.2 Turbo/1.5D#2019-2022#390#",//--Opel--6583
-"Opel#CROSLAND X#2017-2022#425#",//--Opel--6587
-"Opel#CROSLAND X Additional heater#2017-2022#460#",//--Opel--6591
+"Opel#Corsa F#2019-2024#370#",//--Opel--6579
+"Opel#Corsa F 1.2 Turbo/1.5D#2019-2024#390#",//--Opel--6583
+"Opel#Corsa F Electric#2021-2024#985#",//--Opel--6579
+"Opel#CROSLAND X#2017-2024#425#",//--Opel--6587
+"Opel#CROSLAND X Additional heater#2017-2024#460#",//--Opel--6591
 "Opel#Frontera A#1991-1995#800#",//--Opel--6595
 "Opel#Frontera A#1995-1996#750#",//--Opel--6599
 "Opel#Frontera A Dizel#1995-1996#700#",//--Opel--6603
@@ -1806,12 +1913,17 @@ const char* const model_134[] PROGMEM = {
 "Opel#GTC#2015-2018#600#",//--Opel--6619
 "Opel#GTC 1,6D - 1,6 SIDI#2015-2018#630#",//--Opel--6623
 "Opel#GRANDLAND X#2017-2022#575#",//--Opel--6627
+"Opel#GRANDLAND 1600cm2X12mm Condanser#2021-2024#475#",//--Opel--6627
+"Opel#GRANDLAND 2300cm2X12mm Condanser#2021-2024#450#",//--Opel--6627
+"Opel#GRANDLAND 2300cm2X16mm Condanser#2021-2024#575#",//--Opel--6627
 "Opel#Insignia#2008-2016#600#",//--Opel--6631
-"Opel#Insignia B#2017-2020#580#",//--Opel--6635
+"Opel#Insignia B#2017-2024#580#",//--Opel--6635
 "Opel#Meriva#2004-2010#650#",//--Opel--6639
 "Opel#Meriva Z16SE/Z16+Z18XE/Z16LET#2004-2010#690#",//--Opel--6643
 "Opel#Meriva B#2010-2015#580#",//--Opel--6647
 "Opel#Mokka#2012-2020#570#",//--Opel--6651
+"Opel#Mokka#2020-2024#390#",//--Opel--6651
+"Opel#Mokka 100kw Electric#2020-2024#985#",//--Opel--6651
 "Opel#Monterey#1994-1998#750#",//--Opel--6655
 "Opel#Monterey Dizel#1994-1998#750#",//--Opel--6659
 "Opel#Monterey 3.0D Turbo/3.5i#1998-2001#750#",//--Opel--6663
@@ -1850,8 +1962,8 @@ const char* const model_134[] PROGMEM = {
 "Opel#Vivaro 2.0CDTi#2006-2015#650#",//--Opel--6795
 "Opel#Vivaro 2.0CDTi with rear a/c#2006-2015#950#",//--Opel--6799
 "Opel#Vivaro#2016-2019#590#",//--Opel--6803
-"Opel#Vivaro Bluinjection#2019-2022#500#",//--Opel--6807
-"Opel#Vivaro Electric#2020-2022#575#",//--Opel--6811
+"Opel#Vivaro Bluinjection#2019-2024#500#",//--Opel--6807
+"Opel#Vivaro Electric#2020-2024#575#",//--Opel--6811
 "Opel#Zafira (F75)#1998-2001#700#",//--Opel--6815
 "Opel#Zafira (F75) with rear a/c#1998-2001#950#",//--Opel--6819
 "Opel#Zafira (F75)#2002-2005#600#",//--Opel--6823
@@ -1862,7 +1974,7 @@ const char* const model_134[] PROGMEM = {
 "Opel#Zafira B Z20LER/Z20LEH/Z20LEL#2006-2015#450#",//--Opel--6843
 "Opel#Zafira C (P12)#2011-2019#590#",//--Opel--6847
 "Opel#Zafira C (P12) A18XER/A18XFR/A18XEL#2011-2018#600#",//--Opel--6851
-"Opel#Zafira Life Bluinjection#2019-2022#975#",//--Opel--6855
+"Opel#Zafira Life Bluinjection#2019-2024#975#",//--Opel--6855
 "Opel#Zafira Life 2.0 Bluinjection#2019-2022#475#",//--Opel--6859
 "Perodua#Kelisa 1.3i#2002-2009#330#",//--6861-6875Perodua--6863
 "Perodua#Kenari 1.0#2000-2011#330#",//--Perodua--6867
@@ -1903,6 +2015,10 @@ const char* const model_134[] PROGMEM = {
 "Peugeot#308 (1930cm condanser)#2013-2022#450#",//--Peugeot--7007
 "Peugeot#308 (2350cm 12mm condanser)#2013-2022#575#",//--Peugeot--7011
 "Peugeot#308 (2350cm 16mm condanser)#2013-2022#575#",//--Peugeot--7015
+"Peugeot#308 (1900 condanser)#2022-2024#500#",//--Peugeot--7015
+"Peugeot#308 (2300 condanser)#2022-2024#575#",//--Peugeot--7015
+"Peugeot#308 (2300 condanser)Hybrid#2021-2024#700#",//--Peugeot--7015
+"Peugeot#308 (2300 condanser)Hybrid Low Power#2021-2024#625#",//--Peugeot--7015
 "Peugeot#405 II#1993-1997#675#",//--Peugeot--7019
 "Peugeot#406 Delphi komp#1995-1999#750#",//--Peugeot--7023
 "Peugeot#406 Sanden komp#1995-1999#800#",//--Peugeot--7027
@@ -1913,11 +2029,14 @@ const char* const model_134[] PROGMEM = {
 "Peugeot#406 2.2 HDI#1999-2004#620#",//--Peugeot--7047
 "Peugeot#407 1.8i/2.0i/2.2i/3.0i/1.6HDi2.0HDi#2004-2012#625#",//--Peugeot--7051
 "Peugeot#407 2.2HDi/2.7HDi/3.0HDi#2004-2012#525#",//--Peugeot--7055
-"Peugeot#508#2011-2018#525#",//--Peugeot--7059
-"Peugeot#508 (1900cm 12mm condanser)#2018-2022#450#",//--Peugeot--7063
-"Peugeot#508 (2300cm 16mm condanser)#2018-2022#450#",//--Peugeot--7067
-"Peugeot#508 (2800cm 16mm condanser)#2018-2022#625#",//--Peugeot--7071
-"Peugeot#508 Hybrid#2020-2022#725#",//--Peugeot--7075
+"Peugeot#408#2022-2024#700#",//--Peugeot--7059
+"Peugeot#408 1.6 180 Hybrid (1900 condanser)#2022-2024#500#",//--Peugeot--7059
+"Peugeot#408 1.6 180 Hybrid (2800 condanser)#2022-2024#600#",//--Peugeot--7059
+"Peugeot#508#2011-2024#525#",//--Peugeot--7059
+"Peugeot#508 (1900cm 12mm condanser)#2018-2024#450#",//--Peugeot--7063
+"Peugeot#508 (2300cm 16mm condanser)#2018-2024#450#",//--Peugeot--7067
+"Peugeot#508 (2800cm 16mm condanser)#2018-2024#625#",//--Peugeot--7071
+"Peugeot#508 Hybrid#2020-2024#725#",//--Peugeot--7075
 "Peugeot#605 2.5D Turbo#1995-1999#850#",//--Peugeot--7079
 "Peugeot#605 V6 ESJ#1997-1999#875#",//--Peugeot--7083
 "Peugeot#605#1994-1999#885#",//--Peugeot--7087
@@ -1930,9 +2049,10 @@ const char* const model_134[] PROGMEM = {
 "Peugeot#1007#2005-2015#600#",//--Peugeot--7115
 "Peugeot#2008#2013-2022#450#",//--Peugeot--7119
 "Peugeot#3008 (1.6HDi/2.0HDi)#2009-2015#450#",//--Peugeot--7123
-"Peugeot#3008 (1900cm condanser)#2009-2015#575#",//--Peugeot--7127
-"Peugeot#3008 (2300cm condanser)#2016-2022#575#",//--Peugeot--7131
-"Peugeot#3008 Hybrid#2019-2022#725#",//--Peugeot--7135
+"Peugeot#3008 (1900cm condanser)#2009-2024#575#",//--Peugeot--7127
+"Peugeot#3008 (2300cm condanser)#2016-2024#575#",//--Peugeot--7131
+"Peugeot#3008 Hybrid#2019-2024#725#",//--Peugeot--7135
+"Peugeot#3008 Hybrid (2300cm condanser) High Pow. #2019-2024#700#",//--Peugeot--7135
 "Peugeot#4007#2007-2015#500#",//--Peugeot--7139
 "Peugeot#5008 (1.6THP/1.6VTi)#2009-2015#450#",//--Peugeot--7143
 "Peugeot#5008 (1.6HDi/2.0HDi)#2009-2015#450#",//--Peugeot--7147
@@ -1944,17 +2064,26 @@ const char* const model_134[] PROGMEM = {
 "Peugeot#Boxer#1996-2002#800#",//--Peugeot--7171
 "Peugeot#Boxer with rear a/c#1996-2002#1000#",//--Peugeot--7175
 "Peugeot#Boxer II (244)#2002-2006#800#",//--Peugeot--7179
-"Peugeot#Boxer III 2.2HDi/3.0HDi#2006-2022#550#",//--Peugeot--7183
-"Peugeot#Boxer III with rear a/c#2006-2022#950#",//--Peugeot--7187
-"Peugeot#Boxer III Minibus#2015-2022#2600#",//--Peugeot--7191
+"Peugeot#Boxer III 2.2HDi/3.0HDi#2006-2024#550#",//--Peugeot--7183
+"Peugeot#Boxer III with rear a/c#2006-2024#950#",//--Peugeot--7187
+"Peugeot#Boxer III Minibus#2015-2024#2600#",//--Peugeot--7191
 "Peugeot#Expert#1995-2007#960#",//--Peugeot--7195
 "Peugeot#Expert 2.0i/1.6HDi/2.0HDi#2007-2015#675#",//--Peugeot--7199
 "Peugeot#Expert with rear a/c short wheelbase#2007-2015#950#",//--Peugeot--7203
 "Peugeot#Expert with rear a/c Long wheelbase#2007-2015#1075#",//--Peugeot--7207
-"Peugeot#Expert IV#2016-2022#500#",//--Peugeot--7211
-"Peugeot#e-Expert IV Electric#2020-2022#575#",//--Peugeot--7215
-"Peugeot#e-208#2019-2022#985#",//--Peugeot--7219
-"Peugeot#e-2008#2020-2022#985#",//--Peugeot--7223
+"Peugeot#Expert IV#2016-2024#500#",//--Peugeot--7211
+"Peugeot#Expert IV Dual Zone#2018-2024#775#",//--Peugeot--7211
+"Peugeot#Expert IV Dual Zone Hot Climate#2018-2024#875#",//--Peugeot--7211
+"Peugeot#e-Expert IV Electric#2020-2024#575#",//--Peugeot--7215
+"Peugeot#e-Expert IV Electric 1930cm2 condanser#2020-2024#475#",//--Peugeot--7215
+"Peugeot#e-208#2019-2023#915#",//--Peugeot--7219
+"Peugeot#e-2008#2020-2023#985#",//--Peugeot--7223
+"Peugeot#e-Partner IV 12mm condanser#2021-2024#575#",//--Peugeot--7223
+"Peugeot#e-Partner IV 16mm condanser#2021-2024#625#",//--Peugeot--7223
+"Peugeot#e-Rifter 12mm condanser#2021-2024#575#",//--Peugeot--7223
+"Peugeot#e-Rifter 16mm condanser#2021-2024#625#",//--Peugeot--7223
+"Peugeot#e-Traveller 1930cm2 X 12mm condanser#2020-2024#475#",//--Peugeot--7223
+"Peugeot#e-Traveller 2350cm2 X 16mm condanser#2020-2024#575#",//--Peugeot--7223
 "Peugeot#Ion Electric (POE oil)#2013-2020#325#",//--Peugeot--7227
 "Peugeot#Partner 1.1/1.4/1.6 karburatör#1996-2000#875#",//--Peugeot--7231
 "Peugeot#Partner 1.1i/1.4i/1.6i#1996-2005#875#",//--Peugeot--7235
@@ -1963,26 +2092,27 @@ const char* const model_134[] PROGMEM = {
 "Peugeot#Partner Facelift#2005-2008#575#",//--Peugeot--7247
 "Peugeot#Partner III 1.6i/1.6HDi#2008-2018#450#",//--Peugeot--7251
 "Peugeot#Partner III#2013-2020#525#",//--Peugeot--7255
-"Peugeot#Partner IV 12mm condanser#2018-2022#470#",//--Peugeot--7259
-"Peugeot#Partner IV 16mm condanser#2018-2022#600#",//--Peugeot--7263
+"Peugeot#Partner IV 12mm condanser#2018-2024#470#",//--Peugeot--7259
+"Peugeot#Partner IV 16mm condanser#2018-2024#600#",//--Peugeot--7263
 "Peugeot#RCZ 1.6THP/2.0HDi#2010-2015#425#",//--Peugeot--7267
 "Peugeot#Ranch I Benzin#1996-2002#875#",//--Peugeot--7271
 "Peugeot#Ranch I Diesel#1996-2002#775#",//--Peugeot--7275
 "Peugeot#Ranch II#2003-2011#575#",//--Peugeot--7279
-"Peugeot#Rifter 12mm condanser#2018-2022#470#",//--Peugeot--7283
-"Peugeot#Rifter 16mm condanser#2018-2022#600#",//--Peugeot--7287
+"Peugeot#Rifter 12mm condanser#2018-2024#470#",//--Peugeot--7283
+"Peugeot#Rifter 16mm condanser#2018-2024#600#",//--Peugeot--7287
 "Peugeot#ION Hybrid#2010-2018#325#",//--Peugeot--7291
 "Peugeot#Traveller#2016-2022#475#",//--Peugeot--7295
 "Peugeot#Traveller 2.0#2016-2020#475#",//--Peugeot--7299
 "Peugeot#Traveller 1.5/1.6 BlueHDI Dual Zone#2016-2022#975#",//--Peugeot--7303
-"Peugeot#Traveller 2.0 Dual Zone#2016-2022#775#",//--Peugeot--7307
-"Porsche#718 Boxster-Cayman#2016-2020#900#",//--7309-7411Porsche--7311
+"Peugeot#Traveller 2.0 Dual Zone#2016-2024#775#",//--Peugeot--7307
+"Porsche#718 Boxster-Cayman#2016-2024#900#",//--7309-7411Porsche--7311
 "Porsche#911 (993)#1993-1997#840#",//--Porsche--7315
 "Porsche#911 (996)#1998-2007#900#",//--Porsche--7319
 "Porsche#911 (997)#2005-2015#850#",//--Porsche--7323
 "Porsche#911 (991)#2011-2015#900#",//--Porsche--7327
 "Porsche#911 4,0 GT3 RS#2015-2017#900#",//--Porsche--7331
 "Porsche#911#2015-2018#950#",//--Porsche--7335
+"Porsche#911#2019-2024#980#",//--Porsche--7335
 "Porsche#968#1993-1996#860#",//--Porsche--7339
 "Porsche#Boxster (986)#1996-2004#850#",//--Porsche--7343
 "Porsche#Boxster (987)#2005-2012#900#",//--Porsche--7347
@@ -1990,37 +2120,41 @@ const char* const model_134[] PROGMEM = {
 "Porsche#Carrera GT 5.7#2003-2007#600#",//--Porsche--7355
 "Porsche#Cayenne (92A)#2010-2018#850#",//--Porsche--7359
 "Porsche#Cayenne (92A) A/C with rear#2010-2018#1100#",//--Porsche--7363
-"Porsche#Cayenne#2017-2020#700#",//--Porsche--7367
+"Porsche#Cayenne#2017-2024#700#",//--Porsche--7367
 "Porsche#Cayenne  A/C with rear#2017-2020#950#",//--Porsche--7371
 "Porsche#Cayenne Hybrid S (92A)#2010-2016#850#",//--Porsche--7375
 "Porsche#Cayenne (955) 3.2/S4.5/Turbo4.5#2002-2007#700#",//--Porsche--7379
 "Porsche#Cayenne A/C with rear#2002-2007#1050#",//--Porsche--7383
 "Porsche#Cayman#2006-2018#850#",//--Porsche--7387
-"Porsche#Macan 2.0#2014-2019#575#",//--Porsche--7391
-"Porsche#Macan#2014-2019#560#",//--Porsche--7395
-"Porsche#Panamera (970)#2009-2018#580#",//--Porsche--7399
+"Porsche#Macan 2.0#2014-2024#575#",//--Porsche--7391
+"Porsche#Macan#2014-2024#560#",//--Porsche--7395
+"Porsche#Panamera (970)#2009-2023#580#",//--Porsche--7399
 "Porsche#Panamera (970) SE-H#2013-2015#850#",//--Porsche--7403
-"Porsche#Panamera E-Hybrid#2016-2020#700#",//--Porsche--7407
-"Porsche#Panamera#2016-2018#540#",//--Porsche--7411
+"Porsche#Panamera E-Hybrid#2016-2023#700#",//--Porsche--7407
+"Porsche#Panamera#2016-2023#540#",//--Porsche--7411
+"Porsche#Taycan#2019-2024#1050#",//--Porsche--7411
+"Porsche#Taycan with Heat pump#2019-2024#1100#",//--Porsche--7411
 "Proton#413#1995-2001#550#",//--7413-7435Proton--7415
 "Proton#420#1996-2001#550#",//--Proton--7419
 "Proton#Gen-2 1.3i/1.6i#2004-2015#600#",//--Proton--7423
 "Proton#Impian/Waja 1.6i#2001-2007#575#",//--Proton--7427
 "Proton#Satria Neo 1.3i/1.6i#2006-2015#550#",//--Proton--7431
 "Proton#Savvy 1.2i#2005-2015#500#",//--Proton--7435
-"Renault#Arkana#2019-2022#480#",//--7437-7887Renault--7439
+"Renault#Arkana#2019-2023#480#",//--7437-7887Renault--7439
+"Renault#Arkana Hybrid#2021-2024#460#",//--7437-7887Renault--7439
 "Renault#Avantime 2.0i Turbo#2000-2004#880#",//--Renault--7443
 "Renault#Avantime 3.0i#2000-2004#880#",//--Renault--7447
+"Renault#Austral Hybrid#2022-2024#500#",//--7437-7887Renault--7439
 "Renault#Captur#2015-2018#450#",//--Renault--7451
 "Renault#Captur#2019-2020#420#",//--Renault--7455
-"Renault#Captur II#2019-2022#440#",//--Renault--7459
+"Renault#Captur II#2019-2024#440#",//--Renault--7459
 "Renault#Clio#1994-1998#660#",//--Renault--7463
 "Renault#Clio II#1998-2005#660#",//--Renault--7467
 "Renault#Clio II 2.0i#1999-2004#710#",//--Renault--7471
 "Renault#Clio III#2005-2015#510#",//--Renault--7475
 "Renault#Clio III Diesel#2005-2015#530#",//--Renault--7479
 "Renault#Clio IV#2012-2019#430#",//--Renault--7483
-"Renault#Clio V#2019-2020#420#",//--Renault--7487
+"Renault#Clio V#2019-2024#420#",//--Renault--7487
 "Renault#Clio Symbol#2001-2008#650#",//--Renault--7491
 "Renault#Duster#2012-2021#475#",//--Renault--7495
 "Renault#Escape V#2015-2020#570#",//--Renault--7499
@@ -2034,17 +2168,19 @@ const char* const model_134[] PROGMEM = {
 "Renault#Espace IV (JKO) 2.2DdCi/3.0DdCi#2002-2010#1000#",//--Renault--7531
 "Renault#Espace IV (JKO) 3.5i/2.0DdCi#2002-2010#1000#",//--Renault--7535
 "Renault#Extra/Express/Rapid#1994-1998#680#",//--Renault--7539
+"Renault#Express#2021-2024#475#",//--Renault--7499
 "Renault#Fluence 1.5DdCi#2010-2016#530#",//--Renault--7543
 "Renault#Fluence Z.E.#2011-2016#690#",//--Renault--7547
 "Renault#Grand Modus II#2008-2013#510#",//--Renault--7551
 "Renault#Grand Scenic III#2009-2015#495#",//--Renault--7555
 "Renault#Grand Scenic III 2,0 i#2009-2015#510#",//--Renault--7559
 "Renault#Grand Scenic II#2003-2009#550#",//--Renault--7563
-"Renault#Kadjar#2015-2022#560#",//--Renault--7567
+"Renault#Kadjar#2015-2024#560#",//--Renault--7567
 "Renault#Kangoo#1998-2008#650#",//--Renault--7571
 "Renault#Kangoo Be Bop#2009-2013#550#",//--Renault--7575
 "Renault#Kangoo II#2008-2022#550#",//--Renault--7579
 "Renault#Kangoo Grand II Electric#2021-2022#850#",//--Renault--7583
+"Renault#Kangoo III#2021-2024#550#",//--Renault--7579
 "Renault#Kerax#2002-2006#1400#",//--Renault--7587
 "Renault#Kerax LHD#2007-2015#1280#",//--Renault--7591
 "Renault#Kerax RHD#2007-2015#1250#",//--Renault--7595
@@ -2075,9 +2211,10 @@ const char* const model_134[] PROGMEM = {
 "Renault#Master II 2.8 D dCi#2003-2007#850#",//--Renault--7695
 "Renault#Master II 3.0 D Dxi#2003-2007#750#",//--Renault--7699
 "Renault#Master II 3.0D DXi#2007-2010#750#",//--Renault--7703
-"Renault#Master III (EV/UV)#2010-2022#580#",//--Renault--7707
-"Renault#Master III A/C with rear#2010-2022#1100#",//--Renault--7711
-"Renault#Master III WITH REAR HEATER#2010-2022#1700#",//--Renault--7715
+"Renault#Master III (EV/UV)#2010-2024#580#",//--Renault--7707
+"Renault#Master III A/C with rear#2010-2024#1100#",//--Renault--7711
+"Renault#Master III WITH REAR HEATER#2010-2024#1700#",//--Renault--7715
+"Renault#Master III Bus#2019-2024#750#",//--Renault--7715
 "Renault#Maxity#2007-2015#300#",//--Renault--7719
 "Renault#Megane#1995-1999#750#",//--Renault--7723
 "Renault#Megane 1.4i/1.6i/2.0i#1999-2003#750#",//--Renault--7727
@@ -2086,7 +2223,8 @@ const char* const model_134[] PROGMEM = {
 "Renault#Megane II (XMO) 1.4i/1.5DdCi/1.6i#2003-2008#550#",//--Renault--7739
 "Renault#Megane II (XMO) 1.9DdCi/2.0i /2.0dCi#2003-2008#550#",//--Renault--7743
 "Renault#Megane III#2008-2016#480#",//--Renault--7747
-"Renault#Megane IV#2016-2022#540#",//--Renault--7751
+"Renault#Megane IV#2016-2024#540#",//--Renault--7751
+"Renault#Megane e-Tech#2022-2024#570#",//--Renault--7751
 "Renault#Megane Scenic#1996-1999#800#",//--Renault--7755
 "Renault#Midlum#2000-2015#1200#",//--Renault--7759
 "Renault#Modus#2004-2010#510#",//--Renault--7763
@@ -2105,10 +2243,10 @@ const char* const model_134[] PROGMEM = {
 "Renault#Scenic/G.Scenic III 1.4i/1.6i/1.5dCi#2009-2015#480#",//--Renault--7815
 "Renault#Scenic/G.Scenic III 1.9dCi/2.0dCi#2009-2015#480#",//--Renault--7819
 "Renault#Scenic/Grand Scenic III 2.0i#2009-2015#510#",//--Renault--7823
-"Renault#Scenic#2016-2018#540#",//--Renault--7827
+"Renault#Scenic IV#2016-2024#540#",//--Renault--7827
 "Renault#Symbol#2008-2013#650#",//--Renault--7831
 "Renault#Symbol II#2014-2018#480#",//--Renault--7835
-"Renault#Talisman#2015-2022#540#",//--Renault--7839
+"Renault#Talisman#2015-2024#540#",//--Renault--7839
 "Renault#Thalia#2001-2013#650#",//--Renault--7843
 "Renault#Trafic 1.9DdCi (F9Q760)#2001-2008#712#",//--Renault--7847
 "Renault#Trafic 1.9DdCi (F9Q762)/2.0i/2.5DdCi#2001-2006#750#",//--Renault--7851
@@ -2163,12 +2301,12 @@ const char* const model_134[] PROGMEM = {
 "Seat#Alhambra with rear a/c#2000-2010#1075#",//--Seat--8047
 "Seat#Alhambra (710)#2012-2015#600#",//--Seat--8051
 "Seat#Alhambra (710) with rear a/c#2012-2015#1000#",//--Seat--8055
-"Seat#Alhambra#2016-2022#525#",//--Seat--8059
+"Seat#Alhambra#2016-2024#525#",//--Seat--8059
 "Seat#Alhambra with rear a/c#2016-2022#875#",//--Seat--8063
 "Seat#Altea#2004-2013#525#",//--Seat--8067
-"Seat#Arona#2017-2022#460#",//--Seat--8071
+"Seat#Arona#2017-2024#460#",//--Seat--8071
 "Seat#Arosa#1997-2000#725#",//--Seat--8075
-"Seat#Ateca#2016-2022#460#",//--Seat--8079
+"Seat#Ateca#2016-2024#460#",//--Seat--8079
 "Seat#Exeo#2009-2015#500#",//--Seat--8083
 "Seat#Ibiza II/Cordoba RHD#1993-1999#915#",//--Seat--8087
 "Seat#Ibiza II/Cordoba LHD#1993-1999#865#",//--Seat--8091
@@ -2176,14 +2314,14 @@ const char* const model_134[] PROGMEM = {
 "Seat#Ibiza III/Cordoba LHD#1999-2002#775#",//--Seat--8099
 "Seat#Ibiza IV/Cordoba (6L2)#2002-2008#550#",//--Seat--8103
 "Seat#Ibiza V (6J)#2008-2015#500#",//--Seat--8107
-"Seat#Ibiza#2017-2022#460#",//--Seat--8111
-"Seat#Ibiza 1,0#2017-2022#440#",//--Seat--8115
+"Seat#Ibiza#2017-2024#460#",//--Seat--8111
+"Seat#Ibiza 1,0#2017-2024#440#",//--Seat--8115
 "Seat#Inca RHD#1995-2003#912#",//--Seat--8119
 "Seat#Inca LHD#1995-2003#865#",//--Seat--8123
 "Seat#Leon#1999-2005#775#",//--Seat--8127
-"Seat#Leon II#2004-2022#500#",//--Seat--8131
+"Seat#Leon II#2004-2024#500#",//--Seat--8131
 "Seat#Mii#2012-2020#380#",//--Seat--8135
-"Seat#Tarraco#2019-2022#500#",//--Seat--8139
+"Seat#Tarraco#2019-2024#500#",//--Seat--8139
 "Seat#Toledo I RHD#1993-1999#900#",//--Seat--8143
 "Seat#Toledo I LHD#1993-1999#850#",//--Seat--8147
 "Seat#Toledo II#1999-2005#775#",//--Seat--8151
@@ -2194,29 +2332,31 @@ const char* const model_134[] PROGMEM = {
 "Skoda#Fabia II#2007-2014#550#",//--Skoda--8171
 "Skoda#Fabia III#2015-2019#500#",//--Skoda--8175
 "Skoda#Fabia III#2019-2022#490#",//--Skoda--8179
+"Skoda#Fabia IV#2021-2024#390#",//--Skoda--8179
+"Skoda#Fabia IV 1.0 TSI#2021-2024#430#",//--Skoda--8179
 "Skoda#Felicia 1.3#1996-2001#765#",//--Skoda--8183
 "Skoda#Felicia 1.6#1996-2001#735#",//--Skoda--8187
-"Skoda#Kamiq#2019-2022#460#",//--Skoda--8191
-"Skoda#Karoq#2017-2022#500#",//--Skoda--8195
-"Skoda#Kodiaq#2017-2022#515#",//--Skoda--8199
+"Skoda#Kamiq#2019-2024#460#",//--Skoda--8191
+"Skoda#Karoq#2017-2024#500#",//--Skoda--8195
+"Skoda#Kodiaq#2017-2024#515#",//--Skoda--8199
 "Skoda#Kodiaq Modine Condenser#2017-2020#475#",//--Skoda--8203
 "Skoda#Kodiaq All Other Condensers#2017-2020#500#",//--Skoda--8207
 "Skoda#Octavia (1U)#1996-2005#775#",//--Skoda--8211
 "Skoda#Octavia II (1Z)#2004-2015#525#",//--Skoda--8215
 "Skoda#Octavia III#2012-2020#500#",//--Skoda--8219
-"Skoda#Octavia IV#2020-2022#500#",//--Skoda--8223
+"Skoda#Octavia IV#2020-2024#500#",//--Skoda--8223
 "Skoda#Octavia Modine Condenser#2016-2018#475#",//--Skoda--8227
-"Skoda#Rapid#2012-2019#500#",//--Skoda--8231
-"Skoda#Rapid Modine Condenser#2017-2019#475#",//--Skoda--8235
+"Skoda#Rapid#2012-2024#500#",//--Skoda--8231
+"Skoda#Rapid Modine Condenser#2017-2024#475#",//--Skoda--8235
 "Skoda#Roomster/Praktic Delphi/Zexel komp#2006-2015#550#",//--Skoda--8239
 "Skoda#Roomster/Praktik Denso komp#2006-2015#500#",//--Skoda--8243
-"Skoda#Scala#2019-2022#460#",//--Skoda--8247
+"Skoda#Scala#2019-2024#460#",//--Skoda--8247
 "Skoda#Superb#2002-2008#600#",//--Skoda--8251
 "Skoda#Superb II#2008-2015#525#",//--Skoda--8255
-"Skoda#Superb III 1.4/1.5/1.8/2.0 TSI#2015-2019#515#",//--Skoda--8259
-"Skoda#Superb III 2.0 TSI#2020-2022#500#",//--Skoda--8263
-"Skoda#Superb III#2016-2022#500#",//--Skoda--8267
-"Skoda#Superb III Modine Condenser#2016-2020#475#",//--Skoda--8271
+"Skoda#Superb III 1.4/1.5/1.8/2.0 TSI#2015-2024#515#",//--Skoda--8259
+"Skoda#Superb III 2.0 TSI#2020-2024#500#",//--Skoda--8263
+"Skoda#Superb III#2016-2024#500#",//--Skoda--8267
+"Skoda#Superb III Modine Condenser#2016-2024#475#",//--Skoda--8271
 "Skoda#Yeti#2009-2017#525#",//--Skoda--8275
 "Smart#Cabrio/CityCoupe/Roadster/Crossblade#1998-2003#620#",//--8277-8307Smart--8279
 "Smart#Cabrio/City/Fortwo (450)#2003-2007#450#",//--Smart--8283
@@ -2236,6 +2376,7 @@ const char* const model_134[] PROGMEM = {
 "SsangYong#Musso#1996-1999#700#",//--SsangYong--8339
 "SsangYong#Musso (FJ)#1999-2006#700#",//--SsangYong--8343
 "SsangYong#Musso#2012-2018#650#",//--SsangYong--8347
+"SsangYong#Musso#2019-2024#550#",//--SsangYong--8347
 "SsangYong#Rexton#2002-2006#850#",//--SsangYong--8351
 "SsangYong#Rexton with rear a/c#2002-2006#1200#",//--SsangYong--8355
 "SsangYong#Rexton II 2.7D#2006-2012#850#",//--SsangYong--8359
@@ -2247,6 +2388,7 @@ const char* const model_134[] PROGMEM = {
 "SsangYong#Rexton with rear a/c#2017-2022#850#",//--SsangYong--8383
 "SsangYong#Rodius#2005-2020#1050#",//--SsangYong--8387
 "SsangYong#Stavic#2005-2012#1050#",//--SsangYong--8391
+"SsangYong#Tivoli 1.5 GDI - 1.6D E-XDI#2019-2024#570#",//--SsangYong--8391
 "Subaru#BRZ#2012-2020#390#",//--8393-8547Subaru--8395
 "Subaru#Forester (SF) RHD#1997-2003#700#",//--Subaru--8399
 "Subaru#Forester (SF) LHD#1997-2003#600#",//--Subaru--8403
@@ -2257,7 +2399,7 @@ const char* const model_134[] PROGMEM = {
 "Subaru#Impreza#1994-2000#600#",//--Subaru--8423
 "Subaru#Impreza#2001-2012#500#",//--Subaru--8427
 "Subaru#Impreza#2012-2016#475#",//--Subaru--8431
-"Subaru#Impreza#2017-2022#400#",//--Subaru--8435
+"Subaru#Impreza#2017-2024#400#",//--Subaru--8435
 "Subaru#Justy (G3X) 1.3i/1.5i#2003-2007#430#",//--Subaru--8439
 "Subaru#Justy IV#2007-2015#300#",//--Subaru--8443
 "Subaru#Legacy#1994-1995#650#",//--Subaru--8447
@@ -2278,6 +2420,7 @@ const char* const model_134[] PROGMEM = {
 "Subaru#Outback (BM/BR)#2009-2022#425#",//--Subaru--8507
 "Subaru#Outback 2,0#2015-2018#375#",//--Subaru--8511
 "Subaru#SVX#1994-1997#650#",//--Subaru--8515
+"Subaru#Solterra#2022-2024#620#",//--Subaru--8495
 "Subaru#B9 Tribeca#2006-2009#600#",//--Subaru--8519
 "Subaru#B9 Tribeca with rear#2006-2009#870#",//--Subaru--8523
 "Subaru#Trezia#2011-2015#360#",//--Subaru--8527
@@ -2286,6 +2429,7 @@ const char* const model_134[] PROGMEM = {
 "Subaru#WRX#2011-2015#500#",//--Subaru--8539
 "Subaru#WRX#2016-2018#475#",//--Subaru--8543
 "Subaru#XV#2012-2022#475#",//--Subaru--8547
+"Suzuki#Across 2.5 PHEV#2020-2024#1500#",//--Suzuki--8567
 "Suzuki#APV#2005-2012#400#",//--8549-8687Suzuki--8551
 "Suzuki#APV with rear a/c#2005-2012#550#",//--Suzuki--8555
 "Suzuki#Alto#1997-2002#550#",//--Suzuki--8559
@@ -2340,14 +2484,15 @@ const char* const model_134[] PROGMEM = {
 "Toyota#Aygo#2005-2015#500#",//--Toyota--8755
 "Toyota#Aygo#2015-2022#380#",//--Toyota--8759
 "Toyota#Aygo 1,2#2015-2018#400#",//--Toyota--8763
+"Toyota#bZ4x#2022-2024#720#",//--Toyota--8763
 "Toyota#Camry#1994-1996#850#",//--Toyota--8767
 "Toyota#Camry (V20)#1996-2001#800#",//--Toyota--8771
 "Toyota#Camry (V30)#2001-2005#550#",//--Toyota--8775
 "Toyota#Camry Hybrid#2010-2012#530#",//--Toyota--8779
 "Toyota#Camry Hybrid#2017-2018#580#",//--Toyota--8783
 "Toyota#Carina E#1992-1998#750#",//--Toyota--8787
-"Toyota#C-HR Valeo Compresor#2016-2022#425#",//--Toyota--8791
-"Toyota#C-HR Denso Compresor#2016-2022#470#",//--Toyota--8795
+"Toyota#C-HR Valeo Compresor#2016-2023#425#",//--Toyota--8791
+"Toyota#C-HR Denso Compresor#2016-2023#470#",//--Toyota--8795
 "Toyota#Celica (T20)#1994-1999#650#",//--Toyota--8799
 "Toyota#Celica (ZZT23)#1999-2006#430#",//--Toyota--8803
 "Toyota#Coaster#1993-2015#1950#",//--Toyota--8807
@@ -2357,12 +2502,12 @@ const char* const model_134[] PROGMEM = {
 "Toyota#Corolla 1.9D ingiltere#2000-2002#470#",//--Toyota--8823
 "Toyota#Corolla (E12U)#2002-2008#450#",//--Toyota--8827
 "Toyota#Corolla#2008-2018#440#",//--Toyota--8831
-"Toyota#Corolla#2018-2022#470#",//--Toyota--8835
+"Toyota#Corolla#2018-2024#470#",//--Toyota--8835
 "Toyota#Dyna#2007-2015#550#",//--Toyota--8839
 "Toyota#Echo#1999-2002#430#",//--Toyota--8843
 "Toyota#Echo#2003-2004#410#",//--Toyota--8847
 "Toyota#GT 86#2012-2022#390#",//--Toyota--8851
-"Toyota#GR Supra#2019-2022#550#",//--Toyota--8855
+"Toyota#GR Supra#2019-2024#550#",//--Toyota--8855
 "Toyota#Hi-Ace#1995-2000#750#",//--Toyota--8859
 "Toyota#Hi-Ace with rear a/c#1995-2000#1300#",//--Toyota--8863
 "Toyota#Hi-Ace RHD#2000-2005#500#",//--Toyota--8867
@@ -2373,7 +2518,7 @@ const char* const model_134[] PROGMEM = {
 "Toyota#Hi-Lux#1993-1996#750#",//--Toyota--8887
 "Toyota#Hi-Lux#1997-2005#550#",//--Toyota--8891
 "Toyota#Hi-Lux#2005-2015#450#",//--Toyota--8895
-"Toyota#Hi-Lux#2016-2022#500#",//--Toyota--8899
+"Toyota#Hi-Lux#2016-2024#500#",//--Toyota--8899
 "Toyota#iQ#2008-2015#360#",//--Toyota--8903
 "Toyota#Kluger#2003-2007#650#",//--Toyota--8907
 "Toyota#Kluger#2008-2012#600#",//--Toyota--8911
@@ -2391,6 +2536,11 @@ const char* const model_134[] PROGMEM = {
 "Toyota#Landcruiser Colorado/Prado coolbox#2003-2004#750#",//--Toyota--8959
 "Toyota#Landcruiser Colorado/Prado with rear a/c#2003-2004#800#",//--Toyota--8963
 "Toyota#Landcruiser C/P with rear a/c+coolbox#2003-2004#900#",//--Toyota--8967
+"Toyota#Landcruiser /Prado #2016-2024#550#",//--Toyota--8959
+"Toyota#Landcruiser /Prado with rear a/c#2016-2024#770#",//--Toyota--8959
+"Toyota#Landcruiser /Prado coolbox#2016-2024#600#",//--Toyota--8959
+"Toyota#Landcruiser /Prado with rear a/c+coolbox#2016-2024#800#",//--Toyota--8959
+"Toyota#Landcruiser/Prado wra/c+coolbox+non-cold#2016-2024#720#",//--Toyota--8959
 "Toyota#Landcruiser (J12)#2004-2015#600#",//--Toyota--8971
 "Toyota#Landcruiser (J12) coolbox#2004-2015#700#",//--Toyota--8975
 "Toyota#Landcruiser (J12) with rear a/c#2004-2015#750#",//--Toyota--8979
@@ -2429,16 +2579,18 @@ const char* const model_134[] PROGMEM = {
 "Toyota#Prius + (ZVW4)#2011-2018#470#",//--Toyota--9111
 "Toyota#PROACE SINGLE ZONE EXCEPT HOT CLIMATE#2016-2022#500#",//--Toyota--9115
 "Toyota#PROACE DUAL ZONE#2016-2022#500#",//--Toyota--9119
-"Toyota#Proace City 1930cm3 Condenser#2020-2022#470#",//--Toyota--9123
-"Toyota#Proace City 2350cm3 Condenser#2020-2022#600#",//--Toyota--9127
+"Toyota#Proace City 1930cm3 Condenser#2020-2024#470#",//--Toyota--9123
+"Toyota#Proace City 2350cm3 Condenser#2020-2024#600#",//--Toyota--9127
+"Toyota#Proace City 1930cm3 Condenser 0 Electric#2021-2024#575#",//--Toyota--9123
+"Toyota#Proace City 2350cm3 Condenser 0 Electric#2021-2024#625#",//--Toyota--9127
 "Toyota#RAV4#1994-2000#700#",//--Toyota--9131
 "Toyota#RAV4 (XA2)#2000-2006#510#",//--Toyota--9135
 "Toyota#RAV 4 III (ACA/ACE)#2006-2012#430#",//--Toyota--9139
 "Toyota#RAV 4#2013-2015#450#",//--Toyota--9143
 "Toyota#RAV 4#2016-2018#500#",//--Toyota--9147
-"Toyota#RAV 4#2018-2022#550#",//--Toyota--9151
-"Toyota#RAV 4 Hybrid#2015-2022#550#",//--Toyota--9155
-"Toyota#RAV 4 2.5 PHEV Hybrid#2020-2022#1500#",//--Toyota--9159
+"Toyota#RAV 4#2018-2024#550#",//--Toyota--9151
+"Toyota#RAV 4 Hybrid#2015-2024#550#",//--Toyota--9155
+"Toyota#RAV 4 2.5 PHEV Hybrid#2020-2024#1500#",//--Toyota--9159
 "Toyota#Sienna#2017-2018#810#",//--Toyota--9163
 "Toyota#SEQUOIA#2017-2018#920#",//--Toyota--9167
 "Toyota#Spacia#1998-2001#700#",//--Toyota--9171
@@ -2460,12 +2612,12 @@ const char* const model_134[] PROGMEM = {
 "Toyota#Yaris 1.0i/1.3i/1.4D#2006-2015#370#",//--Toyota--9235
 "Toyota#Yaris (P13) 1.5 VVT-i#2011-2020#360#",//--Toyota--9239
 "Toyota#Yaris Hibrid#2012-2020#435#",//--Toyota--9243
-"Toyota#Yaris 5 door gasoline#2020-2022#350#",//--Toyota--9247
-"Toyota#Yaris 5 door Hibrid#2020-2022#450#",//--Toyota--9251
-"Toyota#Yaris 3 door#2020-2022#420#",//--Toyota--9255
-"Toyota#Yaris 1.6 GR Circuit Pack#2020-2022#320#",//--Toyota--9259
+"Toyota#Yaris 5 door gasoline#2020-2024#350#",//--Toyota--9247
+"Toyota#Yaris 5 door Hibrid#2020-2024#450#",//--Toyota--9251
+"Toyota#Yaris 3 door#2020-2024#420#",//--Toyota--9255
+"Toyota#Yaris 1.6 GR Circuit Pack#2020-2024#320#",//--Toyota--9259
 "VW#Amarok#2010-2022#525#",//--9261-9659VW--9263
-"VW#Arteon#2017-2022#500#",//--VW--9267
+"VW#Arteon#2017-2024#500#",//--VW--9267
 "VW#Beetle#1998-2011#725#",//--VW--9271
 "VW#Beetle Coccinelle/ Maggiolino#2012-2018#525#",//--VW--9275
 "VW#Bora#1997-2005#775#",//--VW--9279
@@ -2475,16 +2627,16 @@ const char* const model_134[] PROGMEM = {
 "VW#Corrado#1992-1995#875#",//--VW--9295
 "VW#Crafer#2006-2015#740#",//--VW--9299
 "VW#Crafter air-conditioned ceiling#2006-2015#1125#",//--VW--9303
-"VW#Crafer#2016-2022#575#",//--VW--9307
-"VW#Crafter air-conditioned ceiling#2016-2022#825#",//--VW--9311
-"VW#E-Crafer Electric R134a#2018-2022#965#",//--VW--9315
+"VW#Crafer#2016-2024#575#",//--VW--9307
+"VW#Crafter air-conditioned ceiling#2016-2024#825#",//--VW--9311
+"VW#E-Crafer Electric R134a#2018-2024#965#",//--VW--9315
 "VW#E-Load Up 60kw Electric#2016-2020#380#",//--VW--9319
 "VW#Eos#2006-2015#525#",//--VW--9323
 "VW#Fox#2005-2012#450#",//--VW--9327
 "VW#E-Golf eaza 100kw#2017-2019#500#",//--VW--9331
 "VW#E-Golf With heat pump#2017-2019#950#",//--VW--9335
-"VW#E-Up Electric#2013-2016#380#",//--VW--9339
-"VW#E-Up 60kw EABA Electric#2016-2020#380#",//--VW--9343
+"VW#E-Up Electric#2013-2024#380#",//--VW--9339
+"VW#E-Up 60kw EABA Electric#2016-2024#380#",//--VW--9343
 "VW#Golf III/Vento/Cabrio#1992-1997#825#",//--VW--9347
 "VW#Golf IV#1997-2005#775#",//--VW--9351
 "VW#Golf V#2003-2008#525#",//--VW--9355
@@ -2505,7 +2657,7 @@ const char* const model_134[] PROGMEM = {
 "VW#Passat (362/365)#2010-2011#600#",//--VW--9415
 "VW#Passat (362/365)#2011-2015#550#",//--VW--9419
 "VW#Passat#2016-2019#500#",//--VW--9423
-"VW#Passat#2019-2022#500#",//--VW--9427
+"VW#Passat#2019-2024#500#",//--VW--9427
 "VW#Passat CC#2008-2010#600#",//--VW--9431
 "VW#Passat CC#2011-2012#550#",//--VW--9435
 "VW#Phaeton#2002-2015#600#",//--VW--9439
@@ -2519,8 +2671,8 @@ const char* const model_134[] PROGMEM = {
 "VW#Polo 1.6i/1.9SDI/1.9TDI/1.4FSi#2002-2005#562#",//--VW--9471
 "VW#Polo (6R) 1.2i/1.6TDi#2009-2016#500#",//--VW--9475
 "VW#Polo 1.6 16V#2016-2020#500#",//--VW--9479
-"VW#Polo 1.0 MPI / 2.0 TSI#2017-2020#440#",//--VW--9483
-"VW#Polo 1.0 TGI / TSI / TDI#2017-2020#460#",//--VW--9487
+"VW#Polo 1.0 MPI / 2.0 TSI#2017-2024#440#",//--VW--9483
+"VW#Polo 1.0 TGI / TSI / TDI#2017-2024#460#",//--VW--9487
 "VW#Scirocco#2008-2018#525#",//--VW--9491
 "VW#Sharan#1995-2000#975#",//--VW--9495
 "VW#Sharan with rear a/c#1995-2000#1375#",//--VW--9499
@@ -2529,19 +2681,19 @@ const char* const model_134[] PROGMEM = {
 "VW#Sharan (7N)#2010-2015#600#",//--VW--9511
 "VW#Sharan (7N) with rear a/c#2010-2015#950#",//--VW--9515
 "VW#Sharan 1,4 TSI#2016-2018#550#",//--VW--9519
-"VW#Sharan#2016-2022#525#",//--VW--9523
-"VW#Sharan (7N) with rear a/c#2016-2022#875#",//--VW--9527
-"VW#T- Cross#2018-2022#460#",//--VW--9531
+"VW#Sharan#2016-2024#525#",//--VW--9523
+"VW#Sharan (7N) with rear a/c#2016-2024#875#",//--VW--9527
+"VW#T- Cross#2018-2024#460#",//--VW--9531
 "VW#Tiguan#2007-2015#660#",//--VW--9535
-"VW#Tiguan#2016-2022#500#",//--VW--9539
+"VW#Tiguan#2016-2024#500#",//--VW--9539
 "VW#Touareg#2002-2009#700#",//--VW--9543
 "VW#Touareg with rear a/c#2002-2009#1050#",//--VW--9547
 "VW#Touareg#2004-2010#700#",//--VW--9551
 "VW#Touareg with rear a/c#2004-2010#1000#",//--VW--9555
 "VW#Touareg (7P5)#2010-2018#850#",//--VW--9559
 "VW#Touareg with rear a/c#2010-2018#1100#",//--VW--9563
-"VW#Touareg#2018-2022#700#",//--VW--9567
-"VW#Touareg 3.0 Hibrid#2020-2022#840#",//--VW--9571
+"VW#Touareg#2018-2024#700#",//--VW--9567
+"VW#Touareg 3.0 Hibrid#2020-2024#840#",//--VW--9571
 "VW#Touran#2003-2015#525#",//--VW--9575
 "VW#Touran#2015-2022#500#",//--VW--9579
 "VW#Transporter#1992-1995#975#",//--VW--9583
@@ -2558,11 +2710,11 @@ const char* const model_134[] PROGMEM = {
 "VW#Transporter T5 Sanden with rear a/c#2003-2010#1050#",//--VW--9627
 "VW#Transporter T6#2015-2019#600#",//--VW--9631
 "VW#Transporter T6 with rear a/c#2015-2019#900#",//--VW--9635
-"VW#Transporter T6.1#2019-2022#600#",//--VW--9639
-"VW#Transporter T6.1 with rear a/c#2019-2022#900#",//--VW--9643
-"VW#T-ROC#2017-2022#500#",//--VW--9647
-"VW#Up Doowon DV9 komp#2011-2022#380#",//--VW--9651
-"VW#Up 1.0#2020-2022#380#",//--VW--9655
+"VW#Transporter T6.1#2019-2024#600#",//--VW--9639
+"VW#Transporter T6.1 with rear a/c#2019-2024#900#",//--VW--9643
+"VW#T-ROC#2017-2024#500#",//--VW--9647
+"VW#Up Doowon DV9 komp#2011-2024#380#",//--VW--9651
+"VW#Up 1.0#2020-2024#380#",//--VW--9655
 "VW#Vento#1992-1998#825#",//--VW--9659
 "Volvo#240#1993-1994#750#",//--9661-9963Volvo--9663
 "Volvo#440/460/480#1994-1997#650#",//--Volvo--9667
@@ -2583,15 +2735,15 @@ const char* const model_134[] PROGMEM = {
 "Volvo#S60 Komo (h)#2006-2010#700#",//--Volvo--9727
 "Volvo#S60 II#2010-2015#820#",//--Volvo--9731
 "Volvo#S60#2016-2018#800#",//--Volvo--9735
-"Volvo#S60#2018-2022#700#",//--Volvo--9739
-"Volvo#S60 T6/T8#2020-2022#725#",//--Volvo--9743
+"Volvo#S60#2018-2024#700#",//--Volvo--9739
+"Volvo#S60 T6/T8#2020-2024#725#",//--Volvo--9743
 "Volvo#S70#1997-2000#790#",//--Volvo--9747
 "Volvo#S80#1998-2005#1000#",//--Volvo--9751
 "Volvo#S80#2005-2006#700#",//--Volvo--9755
 "Volvo#S80 2,0i / 2,0i F#2007-2011#720#",//--Volvo--9759
 "Volvo#S80 2,0D/2,4D/2,5i/3,0i /3,2i/4,4i#2007-2013#800#",//--Volvo--9763
 "Volvo#S80#2014-2016#650#",//--Volvo--9767
-"Volvo#S90#2016-2022#700#",//--Volvo--9771
+"Volvo#S90#2016-2024#700#",//--Volvo--9771
 "Volvo#S90 T8 Twin Engine Hybrid#2017-2019#725#",//--Volvo--9775
 "Volvo#S/V90#1997-1999#900#",//--Volvo--9779
 "Volvo#V40#2015-2019#625#",//--Volvo--9783
@@ -2608,23 +2760,23 @@ const char* const model_134[] PROGMEM = {
 "Volvo#V70 II#2007-2012#800#",//--Volvo--9827
 "Volvo#V70 II 2,0i / 2,0i F#2007-2011#720#",//--Volvo--9831
 "Volvo#V70#2011-2015#800#",//--Volvo--9835
-"Volvo#V90#2016-2022#700#",//--Volvo--9839
-"Volvo#V90 Twin Engine Hybrid#2016-2018#725#",//--Volvo--9843
+"Volvo#V90#2016-2024#700#",//--Volvo--9839
+"Volvo#V90 Twin Engine Hybrid#2016-2024#725#",//--Volvo--9843
 "Volvo#XC 40#2017-2020#540#",//--Volvo--9847
-"Volvo#XC 40 2.0 D3/D4/T4/T5#2017-2022#550#",//--Volvo--9851
-"Volvo#XC 40 Electric#2020-2022#750#",//--Volvo--9855
-"Volvo#XC 40 1.5 Recharge Electric#2020-2022#575#",//--Volvo--9859
-"Volvo#XC 40 1.5 T4/T5 Twin Engine#2019-2022#575#",//--Volvo--9863
-"Volvo#XC 40 1.5 T2/T3#2019-2022#550#",//--Volvo--9867
-"Volvo#XC 40 2.0 B4/B5#2020-2022#650#",//--Volvo--9871
+"Volvo#XC 40 2.0 D3/D4/T4/T5#2017-2024#550#",//--Volvo--9851
+"Volvo#XC 40 Electric#2020-2024#750#",//--Volvo--9855
+"Volvo#XC 40 1.5 Recharge Electric#2020-2024#575#",//--Volvo--9859
+"Volvo#XC 40 1.5 T4/T5 Twin Engine#2019-2024#575#",//--Volvo--9863
+"Volvo#XC 40 1.5 T2/T3#2019-2024#550#",//--Volvo--9867
+"Volvo#XC 40 2.0 B4/B5#2020-2024#650#",//--Volvo--9871
 "Volvo#XC 60#2008-2015#800#",//--Volvo--9875
 "Volvo#XC 60 2,0 D3#2012-2015#770#",//--Volvo--9879
 "Volvo#XC 60#2016-2020#700#",//--Volvo--9883
 "Volvo#XC 60 Twin Engine Hybrid#2016-2019#725#",//--Volvo--9887
-"Volvo#XC 60 B4/B5#2019-2022#725#",//--Volvo--9891
-"Volvo#XC 60 B4/B5/B6 Hybrid#2019-2022#700#",//--Volvo--9895
+"Volvo#XC 60 B4/B5#2019-2024#725#",//--Volvo--9891
+"Volvo#XC 60 B4/B5/B6 Hybrid#2019-2024#700#",//--Volvo--9895
 "Volvo#XC 60 D3/D4/D5#2018-2022#700#",//--Volvo--9899
-"Volvo#XC 60 2.0 Recharge T6/T8#2020-2022#725#",//--Volvo--9903
+"Volvo#XC 60 2.0 Recharge T6/T8#2020-2024#725#",//--Volvo--9903
 "Volvo#XC 70#2002-2007#1000#",//--Volvo--9907
 "Volvo#XC 70#2007-2015#800#",//--Volvo--9911
 "Volvo#XC 90#2002-2005#1000#",//--Volvo--9915
@@ -2636,10 +2788,10 @@ const char* const model_134[] PROGMEM = {
 "Volvo#XC 90 with rear a/c#2015-2020#1000#",//--Volvo--9939
 "Volvo#XC 90 Twin Engine Hybrid#2015-2019#700#",//--Volvo--9943
 "Volvo#XC 90 Twin Engine with rear a/c Hybrid#2015-2019#1000#",//--Volvo--9947
-"Volvo#XC 90 2.0 B5/B6#2019-2022#700#",//--Volvo--9951
-"Volvo#XC 90 2.0 B5/B6 with rear a/c#2019-2022#950#",//--Volvo--9955
-"Volvo#XC 90 2.0 Recharge T8#2020-2022#775#",//--Volvo--9959
-"Volvo#XC 90 2.0 Recharge T8 rear a/c#2020-2022#1050#",//--Volvo--9963
+"Volvo#XC 90 2.0 B5/B6#2019-2024#700#",//--Volvo--9951
+"Volvo#XC 90 2.0 B5/B6 with rear a/c#2019-2024#950#",//--Volvo--9955
+"Volvo#XC 90 2.0 Recharge T8#2020-2024#775#",//--Volvo--9959
+"Volvo#XC 90 2.0 Recharge T8 rear a/c#2020-2024#1050#",//--Volvo--9963
 "Mahindra#Genio 2,2D#2014-2018#520#",//--9965-9971Mahindra--9967
 //"Mahindra#XUV 500#2014-2018#",//--Mahindra--9971 !!!GRAM BİLGİSİ YOK!!!
 "Datsun#MI-DO#2014-2022#500#",//--9973-9979Datsun--9975
@@ -2662,12 +2814,13 @@ const char* const model_134[] PROGMEM = {
 "DAF#95 XF#1997-2003#700#",//--DAF--10043
 "DAF#XF 95#2002-2018#700#",//--DAF--10047
 "DAF#XF105#2005-2018#700#",//--DAF--10051
-"FORD#1833 DC /1833 LR Midilli- double cabin 9 Lt.#....-2022#940#",//--10053-10071FORD--10055
-"FORD#1842 /2542HR/2642/3242S HR ADR/3542/4142 12.7Lt.#....-2022#890#",//--FORD--10059
+"FORD#1833 DC /1833 LR Midilli-double cabin 9Lt#....-2022#940#",//--10053-10071FORD--10055
+"FORD#1842/2542HR/2642/3242SHRADR/3542/4142 12L#....-2022#890#",//--FORD--10059
 "FORD#1848T - Midilli 12.7Lt.#....-2022#890#",//--FORD--10063
 "FORD#2533 / 3233  9Lt.#....-2022#940#",//--FORD--10067
 "FORD#F-Max  12.7Lt.#....-2022#890#",//--FORD--10071
-"ISUZU#GRAFTER 3.0 N50/5.2D horizontal condenser#2008-2011#500#",//--10073-10103ISUZU--10075
+"FORD#F-Max  12.7Lt.#2022-2024#790#",//--FORD--10071
+"ISUZU#GRAFTER 3.0 N50/5.2D horizontal cond.#2008-2011#500#",//--10073-10103ISUZU--10075
 "ISUZU#GRAFTER 3.0 N50 /5.2D vertical condenser#2008-2011#400#",//--ISUZU--10079
 "ISUZU#GRAFTER 1.9D#2017-2020#350#",//--ISUZU--10083
 "ISUZU#GRAFTER 3.0 N35 Sasi No.JAANLR/JAANMR#2014-2017#350#",//--ISUZU--10087
@@ -2723,9 +2876,11 @@ const char* const model_134[] PROGMEM = {
 "MERCEDES BENZ#ACTROS 2003#2003-2011#1150#",//--MERCEDES BENZ--10287
 "MERCEDES BENZ#ACTROS 2003 independent A/C#2003-2011#1600#",//--MERCEDES BENZ--10291
 "MERCEDES BENZ#ACTROS#2012-2015#1080#",//--MERCEDES BENZ--10295
+"MERCEDES BENZ#ACTROS#2016-2024#950#",//--MERCEDES BENZ--10295
 "MERCEDES BENZ#ACTTOS independent A/C#2012-2015#1280#",//--MERCEDES BENZ--10299
 "MERCEDES BENZ#AROCS#2013-2015#1080#",//--MERCEDES BENZ--10303
 "MERCEDES BENZ#AROCS independent A/C#2013-2015#1280#",//--MERCEDES BENZ--10307
+"MERCEDES BENZ#AROCS#2016-2024#880#",//--MERCEDES BENZ--10303
 "MERCEDES BENZ#ANTOS#2012-2015#1080#",//--MERCEDES BENZ--10311
 "MERCEDES BENZ#ANTOS independent A/C#2012-2015#1280#",//--MERCEDES BENZ--10315
 "MERCEDES BENZ#ATEGO I#1998-2004#1000#",//--MERCEDES BENZ--10319
@@ -2767,9 +2922,10 @@ const char* const model_134[] PROGMEM = {
 "SCANIA#143 E, H, M#1991-1996#800#",//--SCANIA--10463
 "SCANIA#144 C, G, L#1995-2015#1450#",//--SCANIA--10467
 "SCANIA#164 C, G, L#2000-2015#1450#",//--SCANIA--10471
-"SCANIA#G-Series#2004-2015#1250#",//--SCANIA--10475
-"SCANIA#P-Series#2004-2015#1250#",//--SCANIA--10479
-"SCANIA#R-Series#2004-2015#1250#",//--SCANIA--10483
+"SCANIA#G-Series#2004-2023#1250#",//--SCANIA--10475
+"SCANIA#P-Series#2004-2023#1250#",//--SCANIA--10479
+"SCANIA#R-Series#2004-2023#1250#",//--SCANIA--10483
+"SCANIA#R-Series parking without airconditioning#2004-2023#1100#",//--SCANIA--10483
 "SCANIA#T 93 H#1990-1996#800#",//--SCANIA--10487
 "SCANIA#T 94 C, G, L#1996-2015#1450#",//--SCANIA--10491
 "SCANIA#T 113 E, H#1990-1996#800#",//--SCANIA--10495
@@ -2785,6 +2941,7 @@ const char* const model_134[] PROGMEM = {
 "VOLVO#FH 12#1999-2005#1250#",//--VOLVO--10535
 "VOLVO#FH 13#2005-2015#1250#",//--VOLVO--10539
 "VOLVO#FH 16#1993-2015#1250#",//--VOLVO--10543
+"VOLVO#FH 540#2016-2020#650#",//--VOLVO--10543
 "VOLVO#FL 6#1993-1999#1150#",//--VOLVO--10547
 "VOLVO#FL 7#2006-2013#1200#",//--VOLVO--10551
 "VOLVO#FL II#2006-2015#1200#",//--VOLVO--10555
@@ -2806,50 +2963,76 @@ const char* const model_134[] PROGMEM = {
 
 const char* const model_1234yf[] PROGMEM = {
 "Alfa Romeo#4C 240hp#2013-2019#370#",//--1-15Alfa Romeo--3
-"Alfa Romeo#Giulia#2016-2022#535#",//--Alfa Romeo--7
+"Alfa Romeo#Giulia#2016-2024#535#",//--Alfa Romeo--7
 "Alfa Romeo#Giulietta 2,0D JTM 16V 136hp#2015-2022#420#",//--Alfa Romeo--11
-"Alfa Romeo#Stelvio#2017-2022#535#",//--Alfa Romeo--15
+"Alfa Romeo#Stelvio#2017-2024#535#",//--Alfa Romeo--15
+"Alfa Romeo#TONALE 1,5 Hybrid#2022-2024#535#",//--Alfa Romeo--15
 //"Aston Martin###0#",//--17-19Aston Martin--19
 "Audi#A1#2016-2018#450#",//--21-359Audi--23
 "Audi#A1#2019-2022#430#",//--Audi--27
 "Audi#A1 Sportback 2.0#2018-2022#390#",//--Audi--31
-"Audi#A3 Sportback/2.0 40TFS#2016-2022#460#",//--Audi--35
+"Audi#A3 Sportback/2.0 40TFS#2016-2024#460#",//--Audi--35
 "Audi#A3 E-TRON Hybrid#2016-2018#450#",//--Audi--39
-"Audi#A4#2016-2022#525#",//--Audi--43
-"Audi#A5#2016-2022#525#",//--Audi--47
+"Audi#A3 E-TRON Hybrid#2016-2018#500#",//--Audi--251
+"Audi#A3 E-TRON R1234YF GAS Hybrid#2016-2018#450#",//--Audi--255
+"Audi#A4#2016-2024#525#",//--Audi--43
+"Audi#A4 2.0 40TFSI MHEV R1234YFHybrid#2019-2022#525#",//--Audi--259
+"Audi#A4 2.0 40/45 TFSI MHEV R134A Hybrid#2019-2022#590#",//--Audi--263
+"Audi#A5#2016-2024#525#",//--Audi--47
+"Audi#A5 2.0 30TFSI MHEV R1234YFHybrid#2020-2022#525#",//--Audi--267
 "Audi#A6 (4G/C7) Quattro#2011-2020#530#",//--Audi--51
+"Audi#A6 Hybrid#2012-2015#860#",//--Audi--271
+"Audi#A6 2.0 30 TDI MHEV R134A Hybrid#2019-2022#590#",//--Audi--275
+"Audi#A6 50-55 TFSI e#2019-2024#560#",//--Audi--275
+"Audi#A6 40-45-50 TDI MHEV#2019-2024#620#",//--Audi--275
+"Audi#A6 TFSI#2019-2024#510#",//--Audi--275
 "Audi#A7#2010-2020#530#",//--Audi--55
 "Audi#A7 2.0 TFSI/ TDI MHEV Hybrid#2020-2022#510#",//--Audi--59
+"Audi#A7 2.0 35 TDI MHEV R1234yf Hybrid#2020-2024#510#",//--Audi--279
+"Audi#A7 2,0D 40 TDI 3800RPM MHEV Hybrid R1234yf#2020-2024#620#",//--Audi--279
+"Audi#A7 40-45 TFSI MHEV Hybrid R1234yf#2020-2024#510#",//--Audi--279
+"Audi#A7 50-55 TFSI MHEV Hybrid R1234yf#2020-2024#560#",//--Audi--279
+"Audi#A7 3,0 MHEV Hybrid R1234yf#2020-2024#510#",//--Audi--279
+"Audi#A8 2.0 Hybrid#2012-2016#1080#",//--Audi--283
+"Audi#A8 3.0 50 TDI Hybrid R1234yf#2017-2022#510#",//--Audi--287
+"Audi#A8 3.0 50 TDI Hybrid R134A#2017-2022#570#",//--Audi--291
 "Audi#A8 (4H)#2010-2020#700#",//--Audi--63
 "Audi#A8 (4H) Rear A/C#2010-2020#890#",//--Audi--67
 "Audi#A8 2.0 Hybrid#2012-2016#890#",//--Audi--71
 "Audi#A8 3.0 50 TDI#2017-2022#510#",//--Audi--75
-"Audi#Q2#2016-2022#460#",//--Audi--79
+"Audi#e-tron 230kw /370kw elec R134A#2019-2022#840#",//--Audi--295
+"Audi#e-tron GT 350KW (476HP)Electric R1234YF#2021-2024#930#",//--Audi--295
+"Audi#e-tron Sportback Electric R1234YF#2020-2024#740#",//--Audi--295
+"Audi#Q2#2016-2024#460#",//--Audi--79
 "Audi#Q3#2016-2020#530#",//--Audi--83
 "Audi#Q3 1.5 35TFSI#2020-2021#460#",//--Audi--87
-"Audi#Q3#2020-2022#450#",//--Audi--91
+"Audi#Q3#2020-2024#450#",//--Audi--91
 "Audi#Q4 e-TRON R1234yf Hybrid#2021-2022#460#",//--Audi--95
 "Audi#Q5#2008-2019#520#",//--Audi--99
 "Audi#Q5 FYB 17-#2017-2019#525#",//--Audi--103
 "Audi#Q5 FYB 17-2,0 TFSI#2016-2019#525#",//--Audi--107
 "Audi#Q5 2.0 MHEV Hiybrid#2017-2022#525#",//--Audi--111
-"Audi#Q7#2016-2022#680#",//--Audi--115
-"Audi#Q7 with Rear A/C#2016-2022#850#",//--Audi--119
-"Audi#Q7 E-TRON PHEV  Hybrid#2019-2022#840#",//--Audi--123
+"Audi#Q7#2016-2024#680#",//--Audi--115
+"Audi#Q7 with Rear A/C#2016-2024#850#",//--Audi--119
+"Audi#Q7 E-TRON PHEV  Hybrid#2019-2024#840#",//--Audi--123
 "Audi#Q7 4MG 210kw PHEV Hybrid R1234yf#2019-2022#680#",//--Audi--127
-"Audi#Q8#2019-2022#680#",//--Audi--131
+"Audi#Q8#2019-2024#680#",//--Audi--131
+"Audi#Q8 e-tron#2022-2024#740#",//--Audi--131
 "Audi#RS 3#2016-2018#520#",//--Audi--135
-"Audi#RS 4#2012-2015#525#",//--Audi--139
+"Audi#RS 4#2012-2024#525#",//--Audi--139
 "Audi#RS 5#2010-2018#570#",//--Audi--143
+"Audi#RS 5#2019-2024#525#",//--Audi--143
 "Audi#RS 6#2016-2018#435#",//--Audi--147
-"Audi#RS 6 4.0 TFSI#2019-2022#575#",//--Audi--151
+"Audi#RS 6 4.0 TFSI#2019-2024#575#",//--Audi--151
 "Audi#RS 7#2016-2018#530#",//--Audi--155
 "Audi#RS 7 4.0 TFSI#2019-2022#575#",//--Audi--159
 "Audi#RS Q3#2015-2018#530#",//--Audi--163
+"Audi#RS Q3#2019-2024#500#",//--Audi--163
 "Audi#RS e-tron GT R1234YF#2021-2022#930#",//--Audi--167
 "Audi#R8#2017-2018#835#",//--Audi--171
 "Audi#S1/S1 Sportback#2012-2018#450#",//--Audi--175
-"Audi#S3#2016-2018#460#",//--Audi--179
+"Audi#S3#2016-2024#460#",//--Audi--179
+"Audi#S3 Q5#2019-2024#525#",//--Audi--179
 "Audi#S4#2019-2022#525#",//--Audi--183
 "Audi#S5#2017-2022#525#",//--Audi--187
 "Audi#S6#2012-2018#530#",//--Audi--191
@@ -2865,51 +3048,46 @@ const char* const model_1234yf[] PROGMEM = {
 "Audi#SQ7 with Rear A/C#2016-2019#850#",//--Audi--231
 "Audi#SQ7 4.0D TDI#2019-2022#680#",//--Audi--235
 "Audi#SQ7 4.0D TDI with Rear A/C#2019-2022#850#",//--Audi--239
-"Audi#TT#2016-2022#460#",//--Audi--243
-"Audi#TT TFSI RS#2018-2022#520#",//--Audi--247
-"Audi#A3 E-TRON Hybrid#2016-2018#500#",//--Audi--251
-"Audi#A3 E-TRON R1234YF GAS Hybrid#2016-2018#450#",//--Audi--255
-"Audi#A4 2.0 40TFSI MHEV R1234YFHybrid#2019-2022#525#",//--Audi--259
-"Audi#A4 2.0 40/45 TFSI MHEV R134A Hybrid#2019-2022#590#",//--Audi--263
-"Audi#A5 2.0 30TFSI MHEV R1234YFHybrid#2020-2022#525#",//--Audi--267
-"Audi#A6 Hybrid#2012-2015#860#",//--Audi--271
-"Audi#A6 2.0 30 TDI MHEV R134A Hybrid#2019-2022#590#",//--Audi--275
-"Audi#A7 2.0 35 TDI MHEV R1234yf Hybrid#2020-2022#510#",//--Audi--279
-"Audi#A8 2.0 Hybrid#2012-2016#1080#",//--Audi--283
-"Audi#A8 3.0 50 TDI Hybrid R1234yf#2017-2022#510#",//--Audi--287
-"Audi#A8 3.0 50 TDI Hybrid R134A#2017-2022#570#",//--Audi--291
-"Audi#e-tron 230kw /370kw elec R134A#2019-2022#840#",//--Audi--295
+"Audi#SQ8 e-tron#2022-2024#740#",//--Audi--235
+"Audi#TT#2016-2023#460#",//--Audi--243
+"Audi#TT TFSI RS#2018-2023#520#",//--Audi--247
 "Audi#Q3 1.5 35TFSI R1234yf#2020-2022#460#",//--Audi--299
-"Audi#Q4 e-TRON/Sportback R1234yf Hybrid#2021-2022#460#",//--Audi--303
+"Audi#Q4 e-TRON/Sportback R1234yf Hybrid#2021-2024#460#",//--Audi--303
 "Audi#Q5 Hiybrid#2011-2016#840#",//--Audi--307
-"Audi#Q5 2.0 MHEV Hiybrid R1234yf#2017-2022#525#",//--Audi--311
-"Audi#Q5 2.0 MHEV Hiybrid R134A#2017-2022#590#",//--Audi--315
+"Audi#Q5 2.0 MHEV Hiybrid R1234yf#2017-2024#525#",//--Audi--311
+"Audi#Q5 2.0 MHEV Hiybrid R134A#2017-2024#590#",//--Audi--315
+"Audi#Q5 50-55 TFSI Electric#2020-2024#610#",//--Audi--315
 "Audi#Q7 E-TRON PHEV  Hybrid#2016-2018#890#",//--Audi--319
 "Audi#Q7 4MG 210kw PHEV Hybrid R1234yf#2019-2022#680#",//--Audi--323
-"Audi#Q8#2019-2022#680#",//--Audi--327
-"Audi#RS e-tron GT R1234YF#2021-2022#930#",//--Audi--331
-"Audi#RS 7 4.0 TFSI#2019-2022#575#",//--Audi--335
-"Audi#S4#2019-2022#525#",//--Audi--339
-"Audi#S5 R1234YF#2017-2022#525#",//--Audi--343
-"Audi#S5 R134A#2017-2022#590#",//--Audi--347
-"Audi#S6 2.9 TFSI R1234YF#2020-2022#510#",//--Audi--351
-"Audi#S7  R1234YF#2019-2022#510#",//--Audi--355
-"Audi#S7 2.9 TFSI#2020-2022#620#",//--Audi--359
+"Audi#Q8#2019-2024#680#",//--Audi--327
+"Audi#RS e-tron GT R1234YF#2021-2024#930#",//--Audi--331
+"Audi#RS 7 4.0 TFSI#2019-2024#575#",//--Audi--335
+"Audi#S4#2019-2024#525#",//--Audi--339
+"Audi#S5 R1234YF#2017-2024#525#",//--Audi--343
+"Audi#S5 R134A#2017-2024#590#",//--Audi--347
+"Audi#S6 2.9 TFSI R1234YF#2020-202-4#510#",//--Audi--351
+"Audi#S7  R1234YF#2019-2024#510#",//--Audi--355
+"Audi#S7 2.9 TFSI#2020-2024#620#",//--Audi--359
 "BMW#1-Series#2016-2018#550#",//--361-675BMW--363
-"BMW#1-Series (F40)#2019-2022#520#",//--BMW--367
+"BMW#1-Series (F40)#2019-2024#520#",//--BMW--367
+"BMW#1-Series 2.0 120d xDrive(F40)#2019-2024#500#",//--BMW--367
 "BMW#2-Series ACTIVE TOURER#2016-2020#500#",//--BMW--371
+"BMW#2-Series ACTIVE TOURER#2021-2024#520#",//--BMW--371
 "BMW#2-Series 218i/ 220d ACTIVE TOURER#2017-2022#480#",//--BMW--375
 "BMW#2-Series CABRIOLET#2015-2020#500#",//--BMW--379
 "BMW#2-Series CABRIOLET M240i/xDrive#2015-2020#550#",//--BMW--383
 "BMW#2-Series COUPE#2015-2020#550#",//--BMW--387
 "BMW#2-Series GRAN TOURER#2015-2018#500#",//--BMW--391
+"BMW#2-Series GRAN TOURER#2019-2024#480#",//--BMW--391
+"BMW#2-Series 2.0 220i GRAN TOURER#2019-2024#500#",//--BMW--391
+"BMW#2-Series GRAND COUPE#2021-2024#520#",//--BMW--371
 "BMW#3-Series 320i/330i/340i#2016-2020#540#",//--BMW--395
-"BMW#3-Series#2018-2022#550#",//--BMW--399
-"BMW#4-Series#2016-2022#550#",//--BMW--403
-"BMW#5-Series#2017-2022#550#",//--BMW--407
-"BMW#5-Series 520i/530i/540i#2017-2022#600#",//--BMW--411
-"BMW#5-Series 530e Hybrid#2017-2022#750#",//--BMW--415
-"BMW#5-Series 550i / 4,4 M5#2017-2022#650#",//--BMW--419
+"BMW#3-Series#2018-2024#550#",//--BMW--399
+"BMW#4-Series#2016-2024#550#",//--BMW--403
+"BMW#5-Series#2017-2024#550#",//--BMW--407
+"BMW#5-Series 520i/530i/540i#2017-2024#600#",//--BMW--411
+"BMW#5-Series 530e Hybrid#2017-2023#750#",//--BMW--415
+"BMW#5-Series 550i / 4,4 M5#2017-2023#650#",//--BMW--419
 "BMW#6-Series#2016-2018#850#",//--BMW--423
 "BMW#6-Series GRAN TURSIMO#2017-2018#600#",//--BMW--427
 "BMW#6-Series GRAN TURSIMO 630i/640i#2017-2022#600#",//--BMW--431
@@ -2923,38 +3101,43 @@ const char* const model_1234yf[] PROGMEM = {
 "BMW#7-Series 750i/760i#2016-2022#650#",//--BMW--463
 "BMW#7-Series 750i/760i with Rear A/C#2016-2022#880#",//--BMW--467
 "BMW#8-Series / d xDrive#2018-2022#650#",//--BMW--471
-"BMW#8-Series / 4.4M850i xDrive#2020-2022#650#",//--BMW--475
-"BMW#8-Series / 840i xDrive#2018-2022#550#",//--BMW--479
-"BMW#8-Series /d xDrive Hybrid#2020-2022#550#",//--BMW--483
+"BMW#8-Series / 4.4M850i xDrive#2020-2024#650#",//--BMW--475
+"BMW#8-Series / 840i xDrive#2018-2024#550#",//--BMW--479
+"BMW#8-Series /d xDrive Hybrid#2020-2024#550#",//--BMW--483
 "BMW#i3#2013-2022#750#",//--BMW--487
 "BMW#i3 Heat pump#2013-2022#970#",//--BMW--491
+"BMW#i4#2021-2024#580#",//--BMW--487
 "BMW#i8#2014-2022#630#",//--BMW--495
-"BMW#X1#2016-2022#500#",//--BMW--499
+"BMW#i3#2013-2022#750#",//--BMW--487
+"BMW#iX#2021-2024#675#",//--BMW--499
+"BMW#iX3#2020-2024#630#",//--BMW--487
 "BMW#X1 xDrive 25e#2020-2022#600#",//--BMW--503
 "BMW#X2#2016-2022#500#",//--BMW--507
 "BMW#X2 18i#2020-2022#500#",//--BMW--511
 "BMW#X2 M35i#2020-2022#500#",//--BMW--515
 "BMW#X2 25e#2020-2022#650#",//--BMW--519
-"BMW#X3#2017-2022#550#",//--BMW--523
+"BMW#X3#2017-2024#550#",//--BMW--523
 "BMW#X4#2014-2018#500#",//--BMW--527
-"BMW#X4#2019-2022#550#",//--BMW--531
+"BMW#X4#2019-2024#550#",//--BMW--531
 "BMW#X5#2016-2018#675#",//--BMW--535
-"BMW#X5#2019-2022#600#",//--BMW--539
+"BMW#X5#2019-2024#600#",//--BMW--539
 "BMW#X5 M50#2018-2020#650#",//--BMW--543
 "BMW#X5 40i#2019-2022#580#",//--BMW--547
 "BMW#X5 40i 5-zone climate#2019-2022#800#",//--BMW--551
-"BMW#X5 4.4 50i#2019-2022#650#",//--BMW--555
+"BMW#X5 4.4 50i#2019-2024#650#",//--BMW--555
 "BMW#X5 4.4 50i 5-zone climate#2019-2022#900#",//--BMW--559
 "BMW#X5 3.0 xDrive 45e#2019-2020#850#",//--BMW--563
 "BMW#X6#2016-2019#675#",//--BMW--567
+"BMW#X6 Motor Code S68#2023-2024#550#",//--BMW--567
 "BMW#X6 (G06)#2019-2022#650#",//--BMW--571
 "BMW#X7 3.0 M50d M50i#2018-2020#650#",//--BMW--575
 "BMW#X7 3.0 M50d M50i 5-zone climate#2018-2020#900#",//--BMW--579
 "BMW#X7#2018-2022#600#",//--BMW--583
+"BMW#X7 4.4M 50i - 60i#2019-2024#650#",//--BMW--583
 "BMW#X7 5-zone climate#2018-2022#850#",//--BMW--587
-"BMW#X7 40i#2018-2022#580#",//--BMW--591
-"BMW#X7 40i 5-zone climate#2018-2022#800#",//--BMW--595
-"BMW#Z4#2018-2022#550#",//--BMW--599
+"BMW#X7 40i#2018-2023#580#",//--BMW--591
+"BMW#X7 40i 5-zone climate#2018-2023#800#",//--BMW--595
+"BMW#Z4#2018-2024#550#",//--BMW--599
 "BMW#4-Series#2020-2022#550#",//--BMW--603
 "BMW#5-Series 2.0 520i Hybrid#2020-2022#600#",//--BMW--607
 "BMW#5-Series 530e Hybrid#2017-2022#750#",//--BMW--611
@@ -2964,25 +3147,16 @@ const char* const model_1234yf[] PROGMEM = {
 "BMW#7-Series 740d mhev#2020-2022#550#",//--BMW--627
 "BMW#7-Series 740d mhev with Rear A/C#2020-2022#800#",//--BMW--631
 "BMW#8-Series /d xDrive Hybrid#2020-2022#550#",//--BMW--635
-"BMW#i3#2013-2022#750#",//--BMW--639
-"BMW#i3 Heat pump#2013-2022#970#",//--BMW--643
-"BMW#i8#2014-2022#630#",//--BMW--647
-"BMW#X1 xDrive 25e#2020-2022#600#",//--BMW--651
-"BMW#X2 25e#2020-2022#650#",//--BMW--655
-"BMW#X5 40i#2019-2022#580#",//--BMW--659
-"BMW#X5 40i 5-zone climate#2019-2022#800#",//--BMW--663
-"BMW#X5 3.0 xDrive 45e#2019-2020#850#",//--BMW--667
-"BMW#X7#2018-2022#600#",//--BMW--671
-"BMW#X7 5-zone climate#2018-2022#850#",//--BMW--675
 "Cadillac#ATS#2016-2019#550#",//--677-687Cadillac--679
 "Cadillac#CTS#2016-2020#550#",//--Cadillac--683
 "Cadillac#Escalade 6.0 hybrid#2011-2014#725#",//--Cadillac--687
 "Chevrolet#Malibu#2016-2018#600#",//--689-695Chevrolet--691
 "Chevrolet#Trax#2014-2016#620#",//--Chevrolet--695
 "Chrysler#300 C#2012-2015#710#",//--697-699Chrysler--699
-"Citroen#Berlingo IV#2018-2022#450#",//--701-839Citroen--703
+"Citroen#Berlingo IV Condanser 1930cm2#2018-2024#435#",//--701-839Citroen--703
+"Citroen#Berlingo IV Condanser 2350cm2X16mm#2018-2024#565#",//--701-839Citroen--703
 "Citroen#C1 II#2016-2022#350#",//--Citroen--707
-"Citroen#C3 IV#2016-2018#425#",//--Citroen--711
+"Citroen#C3 IV#2016-2024#425#",//--Citroen--711
 "Citroen#C3 Aircross#2017-2022#400#",//--Citroen--715
 "Citroen#C4 Cactus#2014-2022#425#",//--Citroen--719
 "Citroen#C4 Cactus 1,5 HDI/1,6 HDI#2014-2022#400#",//--Citroen--723
@@ -2991,72 +3165,111 @@ const char* const model_1234yf[] PROGMEM = {
 "Citroen#C4 Picasso (Grand)#2015-2018#450#",//--Citroen--735
 "Citroen#C4 Picasso (Grand) with rear a/c#2015-2018#625#",//--Citroen--739
 "Citroen#C4 Space Tourer / Grand Space#2018-2020#450#",//--Citroen--743
-"Citroen#C4 Space Tourer / Grand Space with rear a/c#2018-2020#675#",//--Citroen--747
+"Citroen#C4 Space Tourer/Grand Space w. rear a/c#2018-2020#675#",//--Citroen--747
 "Citroen#C5 III#2014-2018#475#",//--Citroen--751
-"Citroen#C5 Aircross 1930cm Condanser#2018-2022#440#",//--Citroen--755
-"Citroen#C5 Aircross 2350cm Condanser#2018-2022#515#",//--Citroen--759
+"Citroen#C5 Aircross 1900cm Condanser#2018-2024#435#",//--Citroen--755
+"Citroen#C5 Aircross 2300cmX12mm Condanser#2018-2024#435#",//--Citroen--759
+"Citroen#C5 Aircross 2300cmX16mm Condanser#2018-2024#590#",//--Citroen--759
+"Citroen#C5 Aircross 1.6 Hybrid 2300cm2X16mm Condanser#2020-2024#625#",//--Citroen--759
+"Citroen#C5 Aircross 1.6 Hybrid 2300cm2X16mm Condanser Low Power#2020-2024#575#",//--Citroen--759
 "Citroen#C-Elysee#2014-2020#450#",//--Citroen--763
 "Citroen#C-Zero Electric 47kw(64hp)#2010-2015#325#",//--Citroen--767
 "Citroen#C-Zero Electric 49kw(67hp)#2013-2020#280#",//--Citroen--771
-"Citroen#Jumper/RelayIII Minibus#2006-2019#935#",//--Citroen--775
-"Citroen#Dispatch/Jumpy IV#2016-2022#450#",//--Citroen--779
-"Citroen#Dispatch/JumpyIV 1.5/1.6HDI very hot climates#2016-2022#650#",//--Citroen--783
-"Citroen#Dispatch IV 1.5/1.6 HDI dual zone a/c#2016-2022#900#",//--Citroen--787
-"Citroen#Dispatch IV 2.0 HDI dual zone a/c#2016-2022#775#",//--Citroen--791
+"Citroen#Dispatch/Jumpy IV#2016-2024#450#",//--Citroen--779
+"Citroen#Dispatch/Jumpy IV 2.0 Blue HDI 144hp 1930cm2 Condanser#2020-2024#440#",//--Citroen--779
+"Citroen#Dispatch/Jumpy IV 2.0 Blue HDI 144hp 2350cm2 Condanser#2020-2024#515#",//--Citroen--779
+"Citroen#Dispatch/JumpyIV 1.5/1.6HDI very hot climates#2016-2024#650#",//--Citroen--783
+"Citroen#Dispatch IV 1.5/1.6 HDI dual zone a/c#2016-2024#900#",//--Citroen--787
+"Citroen#Dispatch IV 2.0 HDI dual zone a/c#2016-2024#775#",//--Citroen--791
 "Citroen#DS3/DS3 Cabrio#2011-2015#450#",//--Citroen--795
+"Citroen#e-Berlingo Hybrid R134a#2017-2022#525#",//--Citroen--835
+"Citroen#e-Berlingo Hybrid R1234yf#2021-2024#575#",//--Citroen--835
+"Citroen#e-Dispatch/e-Jumpy IV 1930cm2 Condanser#2020-2024#440#",//--Citroen--835
+"Citroen#e-Dispatch/e-Jumpy IV 2350cm2 Condanser#2020-2024#515#",//--Citroen--835
 "Citroen#e-Mehari 50kw#2016-2020#350#",//--Citroen--799
+"Citroen#e-Relay/e-Jumper III Minibus Hybrid R1234yf#2020-2024#575#",//--Citroen--835
 "Citroen#Nemo 1,3, HD#2015-2018#430#",//--Citroen--803
-"Citroen#Space Tourer#2016-2022#450#",//--Citroen--807
-"Citroen#Space Tourer 2.0 HDI(DUAL ZONE)#2016-2022#775#",//--Citroen--811
-"Citroen#Space Tourer very hot climates#2016-2022#650#",//--Citroen--815
-"Citroen#Space Tourer (DUAL ZONE)#2016-2022#900#",//--Citroen--819
+"Citroen#Space Tourer#2016-2024#450#",//--Citroen--807
+"Citroen#Space Tourer 2.0 HDI(DUAL ZONE)#2016-2024#775#",//--Citroen--811
+"Citroen#Space Tourer very hot climates#2016-2024#650#",//--Citroen--815
+"Citroen#Space Tourer (DUAL ZONE)#2016-2024#900#",//--Citroen--819
+"Citroen#Jumper/RelayIII Minibus#2006-2024#935#",//--Citroen--775
 "Citroen#C-Zero Electric 47kw(64hp)#2010-2015#325#",//--Citroen--823
 "Citroen#C-Zero Electric 49kw(67hp)#2013-2020#280#",//--Citroen--827
 "Citroen#DS5 Hiybrid#2012-2015#450#",//--Citroen--831
-"Citroen#e-Berlingo Hybrid R134a#2017-2022#525#",//--Citroen--835
-"Citroen#e-Mehari 50kw#2016-2020#350#",//--Citroen--839
-"Cupra#Ateca#2020-2022#460#",//--841-867Cupra--843
-"Cupra#Formentor 1.4 eHybrid R1234yf#2021-2022#460#",//--Cupra--847
-"Cupra#Formentor 1.5 TSI#2021-2022#460#",//--Cupra--851
-"Cupra#Leon#2021-2022#460#",//--Cupra--855
-"Cupra#Formentor 1.4 eHybrid R1234yf#2021-2022#460#",//--Cupra--859
-"Cupra#Leon  eHybrid R1234yf#2021-2022#460#",//--Cupra--863
-"Cupra#Leon  eHybrid R134a#2021-2022#500#",//--Cupra--867
+"Cupra#Ateca#2020-2024#460#",//--841-867Cupra--843
+"Cupra#Born R1234yf & R744#2021-2024#0#",//--841-867Cupra--843
+"Cupra#Formentor 1.4 eHybrid R1234yf#2021-2024#460#",//--Cupra--847
+"Cupra#Formentor 1.5 TSI#2021-2024#460#",//--Cupra--851
+"Cupra#Leon#2021-2024#460#",//--Cupra--855
+"Cupra#Formentor 1.4 eHybrid R1234yf#2021-2024#460#",//--Cupra--859
+"Cupra#Leon  eHybrid R1234yf#2021-2024#460#",//--Cupra--863
+"Cupra#Leon  eHybrid R134a#2021-2024#500#",//--Cupra--867
 "Dacia#Dokker motor#2015-2019#440#",//--869-895Dacia--871
-"Dacia#Duster#2015-2022#450#",//--Dacia--875
+"Dacia#Duster#2015-2024#450#",//--Dacia--875
 "Dacia#Symbol II#2016-2018#450#",//--Dacia--879
 "Dacia#Logan 1.0 SCe75 Standard(N1)#2016-2020#400#",//--Dacia--883
 "Dacia#Logan 1.0 SCe75 (N2)#2016-2020#450#",//--Dacia--887
-"Dacia#Sandero#2015-2022#450#",//--Dacia--891
+"Dacia#Logan #2021-2024#450#",//--Dacia--887
+"Dacia#Sandero#2015-2024#450#",//--Dacia--891
 "Dacia#Sandero 1.0#2015-2022#400#",//--Dacia--895
+"Dacia#Spring 33kw Electric#2021-2024#350#",//--Dacia--895
+"Dacia#Jogger#2021-2024#450#",//--Dacia--891
 //"Daewoo###0#",//--897-899Daewoo--899
 //"Daihatsu###0#",//--901-903Daihatsu--903
 //"Dodge###0#",//--905-907Dodge--907
-"Ds#Ds- 3 / Crossback#2015-2022#450#",//--909-955Ds--911
+"Ds#Ds- 3 / Crossback#2015-2024#450#",//--909-955Ds--911
 "Ds#Ds- 3 II#2015-2018#450#",//--Ds--915
+"Ds#Ds- Ds- 3 / Crossback 100 kw Hybrid#2019-2024#875#",//--Ds--915
+"Ds#Ds- Ds- 3 / Crossback 12mm Condenser#2015-2024#360#",//--Ds--915
 "Ds#Ds- 4#2015-2018#475#",//--Ds--919
 "Ds#Ds- 4 Crossback#2015-2018#475#",//--Ds--923
 "Ds#Ds- 4 II#2015-2018#475#",//--Ds--927
+"Ds#Ds- 4 III 19,3dm2 Condenser#2021-2024#440#",//--Ds--927
+"Ds#Ds- 4 III 23dm2 Condenser#2021-2024#525#",//--Ds--927
+"Ds#Ds- 4 III 28dm2 Condenser#2021-2024#550#",//--Ds--927
+"Ds#Ds- 4 III 1.6 E-Tense 23dm2 Condenser#2021-2024#575#",//--Ds--927
+"Ds#Ds- 4 III 1.6 E-Tense 23,5dm2 Condenser#2021-2024#625#",//--Ds--927
 "Ds#Ds- 5#2015-2019#475#",//--Ds--931
 "Ds#Ds- 5 Hybrid#2015-2018#475#",//--Ds--935
 "Ds#Ds- 7#2015-2022#450#",//--Ds--939
 "Ds#Ds- 7 19mm Condanser#2018-2022#435#",//--Ds--943
 "Ds#Ds- 7 23mm Condanser#2018-2022#590#",//--Ds--947
 "Ds#Ds- 7 28mm Condanser#2018-2022#600#",//--Ds--951
-"Ds#Ds- 5 Hybrid#2015-2018#475#",//--Ds--955
+"Ds#Ds- 7 2800cmX16mm Condenser#2018-2022#575#",//--Ds--927
+"Ds#Ds- 7 1.6 E-Tense 2300cmX16mm Condenser Low Power#2018-2024#575#",//--Ds--927
+"Ds#Ds- 7 1.6 E-Tense 2300cmX16mm Condenser #2018-2024#625#",//--Ds--927
 "Fiat#124 Spider#2016-2019#360#",//--957-1007Fiat--959
-"Fiat#500C#2010-2022#400#",//--Fiat--963
-"Fiat#500L#2018-2022#420#",//--Fiat--967
-"Fiat#500X#2014-2022#450#",//--Fiat--971
+"Fiat#500C#2010-2024#400#",//--Fiat--963
+"Fiat#500e Electric#2020-2024#500#",//--Fiat--971
+"Fiat#500L#2018-2024#420#",//--Fiat--967
+"Fiat#500X#2014-2024#450#",//--Fiat--971
+"Fiat#500X 1.0#2016-2024#400#",//--Fiat--971
+"Fiat#500X 1.5 Hybrid #2018-2024#395#",//--Fiat--971
 "Fiat#Doblo#2015-2022#430#",//--Fiat--975
+"Fiat#Doblo 19dm2X12mm Condenser#2022-2024#440#",//--Fiat--975
+"Fiat#Doblo 23dm2X16mm Condenser#2022-2024#565#",//--Fiat--975
+"Fiat#e-Doblo #2022-2024#575#",//--Fiat--975
+"Fiat#e-Ducato #2020-2024#535#",//--Fiat--975
 "Fiat#Ducato#2016-2020#535#",//--Fiat--979
 "Fiat#Ducato with rear a/c#2016-2020#935#",//--Fiat--983
-"Fiat#Egea#2016-2022#420#",//--Fiat--987
+"Fiat#Egea#2016-2024#420#",//--Fiat--987
 "Fiat#Fiorino#2015-2020#430#",//--Fiat--991
+"Fiat#Panda#2012-2024#400#",//--Fiat--995
 "Fiat#Qubo#2010-2020#430#",//--Fiat--995
+"Fiat#e Scudo 1930cm2 Condenser#2022-2024#525#",//--Fiat--995
+"Fiat#e Scudo 2350cm2 Condenser#2022-2024#850#",//--Fiat--995
+"Fiat#Scudo 1900cm2 X12mm Condenser#2022-2024#440#",//--Fiat--995
+"Fiat#Scudo 2300cm2 X12mm Condenser#2022-2024#575#",//--Fiat--995
+"Fiat#e Ulysse 1930cm2 Condenser#2022-2024#525#",//--Fiat--995
+"Fiat#e Ulysse 2350cm2 Condenser#2022-2024#850#",//--Fiat--995
+"Fiat#Ulysse 1900cm2X 12mm Condenser#2022-2024#440#",//--Fiat--995
+"Fiat#Ulysse 1900cm2X 12mm Condenser Dual Zone a/c#2022-2024#710#",//--Fiat--995
+"Fiat#Ulysse 2300cm2X 16mm Condenser#2022-2024#575#",//--Fiat--995
+"Fiat#Ulysse 2300cm2X 16mm Condenser Dual Zone a/c#2022-2024#890#",//--Fiat--995
 "Fiat#Talento#2016-2019#590#",//--Fiat--999
 "Fiat#Talento with rear a/c#2016-2019#880#",//--Fiat--1003
-"Fiat#Tipo New#2015-2022#420#",//--Fiat--1007
+"Fiat#Tipo New#2015-2024#420#",//--Fiat--1007
 "Ford#B-Max 1.0 EcoBoost/1.6TDCi#2016-2018#600#",//--1009-1283Ford--1011
 "Ford#B-Max 1.5TDCi#2016-2018#550#",//--Ford--1015
 "Ford#B-Max 1.4i/1.6Ti (Sigma)#2016-2018#600#",//--Ford--1019
@@ -3068,10 +3281,12 @@ const char* const model_1234yf[] PROGMEM = {
 "Ford#Ecosport / Escape#2016-2018#625#",//--Ford--1043
 "Ford#Ecosport / Escape#2018-2022#475#",//--Ford--1047
 "Ford#Ecosport 1.0 EcoBoost#2016-2018#630#",//--Ford--1051
+"Ford#Ecosport 1.0 EcoBoost#2019-2024#525#",//--Ford--1051
+"Ford#Explorer #2019-2024#1000#",//--Ford--1051
 "Ford#Fiesta  1.6D TDCi kond 12mm (f)#2016-2022#450#",//--Ford--1055
 "Ford#Fiesta  1.0 L Ecoboost Otomatik#2017-2022#650#",//--Ford--1059
 "Ford#Fiesta  1.0 L Ecoboost#2017-2019#520#",//--Ford--1063
-"Ford#Fiesta  1.5 ST Ecoboost#2018-2022#550#",//--Ford--1067
+"Ford#Fiesta  1.5 ST Ecoboost#2018-2024#550#",//--Ford--1067
 "Ford#Fiesta  1.1 L Duratech TiVCT#2019-2022#500#",//--Ford--1071
 "Ford#Fiesta  1.1 L Duratorq 1,5 TDCI#2017-2022#490#",//--Ford--1075
 "Ford#Fiesta VI1.25i/1.4i/1.6Ti kond 12mm#2016-2022#390#",//--Ford--1079
@@ -3087,40 +3302,49 @@ const char* const model_1234yf[] PROGMEM = {
 "Ford#Focus III 1.5L/1.6L/ 2.0#2016-2018#600#",//--Ford--1119
 "Ford#Focus III 2.0 TDCI#2016-2018#625#",//--Ford--1123
 "Ford#Focus RS Electric#2016-2022#600#",//--Ford--1127
-"Ford#Focus#2018-2022#480#",//--Ford--1131
-"Ford#Focus 2.3 ST#2019-2022#500#",//--Ford--1135
+"Ford#Focus#2018-2024#480#",//--Ford--1131
+"Ford#Focus 2.3 ST#2019-2024#500#",//--Ford--1135
 "Ford#Galaxy#2018-2022#525#",//--Ford--1139
 "Ford#Galaxy  with rearA/C#2018-2022#740#",//--Ford--1143
+"Ford#Grand Tourneo Connect#2020-2024#530#",//--Ford--1139
+"Ford#Grand Tourneo Connect with rear A/C#2020-2024#800#",//--Ford--1139
 "Ford#KA  1.2L Sigma Ti-VCT#2016-2020#590#",//--Ford--1147
-"Ford#Kuga           1.5 Benzin#2016-2022#480#",//--Ford--1151
-"Ford#Kuga           1.5 Dizel#2016-2022#480#",//--Ford--1155
+"Ford#Kuga           1.5 Benzin#2016-2024#480#",//--Ford--1151
+"Ford#Kuga           1.5 Dizel#2016-2024#480#",//--Ford--1155
 "Ford#Kuga           2.0 Dizel#2016-2020#600#",//--Ford--1159
-"Ford#Mondeo#2015-2022#570#",//--Ford--1163
-"Ford#Mustang 2.3L EcoBoost/5.0L 32V Ti-VCT#2014-2022#600#",//--Ford--1167
+"Ford#Mondeo#2015-2024#570#",//--Ford--1163
+"Ford#Mustang 2.3L EcoBoost/5.0L 32V Ti-VCT#2014-2024#600#",//--Ford--1167
+"Ford#Mustang 2.3L EcoBoost/5.0L 32V Ti-VCT Left Hand Drive#2014-2024#540#",//--Ford--1167
+"Ford#Mustang Mach-E Electric#2020-2024#590#",//--Ford--1167
 "Ford#S-Max 2.0L Duratorq TDCI#2016-2022#570#",//--Ford--1171
 "Ford#S-Max 2.0L Duratorq TDCI with rearA/C#2016-2022#910#",//--Ford--1175
 "Ford#S-Max 1.5L/2.0L Ecoboost#2016-2022#570#",//--Ford--1179
 "Ford#S-Max (1.5L/2,0L) with rear A/C#2016-2022#965#",//--Ford--1183
 "Ford#S-Max#2018-2022#570#",//--Ford--1187
 "Ford#S-Max with rear A/C#2018-2022#965#",//--Ford--1191
-"Ford#Transit/Tourneo COURIER 1,0L/1,5LTDCI#2016-2022#575#",//--Ford--1195
+"Ford#S-Max 2.5 PHEV#2021-2024#450#",//--Ford--1187
+"Ford#Transit/Tourneo COURIER 1,0L/1,5LTDCI#2016-2024#575#",//--Ford--1195
 "Ford#Transit/Tourneo COURIER 1,6L TDCI#2016-2018#670#",//--Ford--1199
+"Ford#Transit/Tourneo Connect EcoBoost/ EcoBlue#2022-2024#460#",//--Ford--1203
 "Ford#Transit/Tourneo Connect Van#2016-2022#525#",//--Ford--1203
 "Ford#Transit/Tourneo Connect1,6L/2,5L TDCI#2016-2018#570#",//--Ford--1207
 "Ford#Transit/Tourneo Connect with rear A/C#2016-2022#800#",//--Ford--1211
 "Ford#Transit/Tourneo1,6L Eco/2,5L with A/C#2016-2018#675#",//--Ford--1215
-"Ford#Transit Custom#2012-2022#740#",//--Ford--1219
-"Ford#Transit Custom Bus with rear A/C#2012-2022#1050#",//--Ford--1223
-"Ford#Transit Custom Van with rear A/C#2012-2022#1150#",//--Ford--1227
-"Ford#Puma   1,0 Eco-Boost#2019-2022#500#",//--Ford--1231
-"Ford#Puma   Duratorq TDCI#2019-2022#460#",//--Ford--1235
+"Ford#Transit Custom#2012-2024#740#",//--Ford--1219
+"Ford#Transit Custom 2.0L EcoBlue#2022-2024#530#",//--Ford--1219
+"Ford#Transit Custom 2.0L EcoBlue with rear A/C#2022-2024#790#",//--Ford--1219
+"Ford#Transit Custom Bus with rear A/C#2012-2024#1050#",//--Ford--1223
+"Ford#Transit Custom Van with rear A/C#2012-2024#1150#",//--Ford--1227
+"Ford#Puma   1,0 Eco-Boost#2019-2024#500#",//--Ford--1231
+"Ford#Puma   Duratorq TDCI#2019-2024#460#",//--Ford--1235
 "Ford#Ranger#2016-2022#565#",//--Ford--1239
 "Ford#Fiesta  1.0L Ecoboost Otomatik Hybrid#2020-2022#650#",//--Ford--1243
 "Ford#Fiesta  1.0L Ecoboost  Hybrid#2020-2022#500#",//--Ford--1247
+"Ford#Fiesta  1.0  Ecoboost Hybrid#2022-2023#520#",//--Ford--1247
 "Ford#Focus Electric(107kw)  1234YF#2014-2022#600#",//--Ford--1251
 "Ford#Focus Electric(107kw)  R134A#2014-2022#750#",//--Ford--1255
-"Ford#Kuga New(yeni) 2.0 Hybrid#2019-2022#480#",//--Ford--1259
-"Ford#Kuga New(yeni) 2.5 Hybrid#2019-2022#550#",//--Ford--1263
+"Ford#Kuga New(yeni) 2.0 Hybrid#2019-2024#480#",//--Ford--1259
+"Ford#Kuga New(yeni) 2.5 Hybrid#2019-2024#550#",//--Ford--1263
 "Ford#Transit Custom#2012-2022#740#",//--Ford--1267
 "Ford#Transit Custom Bus with rear A/C#2012-2022#1050#",//--Ford--1271
 "Ford#Transit Custom Van with rear A/C#2012-2022#1150#",//--Ford--1275
@@ -3132,121 +3356,149 @@ const char* const model_1234yf[] PROGMEM = {
 "Honda#Clarity Fuel Cell  Hybrid#2017-2018#445#",//--Honda--1299
 "Honda#Civic#2017-2022#400#",//--Honda--1303
 "Honda#Civic RHD#2017-2022#430#",//--Honda--1307
+"Honda#Civic e-HEV /Type R RHD#2022-2024#470#",//--Honda--1307
+"Honda#Civic e-HEV /Type R LHD#2022-2024#460#",//--Honda--1307
 "Honda#CRV#2015-2018#440#",//--Honda--1311
 "Honda#CRV#2018-2022#460#",//--Honda--1315
 "Honda#CRV LHD#2015-2018#410#",//--Honda--1319
-"Honda#CRV 2.0 e-HEV#2019-2022#440#",//--Honda--1323
-"Honda#HR-V#2015-2022#420#",//--Honda--1327
+"Honda#CRV 2.0 e-HEV#2019-2024#440#",//--Honda--1323
+"Honda#HR-V#2015-2024#420#",//--Honda--1327
 "Honda#Jazz / FIT#2015-2020#400#",//--Honda--1331
-"Honda#Jazz 1.5 e-HEV#2020-2022#420#",//--Honda--1335
+"Honda#Jazz 1.5 e-HEV#2020-2024#420#",//--Honda--1335
 "Honda#Accord Hybrid#2017-2018#430#",//--Honda--1339
 "Honda#Clarity Fuel Cell  Hybrid#2017-2020#445#",//--Honda--1343
 "Honda#CRV 2.0 e-HEV#2019-2022#440#",//--Honda--1347
 "Honda#CR-Z 1.5 Hybrid IMA#2010-2015#475#",//--Honda--1351
 "Honda#Jazz 1.5 e-HEV#2020-2022#420#",//--Honda--1355
 "Hyundai#Accent#2017-2019#445#",//--1357-1483Hyundai--1359
-"Hyundai#Bayon#2020-2022#470#",//--Hyundai--1363
+"Hyundai#Bayon#2020-2024#470#",//--Hyundai--1363
 "Hyundai#Elantra#2016-2022#500#",//--Hyundai--1367
 "Hyundai#i10#2015-2020#400#",//--Hyundai--1371
-"Hyundai#i10#2020-2022#430#",//--Hyundai--1375
+"Hyundai#i10#2020-2024#430#",//--Hyundai--1375
 "Hyundai#i20#2015-2020#470#",//--Hyundai--1379
-"Hyundai#i20#2020-2022#430#",//--Hyundai--1383
-"Hyundai#i30#2008-2022#500#",//--Hyundai--1387
+"Hyundai#i20#2020-2024#430#",//--Hyundai--1383
+"Hyundai#i30#2008-2024#500#",//--Hyundai--1387
 "Hyundai#ix35 Fuel cell 100kw#2013-2018#550#",//--Hyundai--1391
 "Hyundai#i40#2011-2020#500#",//--Hyundai--1395
-"Hyundai#IONIQ electric (poe oil)#2016-2022#550#",//--Hyundai--1399
+"Hyundai#IONIQ electric (poe oil)#2016-2024#550#",//--Hyundai--1399
 "Hyundai#IONIQ models with heat pump#2016-2019#1100#",//--Hyundai--1403
-"Hyundai#IONIQ models with heat pump#2019-2022#1000#",//--Hyundai--1407
-"Hyundai#IONIQ 1,6 GDI Hybrid (poe oil)#2016-2022#600#",//--Hyundai--1411
+"Hyundai#IONIQ models with heat pump#2019-2024#1000#",//--Hyundai--1407
+"Hyundai#IONIQ 1,6 GDI Hybrid (poe oil)#2016-2024#600#",//--Hyundai--1411
 "Hyundai#Kona#2017-2020#450#",//--Hyundai--1415
-"Hyundai#Kona#2020-2022#500#",//--Hyundai--1419
+"Hyundai#Kona Electric#2018-2020#450#",//--Hyundai--1467
+"Hyundai#Kona#2021-2022#500#",//--Hyundai--1483
+"Hyundai#Kona 1.6 GDi Hybrid#2020-2024#500#",//--Hyundai--1419
+"Hyundai#Kona EM16 100kw/150kw#2018-2024#550#",//--Hyundai--1483
+"Hyundai#Kona EM16 100kw/150kw inner Condenser#2018-2024#650#",//--Hyundai--1483
+"Hyundai#Kona EM16 100kw/150kw with heat pump#2018-2024#1000#",//--Hyundai--1483
+"Hyundai#Kona 2.0 T-GDi N  Hybrid#2020-2024#500#",//--Hyundai--1419
 "Hyundai#Santa Fe#2015-2018#550#",//--Hyundai--1423
 "Hyundai#Santa Fe with rear a/c#2015-2018#750#",//--Hyundai--1427
 "Hyundai#Santa Fe (CM)#2018-2020#625#",//--Hyundai--1431
 "Hyundai#Santa Fe (CM) with rear a/c#2018-2020#800#",//--Hyundai--1435
+"Hyundai#Santa Fe 1.6 T-GDi#2020-2024#650#",//--Hyundai--1423
+"Hyundai#Santa Fe 1.6 T-GDi with rear A/C#2020-2024#875#",//--Hyundai--1423
+"Hyundai#Santa Fe 2.2CRDi#2021-2024#625#",//--Hyundai--1423
+"Hyundai#Santa Fe 2.2CRDi with rear a/c#2021-2024#800#",//--Hyundai--1423
+"Hyundai#Santa Fe 3.5#2021-2024#625#",//--Hyundai--1423
+"Hyundai#Santa Fe 3.5 with rear a/c#2021-2024#800#",//--Hyundai--1423
+"Hyundai#Staria 2.2D#2021-2024#600#",//--Hyundai--1423
+"Hyundai#Staria 2.2D with rear a/c#2021-2024#1000#",//--Hyundai--1423
 "Hyundai#Tuscon#2015-2018#600#",//--Hyundai--1439
 "Hyundai#Tuscon#2019-2022#550#",//--Hyundai--1443
-"Hyundai#Tuscon  1.6 T-GDI Hybrid#2021-2022#650#",//--Hyundai--1447
+"Hyundai#Tuscon 2.0 CRDI Hybrid#2011-2022#600#",//--Hyundai--1471
+"Hyundai#Tuscon  CRDI Hybrid#2020-2024#550#",//--Hyundai--1475
+"Hyundai#Tuscon  1.6 T-GDI Hybrid#2021-2024#650#",//--Hyundai--1479
 "Hyundai#IONIQ electric (poe oil)#2016-2022#550#",//--Hyundai--1451
 "Hyundai#IONIQ models with heat pump#2016-2019#1100#",//--Hyundai--1455
 "Hyundai#IONIQ models with heat pump#2019-2022#1000#",//--Hyundai--1459
 "Hyundai#IONIQ 1,6 GDI Hybrid (poe oil)#2016-2022#600#",//--Hyundai--1463
-"Hyundai#Kona Electric#2018-2020#450#",//--Hyundai--1467
-"Hyundai#Tuscon 2.0 CRDI Hybrid#2011-2022#600#",//--Hyundai--1471
-"Hyundai#Tuscon  CRDI Hybrid#2020-2022#550#",//--Hyundai--1475
-"Hyundai#Tuscon  1.6 T-GDI Hybrid#2021-2022#650#",//--Hyundai--1479
-"Hyundai#Kona#2021-2022#500#",//--Hyundai--1483
+"Hyundai#IONIQ 5 electric With heat pump (poe oil)#2021-2024#900#",//--Hyundai--1463
+"Hyundai#IONIQ 5 electric  (poe oil)#2021-2024#700#",//--Hyundai--1459
+"Hyundai#IONIQ 6 electric  (poe oil)#2023-2024#700#",//--Hyundai--1459
+"Hyundai#IONIQ 6 electric  With heat pump (poe oil)#2023-2024#900#",//--Hyundai--1459
 //"Ikco###0#",//--1485-1487Ikco--1487
 "Infiniti#Q30#2016-2020#650#",//--1489-1491Infiniti--1491
-//"Isuzu###0#",//--1493-1495Isuzu--1495
-//"Iveco###0#",//--1497-1499Iveco--1499
-"Jaguar#E-Pace#2017-2022#650#",//--1501-1539Jaguar--1503
-"Jaguar#F-Pace#2016-2020#550#",//--Jaguar--1507
+//"Isuzu#D-Max 1.9D#2021-2024#530#",//--1493-1495Isuzu--1495
+//"Iveco#Daily 80kw#2018-2024#475#",//--1497-1499Iveco--1499
+"Jaguar#E-Pace#2017-2024#650#",//--1501-1539Jaguar--1503
+"Jaguar#F-Pace#2016-2024#550#",//--Jaguar--1507
+"Jaguar#F-Pace 3.0 - 5.0 Hybrid#2018-2024#600#",//--Jaguar--1507
 "Jaguar#F-Type Coupe#2014-2020#600#",//--Jaguar--1511
-"Jaguar#I-Pace Electric#2018-2022#850#",//--Jaguar--1515
+"Jaguar#I-Pace Electric#2018-2024#850#",//--Jaguar--1515
 "Jaguar#XE#2015-2020#550#",//--Jaguar--1519
 "Jaguar#XF#2017-2020#550#",//--Jaguar--1523
 "Jaguar#XJ (X351)#2010-2020#700#",//--Jaguar--1527
 "Jaguar#XJR#2013-2020#700#",//--Jaguar--1531
-"Jaguar#E-Pace#2020-2022#650#",//--Jaguar--1535
-"Jaguar#I-Pace Electric#2018-2022#850#",//--Jaguar--1539
 "Jeep#Cherokee#2014-2018#510#",//--1541-1571Jeep--1543
 "Jeep#Grand Cherokee#2012-2022#570#",//--Jeep--1547
 "Jeep#Compass#2017-2022#480#",//--Jeep--1551
-"Jeep#Compass Hybrid#2020-2022#500#",//--Jeep--1555
+"Jeep#Compass Hybrid#2020-2024#500#",//--Jeep--1555
 "Jeep#Wrangler#2016-2018#510#",//--Jeep--1559
-"Jeep#Wrangler#2018-2022#480#",//--Jeep--1563
+"Jeep#Wrangler#2018-2024#480#",//--Jeep--1563
 "Jeep#Renegade#2018-2020#450#",//--Jeep--1567
 "Jeep#Compass#2020-2022#500#",//--Jeep--1571
 "Kia#Cadenza#2017-2018#550#",//--1573-1735Kia--1575
 "Kia#Carens II#2014-2019#550#",//--Kia--1579
 "Kia#Grand Carnival - Sedona#2016-2018#1100#",//--Kia--1583
-"Kia#Ceed/Pro-Ceed#2016-2022#500#",//--Kia--1587
-"Kia#Cerato dizel/Benzin#2016-2022#500#",//--Kia--1591
+"Kia#Ceed/Pro-Ceed#2016-2024#500#",//--Kia--1587
+"Kia#Cerato dizel/Benzin#2016-2024#500#",//--Kia--1591
 "Kia#K900#2017-2018#650#",//--Kia--1595
 "Kia#Niro  Hybrid#2016-2020#550#",//--Kia--1599
 "Kia#e-Niro  Electric#2019-2022#650#",//--Kia--1603
 "Kia#e-Niro  Electric with heat pump#2019-2022#1000#",//--Kia--1607
-"Kia#e-Soul  Electric#2019-2022#600#",//--Kia--1611
+"Kia#e-Soul  Electric#2019-2024#600#",//--Kia--1611
 "Kia#Optima#2015-2018#470#",//--Kia--1615
 "Kia#Optima 2,0 Hybrid#2016-2019#650#",//--Kia--1619
 "Kia#Picanto#2016-2020#370#",//--Kia--1623
-"Kia#Picanto#2020-2022#400#",//--Kia--1627
-"Kia#Pro-Ceed#2016-2022#500#",//--Kia--1631
-"Kia#Rio#2017-2022#450#",//--Kia--1635
-"Kia#Seltos#2020-2022#450#",//--Kia--1639
-"Kia#Sportage#2017-2022#600#",//--Kia--1643
-"Kia#Stinger#2017-2022#570#",//--Kia--1647
-"Kia#Stonic#2017-2020#450#",//--Kia--1651
+"Kia#Picanto#2020-2024#400#",//--Kia--1627
+"Kia#Pro-Ceed#2016-2024#500#",//--Kia--1631
+"Kia#Rio#2017-2024#450#",//--Kia--1635
+"Kia#Seltos#2020-2024#450#",//--Kia--1639
+"Kia#Sportage#2017-2024#600#",//--Kia--1643
+"Kia#Stinger#2017-2024#570#",//--Kia--1647
+"Kia#Stonic#2017-2024#450#",//--Kia--1651
 "Kia#Sorento (UM)#2015-2020#650#",//--Kia--1655
 "Kia#Sorento (UM) with rear a/c#2015-2020#800#",//--Kia--1659
-"Kia#Sorento#2020-2022#575#",//--Kia--1663
-"Kia#Sorento with rear a/c#2020-2022#800#",//--Kia--1667
-"Kia#Sorento Hybrid#2020-2022#650#",//--Kia--1671
-"Kia#Sorento Hybrid with rear a/c#2020-2022#900#",//--Kia--1675
+"Kia#Sorento#2020-2024#575#",//--Kia--1663
+"Kia#Sorento with rear a/c#2020-2024#800#",//--Kia--1667
+"Kia#Sorento Hybrid#2020-2024#650#",//--Kia--1671
+"Kia#Sorento Hybrid with rear a/c#2020-202-4#900#",//--Kia--1675
 "Kia#Soul / 0 EV Hybrid#2015-2018#550#",//--Kia--1679
-"Kia#Soul#2019-2022#450#",//--Kia--1683
-"Kia#XCeed#2019-2022#500#",//--Kia--1687
-"Kia#Ceed#2020-2022#500#",//--Kia--1691
+"Kia#Soul#2019-2024#450#",//--Kia--1683
+"Kia#XCeed#2019-2024#500#",//--Kia--1687
+"Kia#Ceed#2020-2024#500#",//--Kia--1691
 "Kia#e-Niro  Electric#2020-2022#650#",//--Kia--1695
 "Kia#e-Niro  Electric with heat pump#2020-2022#1000#",//--Kia--1699
-"Kia#e-Soul  Electric#2019-2022#600#",//--Kia--1703
+"Kia#e-Soul  Electric#2019-2024#600#",//--Kia--1703
+"Kia#e-Soul  Electric with rear a/c#2019-2024#650#",//--Kia--1703
+"Kia#EV6 Electric#2021-2024#750#",//--Kia--1703
+"Kia#EV6 Electric with heat pump#2021-2024#850#",//--Kia--1703
 "Kia#Niro  Hybrid#2016-2020#550#",//--Kia--1707
+"Kia#Niro 0BEV 150kw#2022-2024#750#",//--Kia--1707
+"Kia#Niro 0BEV 150kw with heat pump#2022-2024#850#",//--Kia--1707
+"Kia#Niro 1.6 GDI HEV Hybrid#2022-2024#450#",//--Kia--1707
+"Kia#Niro 1.6 GDI PHEV Hybrid#2022-2024#480#",//--Kia--1707
 "Kia#Optima 2,0 Hybrid#2016-2019#650#",//--Kia--1711
-"Kia#Pro-Ceed Hybrid#2020-2022#500#",//--Kia--1715
-"Kia#Rio#2020-2022#450#",//--Kia--1719
-"Kia#Sorento Hybrid#2020-2022#650#",//--Kia--1723
-"Kia#Sorento with rear a/c#2020-2022#900#",//--Kia--1727
-"Kia#Sportage#2019-2022#600#",//--Kia--1731
-"Kia#XCeed#2020-2022#500#",//--Kia--1735
-"Lancia#Ypsilon#2015-2022#450#",//--1737-1739Lancia--1739
-"Land Rover#Defender#2019-2022#650#",//--1741-1887Land Rover--1743
-"Land Rover#Defender three zone a/c#2019-2022#1000#",//--Land Rover--1747
-"Land Rover#Discovery#2017-2022#800#",//--Land Rover--1751
+"Kia#Pro-Ceed Hybrid#2020-2024#500#",//--Kia--1715
+"Kia#Rio#2020-2024#450#",//--Kia--1719
+"Kia#Sorento Hybrid#2020-2024#650#",//--Kia--1723
+"Kia#Sorento with rear a/c#2020-2024#900#",//--Kia--1727
+"Kia#Sorento 1.6 T-GDI Hybrid#2021-2024#575#",//--Kia--1723
+"Kia#Sorento 1.6 T-GDI Hybrid with rear a/c#2021-2024#800#",//--Kia--1723
+"Kia#Sportage#2019-2024#600#",//--Kia--1731
+"Kia#Sportage 1.6 T-GDI HEV 2.0#2021-2024#550#",//--Kia--1731
+"Kia#Sportage 1.6 T-GDI PHEV#2021-2024#650#",//--Kia--1731
+"Kia#XCeed#2020-2024#500#",//--Kia--1735
+"Lancia#Ypsilon#2015-2024#450#",//--1737-1739Lancia--1739
+"Lancia#Ypsilon 1.0 Hybrid#2020-2024#400#",//--1737-1739Lancia--1739
+"Land Rover#Defender#2019-2024#650#",//--1741-1887Land Rover--1743
+"Land Rover#Defender three zone a/c#2019-2024#1000#",//--Land Rover--1747
+"Land Rover#Discovery#2017-2024#800#",//--Land Rover--1751
 "Land Rover#Discovery SPORT#2017-2020#650#",//--Land Rover--1755
-"Land Rover#Discovery Four zone#2017-2022#1150#",//--Land Rover--1759
-"Land Rover#Discovery SPORT#2020-2022#525#",//--Land Rover--1763
-"Land Rover#Discovery SPORT with rear a/c#2020-2022#725#",//--Land Rover--1767
+"Land Rover#Discovery Four zone#2017-2024#1150#",//--Land Rover--1759
+"Land Rover#Discovery SPORT#2020-2024#525#",//--Land Rover--1763
+"Land Rover#Discovery SPORT with rear a/c#2020-2024#725#",//--Land Rover--1767
 "Land Rover#Range Rov 2.0/3.0/4.4SDV8/SDV6/TDV6#2017-2020#800#",//--Land Rover--1771
 "Land Rover#Range Rov2.0/3.0/4.4SDV8/SDV6/TDV6 four-zone#2017-2020#1150#",//--Land Rover--1775
 "Land Rover#Range Rover 2.0 P400e#2020-2022#950#",//--Land Rover--1779
@@ -3254,13 +3506,13 @@ const char* const model_1234yf[] PROGMEM = {
 "Land Rover#Range Rover 3.0/5.0#2019-2022#800#",//--Land Rover--1787
 "Land Rover#Range Rover 3.0/5.0  four-zone#2019-2022#1000#",//--Land Rover--1791
 "Land Rover#Range Rover Evoque#2017-2020#650#",//--Land Rover--1795
-"Land Rover#Range Rover Evoque#2020-2022#525#",//--Land Rover--1799
+"Land Rover#Range Rover Evoque#2020-2024#525#",//--Land Rover--1799
 "Land Rover#Range Rover Sport#2020-2022#650#",//--Land Rover--1803
 "Land Rover#Range Rover Sport (Four Zone)#2020-2022#1000#",//--Land Rover--1807
 "Land Rover#Range Rover Sport Hybrid#2014-2018#800#",//--Land Rover--1811
 "Land Rover#Range Rover Sport Hybrid(Four Zone)#2014-2018#1150#",//--Land Rover--1815
 "Land Rover#Range Rover Sport 4.4(Four Zone)#2014-2020#1100#",//--Land Rover--1819
-"Land Rover#Range Rover Velar#2017-2022#550#",//--Land Rover--1823
+"Land Rover#Range Rover Velar#2017-2024#550#",//--Land Rover--1823
 "Land Rover#Defender#2020-2022#650#",//--Land Rover--1827
 "Land Rover#Defender three zone a/c#2020-2022#1000#",//--Land Rover--1831
 "Land Rover#Discovery#2020-2022#800#",//--Land Rover--1835
@@ -3272,11 +3524,14 @@ const char* const model_1234yf[] PROGMEM = {
 "Land Rover#Range Rover 3.0#2019-2022#800#",//--Land Rover--1859
 "Land Rover#Range Rover 3.0  four-zone#2019-2022#1000#",//--Land Rover--1863
 "Land Rover#Evoque 2,0D 150 MHEV#2019-2020#650#",//--Land Rover--1867
+"Land Rover#Evoque 1.5 P300 PHEV#2020-2024#575#",//--Land Rover--1867
 "Land Rover#Range Rover Evoque#2020-2022#525#",//--Land Rover--1871
 "Land Rover#Range Rover Sport 3.0#2015-2017#800#",//--Land Rover--1875
 "Land Rover#Range Rover Sport 3.0(Four Zone)#2015-2017#1000#",//--Land Rover--1879
 "Land Rover#Range Rover Sport Hybrid#2014-2018#800#",//--Land Rover--1883
 "Land Rover#Range Rover Sport Hybrid(Four Zone)#2014-2018#1150#",//--Land Rover--1887
+"Land Rover#Range Rover #2022-2024#690#",//--Land Rover--1887
+"Land Rover#Range Rover (Four Zone) #2022-2024#950#",//--Land Rover--1887
 "LDV#V80 4,8 KW comp.#2015-2022#600#",//--1889-1911LDV--1891
 "LDV#V80 7,0 KW comp.#2015-2022#700#",//--LDV--1895
 "LDV#V80 Double compressor#2015-2022#600#",//--LDV--1899
@@ -3284,103 +3539,127 @@ const char* const model_1234yf[] PROGMEM = {
 "LDV#V80 with rear a/c LWB#2015-2022#1750#",//--LDV--1907
 "LDV#V80 Auxiliary condenser#2015-2022#2020#",//--LDV--1911
 "Lexus#CT 200h#2015-2022#470#",//--1913-2015Lexus--1915
-"Lexus#ES#2019-2022#610#",//--Lexus--1919
-"Lexus#ES 300h Hybrid#2019-2020#550#",//--Lexus--1923
+"Lexus#ES#2019-2024#610#",//--Lexus--1919
+"Lexus#ES 300h Hybrid#2019-2024#550#",//--Lexus--1923
 "Lexus#GS Hybrid (Komp.poe oil)#2015-2018#500#",//--Lexus--1927
 "Lexus#GS 5,0F#2015-2018#570#",//--Lexus--1931
 "Lexus#IS/RC Hybrid 2,5 300H(Komp.poe oil)#2013-2022#500#",//--Lexus--1935
 "Lexus#IS/RC Hybrid (Komp.poe oil)#2015-2018#570#",//--Lexus--1939
-"Lexus#LC#2017-2022#550#",//--Lexus--1943
+"Lexus#LC#2017-2024#550#",//--Lexus--1943
 "Lexus#LC with rear a/c#2017-2021#700#",//--Lexus--1947
 "Lexus#LS#2017-2018#550#",//--Lexus--1951
 "Lexus#LS with rear a/c#2017-2018#700#",//--Lexus--1955
-"Lexus#LS 3,4 500 4WD#2018-2022#650#",//--Lexus--1959
+"Lexus#LS 3,4 500 4WD#2018-2024#650#",//--Lexus--1959
 "Lexus#NX Hybrid (Komp.poe oil)#2014-2022#500#",//--Lexus--1963
+"Lexus#NX Hybrid (Komp.poe oil)#2022-2024#550#",//--Lexus--1963
 "Lexus#RC 300h#2015-2022#570#",//--Lexus--1967
 "Lexus#RX#2016-2022#520#",//--Lexus--1971
-"Lexus#UX#2019-2022#470#",//--Lexus--1975
+"Lexus#RX for R134a#2018-2022#500#",//--Lexus--2007
+"Lexus#RZ Hybrid#2022-2024#720#",//--Lexus--1971
+"Lexus#UX#2019-2024#470#",//--Lexus--1975
+"Lexus#UX 150kw Hybrid#2021-2024#550#",//--Lexus--1975
 "Lexus#CT 200h Hybrid#2010-2022#470#",//--Lexus--1979
 "Lexus#ES 300h Hybrid#2019-2020#550#",//--Lexus--1983
 "Lexus#IS/RC Hybrid 2,5 300H(Komp.poe oil)#2013-2022#500#",//--Lexus--1987
 "Lexus#LC#2017-2022#550#",//--Lexus--1991
 "Lexus#LS 3,4 500 4WD#2018-2022#650#",//--Lexus--1995
-"Lexus#NX Hybrid (Komp.poe oil)#2018-2022#500#",//--Lexus--1999
 "Lexus#RC 300h#2015-2022#570#",//--Lexus--2003
-"Lexus#RX for R134a#2018-2022#500#",//--Lexus--2007
-"Lexus#RX for R1234yf#2018-2022#520#",//--Lexus--2011
-"Lexus#UX#2019-2022#470#",//--Lexus--2015
 "Mahindra#XUV 500#2014-2018#",//--2017-2019Mahindra--2019
 "Mazda#2 Engine 1,5#2016-2020#385#",//--2021-2087Mazda--2023
 "Mazda#2 Engine 1,5D#2016-2022#360#",//--Mazda--2027
+"Mazda#2 DJ#2021-2024#385#",//--Mazda--2027
 "Mazda#3 Engine 1,5/2,0#2016-2018#500#",//--Mazda--2031
 "Mazda#3 Engine 1,5D/2,2#2016-2018#470#",//--Mazda--2035
 "Mazda#3 1,8D/2,0 MHEV#2019-2022#480#",//--Mazda--2039
+"Mazda#3 BP#2021-2024#490#",//--Mazda--2027
 "Mazda#6 Engine 2,0/2,5#2016-2022#500#",//--Mazda--2043
 "Mazda#6 Engine 2,2D#2016-2020#470#",//--Mazda--2047
+"Mazda#6 GL#2018-2023#500#",//--Mazda--2027
+"Mazda#6 GJ#2018-2023#500#",//--Mazda--2027
 "Mazda#CX 3 Engine 1,5D#2016-2022#385#",//--Mazda--2051
-"Mazda#CX 3 Engine 2,0#2016-2022#360#",//--Mazda--2055
-"Mazda#CX 5 Engine 2,0/2,5#2015-2022#500#",//--Mazda--2059
-"Mazda#CX 5 Engine 2,2D#2015-2022#470#",//--Mazda--2063
+"Mazda#CX 3 Engine 2,0#2016-2024#360#",//--Mazda--2055
+"Mazda#CX 5 Engine 2,0/2,5#2015-2024#500#",//--Mazda--2059
+"Mazda#CX 5 Engine 2,2D#2015-2024#470#",//--Mazda--2063
 "Mazda#CX 9#2017-2018#615#",//--Mazda--2067
 "Mazda#CX 30#2019-2022#480#",//--Mazda--2071
-"Mazda#MX 5#2016-2022#360#",//--Mazda--2075
+"Mazda#CX 60 2.5 PHEV for R1234yf#2022-2024#760#",//--Mazda--2071
+"Mazda#CX 60 2.5 PHEV for R134a#2022-2024#840#",//--Mazda--2071
+"Mazda#CX 60 3.3 MHEV for R134a#2022-2024#770#",//--Mazda--2071
+"Mazda#CX 60 3.3 MHEV for R1234yf#2022-2024#670#",//--Mazda--2071
+"Mazda#MX 5#2016-2024#360#",//--Mazda--2075
+"Mazda#MX 30 Electric#2021-2024#1210#",//--Mazda--2075
 "Mazda#3 1,8D/2,0 MHEV#2019-2022#480#",//--Mazda--2079
-"Mazda#CX 30 for R1234yf#2019-2022#480#",//--Mazda--2083
-"Mazda#CX 30 for R134a#2019-2022#490#",//--Mazda--2087
+"Mazda#CX 30 for R1234yf#2019-2024#480#",//--Mazda--2083
+"Mazda#CX 30 for R134a#2019-2024#490#",//--Mazda--2087
 "Mcc/Smart#Forfour Electric#2017-2018#430#",//--2089-2103Mcc/Smart--2091
 "Mcc/Smart#Forfour#2017-2019#475#",//--Mcc/Smart--2095
 "Mcc/Smart#Fortwo#2016-2019#475#",//--Mcc/Smart--2099
 "Mcc/Smart#Forfour Electric#2017-2018#430#",//--Mcc/Smart--2103
 "Mercedes#A-Class 2,0 A45 AMG 4Matic#2015-2020#630#",//--2105-2563Mercedes--2107
-"Mercedes#A-Class#2018-2020#530#",//--Mercedes--2111
-"Mercedes#A-Class 1.3 A250e#2018-2020#600#",//--Mercedes--2115
+"Mercedes#A-Class#2018-2024#530#",//--Mercedes--2111
+"Mercedes#A-Class 1.3 A250e#2018-2024#600#",//--Mercedes--2115
+"Mercedes#A-Class 2,0 A45 AMG 4Matic 285kw#2019-2024#960#",//--Mercedes--2115
+"Mercedes#A-Class 2,0 A45 AMG S 4Matic 310kw#2019-2024#1050#",//--Mercedes--2115
 "Mercedes#B-Class B250E / Electric Drive#2015-2018#680#",//--Mercedes--2119
 "Mercedes#B-Class#2018-2020#630#",//--Mercedes--2123
-"Mercedes#B-Class#2020-2022#530#",//--Mercedes--2127
+"Mercedes#B-Class#2020-2024#530#",//--Mercedes--2127
 "Mercedes#B-Class Hybrid#2020-2022#600#",//--Mercedes--2131
-"Mercedes#C-Class Cabriolet/Coupe#2014-2022#630#",//--Mercedes--2135
+"Mercedes#C-Class Cabriolet/Coupe#2014-2024#630#",//--Mercedes--2135
 "Mercedes#C-Class 2,0 C350E / C350 Hybrid#2015-2018#670#",//--Mercedes--2139
 "Mercedes#C-Class 1,5 C200 Hybrid#2019-2022#630#",//--Mercedes--2143
 "Mercedes#C-Class 2,1D C300 BlueTEC Hybrid#2014-2015#710#",//--Mercedes--2147
 "Mercedes#C-Class 2,1 C300 Hybrid#2015-2018#690#",//--Mercedes--2151
-"Mercedes#C-Class Cabriolet Coupe 4,0 C63 AMG#2015-2020#600#",//--Mercedes--2155
+"Mercedes#C-Class Cabriolet Coupe 4,0 C63 AMG#2015-2024#600#",//--Mercedes--2155
 "Mercedes#C-Class 1.5/2.0  EQ Boost Hybrid#2021-2022#570#",//--Mercedes--2159
-"Mercedes#Citan#2016-2022#450#",//--Mercedes--2163
+"Mercedes#C-Class#2022-2024#610#",//--Mercedes--2159
+"Mercedes#Citan#2016-2024#450#",//--Mercedes--2163
 "Mercedes#CLA Shooting Brake#2015-2020#630#",//--Mercedes--2167
-"Mercedes#CLA Coupe 2,0 45 AMG 4 Matic#2015-2022#630#",//--Mercedes--2171
-"Mercedes#CLS#2018-2022#630#",//--Mercedes--2175
-"Mercedes#CLS 3,0 AMG Hybrid#2018-2022#590#",//--Mercedes--2179
+"Mercedes#CLA Coupe 2,0 45 AMG 4 Matic#2015-2024#630#",//--Mercedes--2171
+"Mercedes#CLS#2018-2024#630#",//--Mercedes--2175
+"Mercedes#CLS 3,0 AMG Hybrid#2018-2024#590#",//--Mercedes--2179
 "Mercedes#E-Class  Coupe/Cabriolet#2017-2022#630#",//--Mercedes--2183
 "Mercedes#E-Class  E350d /E400d#2018-2020#630#",//--Mercedes--2187
-"Mercedes#E-Class  2,0 E350e Hybrid#2016-2022#670#",//--Mercedes--2191
-"Mercedes#E-Class  4,0 E63 AMG 4MATIC#2017-2020#550#",//--Mercedes--2195
-"Mercedes#E-Class  E220d All-Terrain#2017-2022#570#",//--Mercedes--2199
-"Mercedes#E-Class E450/E53 EQ Boost#2018-2022#590#",//--Mercedes--2203
-"Mercedes#E-Class 4.0 E63 AMG S#2018-2022#550#",//--Mercedes--2207
+"Mercedes#E-Class  2,0 E350e Hybrid#2016-2024#670#",//--Mercedes--2191
+"Mercedes#E-Class  4,0 E63 AMG 4MATIC#2017-2024#550#",//--Mercedes--2195
+"Mercedes#E-Class  E220d All-Terrain#2017-2024#570#",//--Mercedes--2199
+"Mercedes#E-Class E450/E53 EQ Boost#2018-2024#590#",//--Mercedes--2203
+"Mercedes#E-Class 4.0 E63 AMG S#2018-2024#550#",//--Mercedes--2207
+"Mercedes#EQA Electric#2021-2024#670#",//--Mercedes--2211
+"Mercedes#EQB Electric#2021-2024#670#",//--Mercedes--2211
+"Mercedes#EQE Electric#2021-2024#890#",//--Mercedes--2211
+"Mercedes#EQS Electric#2021-2024#890#",//--Mercedes--2211
 "Mercedes#EQV Electric#2019-2022#660#",//--Mercedes--2211
-"Mercedes#e-Vito Electric#2018-2022#660#",//--Mercedes--2215
+"Mercedes#e-Vito Electric#2018-2024#660#",//--Mercedes--2215
 "Mercedes#G 63 AMG#2017-2018#820#",//--Mercedes--2219
 "Mercedes#G 65 AMG#2017-2018#820#",//--Mercedes--2223
 "Mercedes#G 550#2017-2018#780#",//--Mercedes--2227
 "Mercedes#GLA#2014-2020#630#",//--Mercedes--2231
-"Mercedes#GLA#2020-2022#530#",//--Mercedes--2235
-"Mercedes#GLA 45 AMG 4Matic#2020-2022#960#",//--Mercedes--2239
-"Mercedes#GLA 45 AMG S 4Matic#2020-2022#1050#",//--Mercedes--2243
-"Mercedes#GLB#2019-2022#690#",//--Mercedes--2247
-"Mercedes#GLC / Coupe#2015-2022#630#",//--Mercedes--2251
+"Mercedes#GLA#2020-2024#530#",//--Mercedes--2235
+"Mercedes#GLA 45 AMG 4Matic#2020-2024#960#",//--Mercedes--2239
+"Mercedes#GLA 45 AMG S 4Matic#2020-2024#1050#",//--Mercedes--2243
+"Mercedes#GLB#2019-2024#690#",//--Mercedes--2247
+"Mercedes#GLC / Coupe#2015-2024#630#",//--Mercedes--2251
+"Mercedes#GLC 300 - 400 4 Matic#2022-2024#630#",//--Mercedes--2251
+"Mercedes#GLC / Coupe#2022-2024#600#",//--Mercedes--2251
 "Mercedes#GLC / Coupe 2,0 E350e 4Matic Hybrid#2016-2019#670#",//--Mercedes--2255
 "Mercedes#GLE / Coupe / GLS#2015-2019#1000#",//--Mercedes--2259
 "Mercedes#GLE / Coupe / GLS  with rear a/c#2015-2019#1250#",//--Mercedes--2263
 "Mercedes#GLE / Coupe / GLS#2019-2022#690#",//--Mercedes--2267
 "Mercedes#GLE 350d/450/580/AMG#2019-2022#740#",//--Mercedes--2271
+"Mercedes#GLE 2.9 400d 4Matic#2019-2024#660#",//--Mercedes--2267
+"Mercedes#GLE#2021-2024#700#",//--Mercedes--2267
 "Mercedes#GLS#2016-2019#1000#",//--Mercedes--2275
 "Mercedes#GLS with rear a/c#2016-2019#1250#",//--Mercedes--2279
 "Mercedes#GLS#2019-2022#690#",//--Mercedes--2283
 "Mercedes#GLS with rear a/c#2019-2022#960#",//--Mercedes--2287
+"Mercedes#MARCO POLO#2019-2024#600#",//--Mercedes--2291
+"Mercedes#MARCO POLO with rear a/c#2019-2024#900#",//--Mercedes--2291
 "Mercedes#MAYBACH#2017-2020#640#",//--Mercedes--2291
 "Mercedes#MAYBACH with rear a/c#2017-2020#730#",//--Mercedes--2295
 "Mercedes#MAYBACH GLS with rear a/c#2020-2022#960#",//--Mercedes--2299
 "Mercedes#MAYBACH GLS#2020-2022#690#",//--Mercedes--2303
+"Mercedes#MAYBACH GLS 3.0 480- 4.0 600 4Matic#2020-2024#660#",//--Mercedes--2303
+"Mercedes#MAYBACH GLS 3.0 480- 4.0 600 4Matic with rear a/c#2020-2024#920#",//--Mercedes--2303
 "Mercedes#S-Class S400#2013-2015#730#",//--Mercedes--2307
 "Mercedes#S-Class S400 with rear a/c#2013-2015#850#",//--Mercedes--2311
 "Mercedes#S-Class Cabriolet / Coupe#2016-2022#640#",//--Mercedes--2315
@@ -3389,21 +3668,21 @@ const char* const model_1234yf[] PROGMEM = {
 "Mercedes#S-Class S560e with rear a/c#2018-2022#800#",//--Mercedes--2327
 "Mercedes#SL#2015-2020#550#",//--Mercedes--2331
 "Mercedes#SLC CLASS#2015-2020#550#",//--Mercedes--2335
-"Mercedes#Sprinter D50/D51/D64#2018-2022#600#",//--Mercedes--2339
-"Mercedes#Sprinter G42/G43#2018-2022#800#",//--Mercedes--2343
-"Mercedes#Sprinter HH7 / HH9 /IR4#2018-2022#1725#",//--Mercedes--2347
-"Mercedes#Sprinter H08 and IR4#2018-2022#1800#",//--Mercedes--2351
-"Mercedes#Sprinter HH7/HH9 and IR6/IR7#2018-2022#1825#",//--Mercedes--2355
-"Mercedes#Sprinter H08 and IR6/IR7#2018-2022#1900#",//--Mercedes--2359
-"Mercedes#Sprinter HK4 and IR4 CEILING MOUNTED AIR CONDITIONER#2018-2022#1100#",//--Mercedes--2363
-"Mercedes#Sprinter HK4 and IR6/IR7 CEILING MOUNTED AIR CONDITIONER#2018-2022#1200#",//--Mercedes--2367
-"Mercedes#Vito#2014-2022#600#",//--Mercedes--2371
-"Mercedes#Vito with rear a/c#2014-2022#900#",//--Mercedes--2375
+"Mercedes#Sprinter D50/D51/D64#2018-2024#600#",//--Mercedes--2339
+"Mercedes#Sprinter G42/G43#2018-2024#800#",//--Mercedes--2343
+"Mercedes#Sprinter HH7 / HH9 /IR4#2018-2024#1725#",//--Mercedes--2347
+"Mercedes#Sprinter H08 and IR4#2018-2024#1800#",//--Mercedes--2351
+"Mercedes#Sprinter HH7/HH9 and IR6/IR7#2018-2024#1825#",//--Mercedes--2355
+"Mercedes#Sprinter H08 and IR6/IR7#2018-2024#1900#",//--Mercedes--2359
+"Mercedes#Sprinter HK4 and IR4 CEILING MOUNTED AIR CONDITIONER#2018-2024#1100#",//--Mercedes--2363
+"Mercedes#Sprinter HK4 and IR6/IR7 CEILING MOUNTED AIR CONDITIONER#2018-2024#1200#",//--Mercedes--2367
+"Mercedes#Vito#2014-2024#600#",//--Mercedes--2371
+"Mercedes#Vito with rear a/c#2014-2024#900#",//--Mercedes--2375
 "Mercedes#X-CLASS#2017-2019#500#",//--Mercedes--2379
 "Mercedes#A-Class 1.3 A250e#2018-2020#600#",//--Mercedes--2383
 "Mercedes#A-Class 1.3 A250e for R134a#2018-2020#660#",//--Mercedes--2387
-"Mercedes#B-Class Hybrid for R134a#2020-2022#660#",//--Mercedes--2391
-"Mercedes#B-Class Hybrid#2020-2022#600#",//--Mercedes--2395
+"Mercedes#B-Class Hybrid for R134a#2020-2024#660#",//--Mercedes--2391
+"Mercedes#B-Class Hybrid#2020-2024#600#",//--Mercedes--2395
 "Mercedes#C-Class 2,0 C350E / C350 Hybrid#2015-2018#670#",//--Mercedes--2399
 "Mercedes#C-Class 1,5 C200 /C300 Hybrid#2019-2022#630#",//--Mercedes--2403
 "Mercedes#C-Class 2,1D C300 BlueTEC Hybrid#2014-2015#710#",//--Mercedes--2407
@@ -3428,8 +3707,8 @@ const char* const model_1234yf[] PROGMEM = {
 "Mercedes#GLE 350/450/580/AMG for R134a Hybrid#2019-2022#770#",//--Mercedes--2483
 "Mercedes#GLS for R134a#2019-2022#720#",//--Mercedes--2487
 "Mercedes#GLS for R134a with rear a/c#2019-2022#1010#",//--Mercedes--2491
-"Mercedes#GLS#2019-2022#690#",//--Mercedes--2495
-"Mercedes#GLS with rear a/c#2019-2022#960#",//--Mercedes--2499
+"Mercedes#GLS#2019-2024#690#",//--Mercedes--2495
+"Mercedes#GLS with rear a/c#2019-2024#960#",//--Mercedes--2499
 "Mercedes#MAYBACH GLS with rear a/c#2020-2022#960#",//--Mercedes--2503
 "Mercedes#MAYBACH GLS#2020-2022#690#",//--Mercedes--2507
 "Mercedes#MAYBACH GLS for R134a with rear a/c#2020-2022#1010#",//--Mercedes--2511
@@ -3440,16 +3719,19 @@ const char* const model_1234yf[] PROGMEM = {
 "Mercedes#S-Class S400 with rear a/c#2013-2015#850#",//--Mercedes--2531
 "Mercedes#S-Class S500/560e Plun-in for R134a#2014-2015#710#",//--Mercedes--2535
 "Mercedes#S-Class S500/560e forR134a with rear a/c#2014-2015#820#",//--Mercedes--2539
-"Mercedes#S-Class R1234yf#2017-2022#640#",//--Mercedes--2543
-"Mercedes#S-Class R1234yf with rear a/c#2017-2022#730#",//--Mercedes--2547
-"Mercedes#S-Class for R134a#2017-2022#660#",//--Mercedes--2551
-"Mercedes#S-Class for R134a with rear a/c#2017-2022#770#",//--Mercedes--2555
-"Mercedes#S-Class for R744#2019-2022#420#",//--Mercedes--2559
-"Mercedes#S-Class for R744 with rear a/c#2019-2022#450#",//--Mercedes--2563
+"Mercedes#S-Class R1234yf#2017-2024#640#",//--Mercedes--2543
+"Mercedes#S-Class R1234yf with rear a/c#2017-2024#730#",//--Mercedes--2547
+"Mercedes#S-Class for R134a#2017-2024#660#",//--Mercedes--2551
+"Mercedes#S-Class for R134a with rear a/c#2017-2024#770#",//--Mercedes--2555
+"Mercedes#S-Class for R744#2019-2024#420#",//--Mercedes--2559
+"Mercedes#S-Class for R744 with rear a/c#2019-2024#450#",//--Mercedes--2563
 "MG Motor#MG3#2013-2018#450#",//--2565-2567MG Motor--2567
-"Mini Cooper#Mini Hatch Electric#2020-2022#550#",//--2569-2599Mini Cooper--2571
-"Mini Cooper#Mini Hatch 1.5/2.0#2020-2022#480#",//--Mini Cooper--2575
-"Mini Cooper#Cooper/ Clubman/ Countryman /Paceman#2015-2022#480#",//--Mini Cooper--2579
+"MG Motor#HS#2020-2024#560#",//--2565-2567MG Motor--2567
+"MG Motor#ZS#2020-2024#540#",//--2565-2567MG Motor--2567
+"MG Motor#ZS 1.0T GDI/1.5 VTI#2017-2024#520#",//--2565-2567MG Motor--2567
+"Mini Cooper#Mini Hatch Electric#2020-2024#550#",//--2569-2599Mini Cooper--2571
+"Mini Cooper#Mini Hatch 1.5/2.0#2020-2024#480#",//--Mini Cooper--2575
+"Mini Cooper#Cooper/ Clubman/ Countryman /Paceman#2015-2024#480#",//--Mini Cooper--2579
 "Mini Cooper#COUNTRYMAN 1.5 One D#2017-2022#550#",//--Mini Cooper--2583
 "Mini Cooper#COUNTRYMAN#2017-2022#500#",//--Mini Cooper--2587
 "Mini Cooper#COUNTRYMAN 1,5 Cooper Hybrid#2017-2022#640#",//--Mini Cooper--2591
@@ -3475,19 +3757,23 @@ const char* const model_1234yf[] PROGMEM = {
 "Nissan#e-Evalia with rear a/c#2014-2018#650#",//--Nissan--2671
 "Nissan#e-NV200 (Komp.poe oil)#2014-2022#450#",//--Nissan--2675
 "Nissan#GT-R 3,8 Nismo#2016-2022#500#",//--Nissan--2679
-"Nissan#Juke#2015-2022#450#",//--Nissan--2683
-"Nissan#Leaf#2015-2020#425#",//--Nissan--2687
-"Nissan#Leaf Denso ESB27 COMP.#2019-2020#850#",//--Nissan--2691
+"Nissan#Juke#2015-2024#450#",//--Nissan--2683
+"Nissan#Juke 1.6 Hybrid#2022-2024#550#",//--Nissan--2683
+"Nissan#Leaf#2015-2024#425#",//--Nissan--2687
+"Nissan#Leaf Denso ESB27 COMP.#2019-2024#850#",//--Nissan--2691
 "Nissan#Micra (K14)#2016-2022#435#",//--Nissan--2695
-"Nissan#NV400 2,3 CDTI#2016-2019#570#",//--Nissan--2699
-"Nissan#NV400 2,3 CDTI 9 seat#2016-2019#1090#",//--Nissan--2703
-"Nissan#NV400 2,3 CDTI 16 seat#2016-2019#1690#",//--Nissan--2707
-"Nissan#NV400 2,3 CDTI#2019-2022#580#",//--Nissan--2711
+"Nissan#NV400 2,3 CDTI#2016-2024#570#",//--Nissan--2699
+"Nissan#NV400 2,3 CDTI 9 seat#2016-2024#1090#",//--Nissan--2703
+"Nissan#NV400 2,3 CDTI 16 seat#2016-2024#1690#",//--Nissan--2707
+"Nissan#NV400 2,3 CDTI#2019-2024#580#",//--Nissan--2711
 "Nissan#Note#2014-2018#400#",//--Nissan--2715
 "Nissan#Pulsar#2014-2018#450#",//--Nissan--2719
 "Nissan#Qashqai#2014-2022#500#",//--Nissan--2723
+"Nissan#Qashqai Hybrid#2021-2024#550#",//--Nissan--2723
+"Nissan#Townstar Hybrid#2022-2024#480#",//--Nissan--2723
 "Nissan#X-Trail#2014-2022#500#",//--Nissan--2727
 "Nissan#X-Trail 1.3 DIG-T#2020-2022#475#",//--Nissan--2731
+"Nissan#X-Trail Hybrid#2022-2024#550#",//--Nissan--2731
 "Nissan#e-Evalia Electric (Komp.poe oil)#2014-2022#450#",//--Nissan--2735
 "Nissan#e-NV200 (Komp.poe oil)#2014-2022#450#",//--Nissan--2739
 "Nissan#Leaf Electric#2010-2020#425#",//--Nissan--2743
@@ -3496,37 +3782,50 @@ const char* const model_1234yf[] PROGMEM = {
 "Opel#Ampera-e(Komp.poe oil)#2017-2020#725#",//--Opel--2755
 "Opel#Antara 2,0 CDTI#2016-2018#650#",//--Opel--2759
 "Opel#Astra K#2016-2019#480#",//--Opel--2763
+"Opel#Astra L 1930cm2X12mm Condanser#2021-2024#440#",//--Opel--2763
+"Opel#Astra L 2350cm2X16mm Condanser#2021-2024#525#",//--Opel--2763
+"Opel#Astra L 2800cm2X16mm Condanser#2021-2024#550#",//--Opel--2763
+"Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 293 402 80)Condanser For R1234yf#2021-2024#575#",//--Opel--2763
+"Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 181 951 80)Condanser For R1234yf#2021-2024#625#",//--Opel--2763
+"Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 293 402 80)Condanser For R134a#2021-2024#625#",//--Opel--2763
+"Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 181 951 80)Condanser For R134a#2021-2024#700#",//--Opel--2763
 "Opel#Combo D#2016-2018#435#",//--Opel--2767
-"Opel#Combo E#2018-2022#450#",//--Opel--2771
+"Opel#Combo E#2018-2024#450#",//--Opel--2771
+"Opel#Combo E Electric#2021-2024#575#",//--Opel--2771
 "Opel#Corsa E 1,3 CDTI#2015-2020#390#",//--Opel--2775
-"Opel#Corsa F#2019-2022#340#",//--Opel--2779
-"Opel#Corsa F 1.2 Turbo/ 1.5D#2019-2022#360#",//--Opel--2783
-"Opel#CROSLAND X#2017-2022#400#",//--Opel--2787
-"Opel#CROSLAND X Additional heater#2017-2022#425#",//--Opel--2791
+"Opel#Corsa F#2019-2024#340#",//--Opel--2779
+"Opel#Corsa F 1.2 Turbo/ 1.5D#2019-2024#360#",//--Opel--2783
+"Opel#Corsa F Electric#2021-2024#945#",//--Opel--2779
+"Opel#CROSLAND X#2017-2024#400#",//--Opel--2787
+"Opel#CROSLAND X Additional heater#2017-2024#425#",//--Opel--2791
 "Opel#GRANDLAND X 1900CM2 CONDANSER#2017-2022#450#",//--Opel--2795
 "Opel#GRANDLAND X 2300CM2 CONDANSER#2017-2022#525#",//--Opel--2799
+"Opel#GRANDLAND 1600cm2 X12mm Condanser#2021-2024#450#",//--Opel--2799
+"Opel#GRANDLAND 2300cm2 X12mm Condanser#2021-2024#435#",//--Opel--2799
+"Opel#GRANDLAND 2300cm2 X16mm Condanser#2021-2024#565#",//--Opel--2799
 "Opel#GTC#2018-2019#600#",//--Opel--2803
 "Opel#GTC 1,6D - 1,6 SIDI#2018-2019#630#",//--Opel--2807
 "Opel#Insignia B#2017-2018#550#",//--Opel--2811
-"Opel#Insignia B#2018-2020#400#",//--Opel--2815
+"Opel#Insignia B#2018-2024#400#",//--Opel--2815
 "Opel#KARL#2015-2020#380#",//--Opel--2819
 "Opel#Mokka X#2016-2020#570#",//--Opel--2823
+"Opel#Mokka#2020-2024#360#",//--Opel--2823
+"Opel#Mokka 100kw Electric For R1234yf#2020-2024#945#",//--Opel--2823
+"Opel#Mokka 100kw Electric For R134a#2020-2024#985#",//--Opel--2823
 "Opel#Movano B#2016-2018#580#",//--Opel--2827
 "Opel#Movano B with rear a/c#2016-2018#1700#",//--Opel--2831
 "Opel#Viva#2015-2019#380#",//--Opel--2835
 "Opel#Vivaro#2016-2019#540#",//--Opel--2839
-"Opel#Vivaro Bluinjection#2019-2022#450#",//--Opel--2843
-"Opel#Vivaro Electric#2020-2022#450#",//--Opel--2847
+"Opel#Vivaro Bluinjection#2019-2024#450#",//--Opel--2843
+"Opel#Vivaro Electric#2020-2024#450#",//--Opel--2847
 "Opel#Zafira C Tourer#2016-2018#630#",//--Opel--2851
 "Opel#Zafira C Tourer 2.0 CTI#2018-2019#590#",//--Opel--2855
-"Opel#Zafira Life Bluinjection#2019-2022#450#",//--Opel--2859
-"Opel#Zafira Life Bluinjection Dual Zone#2019-2022#900#",//--Opel--2863
-"Opel#Zafira Life 1930CM2 CONDANSER#2020-2022#525#",//--Opel--2867
-"Opel#Zafira Life 2350CM2 CONDANSER#2020-2022#850#",//--Opel--2871
+"Opel#Zafira Life Bluinjection#2019-2024#450#",//--Opel--2859
+"Opel#Zafira Life Bluinjection Dual Zone#2019-2024#900#",//--Opel--2863
+"Opel#Zafira Life 1930CM2 CONDANSER#2020-2024#525#",//--Opel--2867
+"Opel#Zafira Life 2350CM2 CONDANSER#2020-2024#850#",//--Opel--2871
 "Opel#Ampera-e(Komp.poe oil)#2017-2020#725#",//--Opel--2875
-"Opel#Vivaro Electric#2020-2022#450#",//--Opel--2879
-"Opel#Zafira Life 1930CM2 CONDANSER#2020-2022#525#",//--Opel--2883
-"Opel#Zafira Life 2350CM2 CONDANSER#2020-2022#850#",//--Opel--2887
+"Opel#Vivaro Electric#2020-2024#450#",//--Opel--2879
 //"Perodua###0#",//--2889-2891Perodua--2891
 "Peugeot#108#2014-2020#350#",//--2893-3099Peugeot--2895
 "Peugeot#208#2014-2019#400#",//--Peugeot--2899
@@ -3536,139 +3835,162 @@ const char* const model_1234yf[] PROGMEM = {
 "Peugeot#308 (1930cm condanser)#2013-2022#400#",//--Peugeot--2915
 "Peugeot#308 (2350cm 12mm condanser)#2013-2022#525#",//--Peugeot--2919
 "Peugeot#308 (2350cm 16mm condanser)#2013-2022#575#",//--Peugeot--2923
+"Peugeot#308 (1900cm condanser)#2021-2024#440#",//--Peugeot--2923
+"Peugeot#308 (2300cm condanser)#2021-2024#525#",//--Peugeot--2923
+"Peugeot#308 Hybrid (2300cm condanser) Low power#2021-2024#575#",//--Peugeot--2923
+"Peugeot#308 Hybrid (2300cm condanser)#2021-2024#625#",//--Peugeot--2923
+"Peugeot#408 1.6 180 Hybrid(1900cm condanser)#2022-2024#440#",//--Peugeot--2923
+"Peugeot#408 1.6 180 Hybrid(2800cm condanser)#2022-2024#550#",//--Peugeot--2923
+"Peugeot#408 1.6 225 Hybrid#2022-2024#625#",//--Peugeot--2923
+"Peugeot#408 #2022-2024#625#",//--Peugeot--2923
 "Peugeot#508#2015-2018#525#",//--Peugeot--2927
-"Peugeot#508 (1900cm 12mm condanser)#2018-2022#400#",//--Peugeot--2931
-"Peugeot#508 (2800cm 16mm condanser)#2018-2022#575#",//--Peugeot--2935
+"Peugeot#508 (1900cm 12mm condanser)#2018-2024#400#",//--Peugeot--2931
+"Peugeot#508 (2800cm 16mm condanser)#2018-2024#575#",//--Peugeot--2935
 "Peugeot#508 Hybrid#2020-2022#700#",//--Peugeot--2939
+"Peugeot#508 2.0 Blue HDI#2018-2024#475#",//--Peugeot--2939
 "Peugeot#2008#2013-2022#400#",//--Peugeot--2943
 "Peugeot#3008 (1900cm condanser)#2016-2022#450#",//--Peugeot--2947
 "Peugeot#3008 (2300cm condanser)#2016-2022#525#",//--Peugeot--2951
-"Peugeot#3008 Hybrid#2019-2022#725#",//--Peugeot--2955
-"Peugeot#5008 (1900cm condanser)#2016-2022#450#",//--Peugeot--2959
-"Peugeot#5008 (2300cm condanser)#2016-2022#525#",//--Peugeot--2963
+"Peugeot#3008 Hybrid#2019-2024#725#",//--Peugeot--2955
+"Peugeot#5008 (1900cm condanser)#2016-2024#450#",//--Peugeot--2959
+"Peugeot#5008 (2300cm condanser)#2016-2024#525#",//--Peugeot--2963
+"Peugeot#5008 (2300cmX16mm condanser)#2018-2024#565#",//--Peugeot--2963
 "Peugeot#Boxer III#2019-2022#935#",//--Peugeot--2967
-"Peugeot#Expert IV Except Hot Climate#2016-2018#450#",//--Peugeot--2971
-"Peugeot#Expert IV With Hot Climate#2016-2018#650#",//--Peugeot--2975
-"Peugeot#Expert IV Dual Zone#2016-2018#900#",//--Peugeot--2979
-"Peugeot#Expert IV 2,0 Bluehdi Single Zone#2016-2022#450#",//--Peugeot--2983
-"Peugeot#Expert IV 2,0 Bluehdi Dual Zone#2016-2022#775#",//--Peugeot--2987
+"Peugeot#Expert IV Except Hot Climate#2016-2024#450#",//--Peugeot--2971
+"Peugeot#Expert IV With Hot Climate#2016-2024#650#",//--Peugeot--2975
+"Peugeot#Expert IV Dual Zone#2016-20248#900#",//--Peugeot--2979
+"Peugeot#Expert IV 2,0 Bluehdi Single Zone#2016-2024#450#",//--Peugeot--2983
+"Peugeot#Expert IV 2,0 Bluehdi Dual Zone#2016-2024#775#",//--Peugeot--2987
 "Peugeot#e-208#2019-2022#945#",//--Peugeot--2991
 "Peugeot#e-2008#2020-2022#945#",//--Peugeot--2995
 "Peugeot#e-Traveller#2020-2022#525#",//--Peugeot--2999
 "Peugeot#e-Traveller Dual Zone R1234yf#2020-2022#850#",//--Peugeot--3003
 "Peugeot#ion Electric 1234yf (POE oil)#2013-2020#280#",//--Peugeot--3007
-"Peugeot#Partner IV#2018-2022#450#",//--Peugeot--3011
-"Peugeot#Rifter#2018-2022#450#",//--Peugeot--3015
+"Peugeot#Partner IV#2018-2024#450#",//--Peugeot--3011
+"Peugeot#e-Partner IV#2021-2024#575#",//--Peugeot--3011
+"Peugeot#Rifter#2018-2024#450#",//--Peugeot--3015
+"Peugeot#e-Rifter#2021-2024#575#",//--Peugeot--3015
 "Peugeot#Traveller Except Hot Climate#2016-2018#450#",//--Peugeot--3019
 "Peugeot#Traveller With Hot Climate#2016-2018#650#",//--Peugeot--3023
 "Peugeot#Traveller Dual Zone#2016-2018#900#",//--Peugeot--3027
-"Peugeot#Traveller 2,0 Bluehdi Single Zone#2016-2022#450#",//--Peugeot--3031
-"Peugeot#Traveller 2,0 Bluehdi Dual Zone#2016-2022#775#",//--Peugeot--3035
-"Peugeot#508 Hybrid#2020-2022#700#",//--Peugeot--3039
-"Peugeot#508 Hybrid for R134a#2020-2022#725#",//--Peugeot--3043
+"Peugeot#Traveller 2,0 Bluehdi Single Zone#2016-2024#450#",//--Peugeot--3031
+"Peugeot#Traveller 2,0 Bluehdi Dual Zone#2016-2024#775#",//--Peugeot--3035
+"Peugeot#508 Hybrid#2020-2024#700#",//--Peugeot--3039
+"Peugeot#508 Hybrid for R134a#2020-2024#725#",//--Peugeot--3043
 "Peugeot#3008 Hybrid#2019-2022#725#",//--Peugeot--3047
-"Peugeot#Boxer/e-Boxer III for R134a#2020-2020#550#",//--Peugeot--3051
-"Peugeot#Boxer/e-Boxer III Minibus R1234yf#2020-2020#935#",//--Peugeot--3055
-"Peugeot#Boxer/e-Boxer III Minibus for R134a#2020-2020#2600#",//--Peugeot--3059
-"Peugeot#Boxer/e-Boxer III rear a/c for R134a#2020-2020#950#",//--Peugeot--3063
+"Peugeot#3008 Hybrid High power#2019-2024#625#",//--Peugeot--3047
+"Peugeot#Boxer/e-Boxer III for R134a#2020-2024#550#",//--Peugeot--3051
+"Peugeot#Boxer/e-Boxer III Minibus R1234yf#2020-2024#935#",//--Peugeot--3055
+"Peugeot#Boxer/e-Boxer III Minibus for R134a#2020-2024#2600#",//--Peugeot--3059
+"Peugeot#Boxer/e-Boxer III rear a/c for R134a#2020-2024#950#",//--Peugeot--3063
 "Peugeot#e-Expert IV Electric for R134a#2020-2022#575#",//--Peugeot--3067
-"Peugeot#e-208 for R134a#2019-2022#985#",//--Peugeot--3071
-"Peugeot#e-208 R1234yf#2019-2022#945#",//--Peugeot--3075
-"Peugeot#e-2008#2020-2022#985#",//--Peugeot--3079
-"Peugeot#e-2008 R1234yf#2020-2022#945#",//--Peugeot--3083
+"Peugeot#e-Expert IV Electric 2350cm2 condanser#2020-2024#515#",//--Peugeot--3067
+"Peugeot#e-Expert IV Electric 1930cm2 condanser#2020-2024#440#",//--Peugeot--3067
+"Peugeot#e-208 for R134a#2019-2023#985#",//--Peugeot--3071
+"Peugeot#e-208 R1234yf#2019-2023#945#",//--Peugeot--3075
+"Peugeot#e-2008#2020-2023#985#",//--Peugeot--3079
+"Peugeot#e-2008 R1234yf#2020-2023#945#",//--Peugeot--3083
 "Peugeot#e-Traveller R1234yf#2020-2022#525#",//--Peugeot--3087
 "Peugeot#e-Traveller Dual Zone R1234yf#2020-2022#850#",//--Peugeot--3091
+"Peugeot#e-Traveller 1930 cm2 X12mm R1234yf#2020-2024#440#",//--Peugeot--3087
+"Peugeot#e-Traveller 2350 cm2 X16mm R1234yf#2020-2024#515#",//--Peugeot--3087
 "Peugeot#ion Electric R1234yf (POE oil)#2013-2020#280#",//--Peugeot--3095
 "Peugeot#Partner III#2013-2020#525#",//--Peugeot--3099
-"Porsche#718 Boxster-Cayman#2016-2020#835#",//--3101-3151Porsche--3103
+"Porsche#718 Boxster-Cayman#2016-2024#835#",//--3101-3151Porsche--3103
 "Porsche#911#2015-2018#875#",//--Porsche--3107
-"Porsche#Cayenne#2015-2020#680#",//--Porsche--3111
-"Porsche#Cayenne A/C with rear#2015-2020#850#",//--Porsche--3115
+"Porsche#911 (992)#2019-2024#890#",//--Porsche--3107
+"Porsche#Cayenne#2015-2024#680#",//--Porsche--3111
+"Porsche#Cayenne A/C with rear#2015-2024#850#",//--Porsche--3115
 "Porsche#Cayenne 3,0 Hybrid#2015-2018#800#",//--Porsche--3119
 "Porsche#Cayman#2015-2018#880#",//--Porsche--3123
 "Porsche#Cayman 3,0 Hybrid#2015-2018#800#",//--Porsche--3127
-"Porsche#Macan#2014-2019#540#",//--Porsche--3131
+"Porsche#Macan#2014-2024#540#",//--Porsche--3131
+"Porsche#Taycan#2019-2024#930#",//--Porsche--3131
+"Porsche#Taycan with heat pump#2019-2024#980#",//--Porsche--3131
 "Porsche#Panamera E-Hybrid#2016-2020#660#",//--Porsche--3135
 "Porsche#Panamera#2016-2020#490#",//--Porsche--3139
+"Porsche#Panamera 2.9 - 3.0 - 4.0#2016-2023#530#",//--Porsche--3139
+"Porsche#Panamera 2.9 e-Hybrid#2016-2023#660#",//--Porsche--3139
+"Porsche#Panamera 2.9 - 3.0 - 4.0 Tropical Climate#2016-2023#490#",//--Porsche--3139
 "Porsche#Cayenne#2015-2020#680#",//--Porsche--3143
 "Porsche#Cayenne A/C with rear#2015-2020#850#",//--Porsche--3147
 "Porsche#Panamera E-Hybrid#2016-2020#660#",//--Porsche--3151
 //"Proton###0#",//--3153-3155Proton--3155
 "Renault#Arkana#2019-2022#480#",//--3157-3303Renault--3159
+"Renault#Arkana Hybrid#2021-2024#470#",//--3157-3303Renault--3159
+"Renault#Arkana 1.6 e-Tech PHEV Hybrid#2021-2024#580#",//--3157-3303Renault--3159
+"Renault#Austral Hybrid#2022-2024#700#",//--3157-3303Renault--3159
 "Renault#Clio IV#2016-2019#430#",//--Renault--3163
-"Renault#Clio V#2019-2022#420#",//--Renault--3167
+"Renault#Clio V#2019-2024#420#",//--Renault--3167
 "Renault#Captur#2016-2018#430#",//--Renault--3171
 "Renault#Captur#2019-2020#420#",//--Renault--3175
-"Renault#Captur II#2019-2022#420#",//--Renault--3179
-"Renault#Captur II 1.6 PHEV Hybrid#2019-2022#580#",//--Renault--3183
+"Renault#Captur II#2019-2024#420#",//--Renault--3179
+"Renault#Captur II 1.6 PHEV Hybrid#2019-2024#580#",//--Renault--3183
 "Renault#Duster#2012-2021#450#",//--Renault--3187
 "Renault#Escape V#2015-2020#480#",//--Renault--3191
 "Renault#Escape V with rear a/c#2015-2020#700#",//--Renault--3195
-"Renault#Kadjar#2015-2022#480#",//--Renault--3199
+"Renault#Express#2021-2024#440#",//--Renault--3191
+"Renault#Kadjar#2015-2024#480#",//--Renault--3199
 "Renault#Kangoo II#2016-2022#450#",//--Renault--3203
+"Renault#Kangoo III#2021-2024#480#",//--Renault--3203
+"Renault#Kangoo Grand II Electric for R134a#2020-2022#850#",//--Renault--3287
 "Renault#Koleos#2015-2021#500#",//--Renault--3207
 "Renault#Logan II#2014-2022#450#",//--Renault--3211
-"Renault#Master III Electric#2018-2022#820#",//--Renault--3215
-"Renault#Master III (EV/UV)#2018-2022#570#",//--Renault--3219
-"Renault#Master III A/C with rear#2018-2022#1090#",//--Renault--3223
-"Renault#Master III WITH REAR HEATER#2018-2022#1690#",//--Renault--3227
-"Renault#Megane IV#2016-2022#480#",//--Renault--3231
+"Renault#Master III Electric#2018-2024#820#",//--Renault--3215
+"Renault#Master III (EV/UV)#2018-2024#570#",//--Renault--3219
+"Renault#Master III A/C with rear#2018-2024#1090#",//--Renault--3223
+"Renault#Master III WITH REAR HEATER#2018-2024#1690#",//--Renault--3227
+"Renault#Megane IV#2016-2024#480#",//--Renault--3231
+"Renault#Megane IV 1.6 e-Tech PHEV#2022-2024#615#",//--Renault--3231
+"Renault#Megane e-Tech#2022-2024#570#",//--Renault--3231
 "Renault#Sandero II#2014-2022#450#",//--Renault--3235
 "Renault#Scenic#2016-2018#480#",//--Renault--3239
+"Renault#Scenic IV#2018-2024#480#",//--Renault--3239
+"Renault#Scenic E-Hybrid R1234yf#2016-2018#480#",//--Renault--3295
 "Renault#Symbol II#2016-2018#450#",//--Renault--3243
-"Renault#Talisman#2015-2022#480#",//--Renault--3247
+"Renault#Talisman#2015-2024#480#",//--Renault--3247
 "Renault#Trafic#2015-2020#540#",//--Renault--3251
 "Renault#Trafic A/C with rear#2015-2020#850#",//--Renault--3255
-"Renault#Twingo III#2016-2022#430#",//--Renault--3259
-"Renault#Twingo Electric#2020-2022#575#",//--Renault--3263
-"Renault#Zoe#2015-2022#1000#",//--Renault--3267
-"Renault#Captur II Hybrid R1234yf#2019-2022#420#",//--Renault--3271
-"Renault#Captur II 1.6 PHEV Hybrid R1234yf#2019-2022#580#",//--Renault--3275
-"Renault#Captur II for R134a#2019-2022#440#",//--Renault--3279
-"Renault#Clio V#2020-2022#420#",//--Renault--3283
-"Renault#Kangoo Grand II Electric for R134a#2020-2022#850#",//--Renault--3287
-"Renault#Master III#2018-2022#820#",//--Renault--3291
-"Renault#Scenic E-Hybrid R1234yf#2016-2018#480#",//--Renault--3295
-"Renault#Twingo Electric#2020-2022#575#",//--Renault--3299
-"Renault#Zoe Electric#2015-2022#1000#",//--Renault--3303
+"Renault#Trafic III#2021-2024#540#",//--Renault--3251
+"Renault#Trafic III A/C with rear#2021-2024#850#",//--Renault--3251
+"Renault#Twingo III#2016-2024#430#",//--Renault--3259
+"Renault#Twingo Electric#2020-2024#575#",//--Renault--3263
+"Renault#Zoe#2015-2024#1000#",//--Renault--3267
 //"Rover###0#",//--3305-3307Rover--3307
 //"Saab###0#",//--3309-3311Saab--3311
-"Seat#Alhambra#2016-2022#500#",//--3313-3371Seat--3315
-"Seat#Alhambra with rear a/c#2016-2022#825#",//--Seat--3319
-"Seat#Arona#2017-2022#430#",//--Seat--3323
-"Seat#Ateca#2016-2022#460#",//--Seat--3327
-"Seat#Ibiza#2017-2022#430#",//--Seat--3331
-"Seat#Ibiza 1,0#2017-2022#390#",//--Seat--3335
-"Seat#Leon II#2016-2022#460#",//--Seat--3339
+"Seat#Alhambra#2016-2024#500#",//--3313-3371Seat--3315
+"Seat#Alhambra with rear a/c#2016-2024#825#",//--Seat--3319
+"Seat#Arona#2017-2024#430#",//--Seat--3323
+"Seat#Ateca#2016-2024#460#",//--Seat--3327
+"Seat#Ibiza#2017-2024#430#",//--Seat--3331
+"Seat#Ibiza 1,0#2017-2024#390#",//--Seat--3335
+"Seat#Leon II#2016-2024#460#",//--Seat--3339
 "Seat#Mii#2015-2020#330#",//--Seat--3343
-"Seat#Tarraco#2019-2022#460#",//--Seat--3347
+"Seat#Tarraco#2019-2024#460#",//--Seat--3347
 "Seat#Toledo#2016-2019#450#",//--Seat--3351
 "Seat#Leon II#2016-2022#460#",//--Seat--3355
 "Seat#Leon II for R134a#2004-2022#500#",//--Seat--3359
-"Seat#Mii#2015-2020#330#",//--Seat--3363
+"Seat#Mii#2015-2024#330#",//--Seat--3363
 "Seat#Tarraco Hybrid R1234yf#2019-2022#460#",//--Seat--3367
 "Seat#Tarraco Hybrid for R134a#2019-2022#500#",//--Seat--3371
-"Skoda#Citigo#2016-2020#330#",//--3373-3455Skoda--3375
-"Skoda#Enyaq#2021-2022#460#",//--Skoda--3379
-"Skoda#Fabia III#2015-2022#450#",//--Skoda--3383
-"Skoda#Kamiq#2019-2022#430#",//--Skoda--3387
-"Skoda#Karoq#2017-2022#460#",//--Skoda--3391
-"Skoda#Kodiaq Modine Condenser#2017-2020#460#",//--Skoda--3395
-"Skoda#Kodiaq All Other Condensers#2017-2020#460#",//--Skoda--3399
+"Skoda#Citigo#2016-2024#330#",//--3373-3455Skoda--3375
+"Skoda#Enyaq#2021-2024#460#",//--Skoda--3379
+"Skoda#Fabia III#2015-2021#450#",//--Skoda--3383
+"Skoda#Fabia IV#2021-2024#390#",//--Skoda--3383
+"Skoda#Fabia IV 1.0 TSI#2021-2024#430#",//--Skoda--3383
+"Skoda#Kamiq#2019-2024#430#",//--Skoda--3387
+"Skoda#Karoq#2017-2024#460#",//--Skoda--3391
+"Skoda#Kodiaq Modine Condenser#2017-2024#460#",//--Skoda--3395
+"Skoda#Kodiaq All Other Condensers#2017-2024#460#",//--Skoda--3399
 "Skoda#Octavia III#2016-2020#460#",//--Skoda--3403
-"Skoda#Octavia IV#2020-2022#460#",//--Skoda--3407
+"Skoda#Octavia IV#2020-2024#460#",//--Skoda--3407
 "Skoda#Octavia Modine Condenser#2016-2020#460#",//--Skoda--3411
-"Skoda#Rapid / Speedback#2017-2019#450#",//--Skoda--3415
-"Skoda#Rapid Modine Condenser#2017-2019#450#",//--Skoda--3419
-"Skoda#Scala#2019-2022#430#",//--Skoda--3423
-"Skoda#Superb III#2016-2020#460#",//--Skoda--3427
-"Skoda#Superb III Modine Condenser#2016-2020#460#",//--Skoda--3431
+"Skoda#Rapid / Speedback#2017-2024#450#",//--Skoda--3415
+"Skoda#Rapid Modine Condenser#2017-2024#450#",//--Skoda--3419
+"Skoda#Scala#2019-2024#430#",//--Skoda--3423
+"Skoda#Superb III#2016-2024#460#",//--Skoda--3427
+"Skoda#Superb III Modine Condenser#2016-2024#460#",//--Skoda--3431
 "Skoda#Yeti#2014-2017#460#",//--Skoda--3435
-"Skoda#Citigo#2019-2020#330#",//--Skoda--3439
-"Skoda#Enyaq#2021-2022#460#",//--Skoda--3443
-"Skoda#Octavia IV#2020-2022#460#",//--Skoda--3447
-"Skoda#Octavia IV for R134a#2020-2022#500#",//--Skoda--3451
-"Skoda#Superb III Hybrid R1234yf#2020-2022#460#",//--Skoda--3455
 "Smart#Forfour Elektrik#2017-2019#430#",//--3457-3471Smart--3459
 "Smart#Forfour 0,9 Brabus#2017-2019#475#",//--Smart--3463
 "Smart#Fortwo  elektrik#2017-2018#430#",//--Smart--3467
@@ -3677,126 +3999,126 @@ const char* const model_1234yf[] PROGMEM = {
 "SsangYong#Rexton with rear a/c#2017-2022#800#",//--SsangYong--3479
 "SsangYong#Rodius II/ Turismo#2015-2020#1050#",//--SsangYong--3483
 "SsangYong#Tivoli#2015-2020#500#",//--SsangYong--3487
+"SsangYong#Tivoli 1.5 GDI- 1.6D E-XDI#2019-2024#530#",//--SsangYong--3487
 "SsangYong#XLV#2016-2020#500#",//--SsangYong--3491
+"SsangYong#XLV#2021-2024#530#",//--SsangYong--3491
 "Subaru#BRZ#2016-2020#350#",//--3493-3531Subaru--3495
 "Subaru#Forester 2,0#2016-2019#375#",//--Subaru--3499
 "Subaru#Forester 2,0 6200rpm 2,0XT Turbo#2013-2019#450#",//--Subaru--3503
-"Subaru#Impreza#2017-2022#375#",//--Subaru--3507
+"Subaru#Impreza#2017-2024#375#",//--Subaru--3507
 "Subaru#Legacy#2017-2018#455#",//--Subaru--3511
 "Subaru#Levorg#2015-2020#450#",//--Subaru--3515
 "Subaru#Outback 2,5#2015-2022#425#",//--Subaru--3519
 "Subaru#Outback 2,0#2015-2018#375#",//--Subaru--3523
+"Subaru#Solterra#2022-2024#720#",//--Subaru--3523
 "Subaru#WRX#2016-2018#450#",//--Subaru--3527
 "Subaru#XV#2015-2022#450#",//--Subaru--3531
+"Suzuki#Across 2.5 PHEV#2020-2024#1500#",//--3533-3587Suzuki--3535
 "Suzuki#Baleno#2016-2019#400#",//--3533-3587Suzuki--3535
 "Suzuki#Celerio#2014-2019#380#",//--Suzuki--3539
 "Suzuki#Ignis#2017-2022#390#",//--Suzuki--3543
 "Suzuki#Jimny#2015-2019#430#",//--Suzuki--3547
 "Suzuki#Swift#2017-2022#400#",//--Suzuki--3551
 "Suzuki#SX4 S-Cross 1.6#2016-2018#440#",//--Suzuki--3555
-"Suzuki#SX4 S-Cross#2016-2022#470#",//--Suzuki--3559
+"Suzuki#SX4 S-Cross#2016-2024#470#",//--Suzuki--3559
 "Suzuki#Vitara#2015-2022#425#",//--Suzuki--3563
 "Suzuki#Vitara 1.6 DDIS#2015-2018#440#",//--Suzuki--3567
-"Suzuki#Vitara 1.0 Booster jet#2018-2022#475#",//--Suzuki--3571
+"Suzuki#Vitara 1.0 Booster jet#2018-2024#475#",//--Suzuki--3571
+"Suzuki#Vitara 1.5 Hybrid#2022-2024#425#",//--Suzuki--3571
 "Suzuki#Baleno Hybrid R1234yf#2016-2019#400#",//--Suzuki--3575
 "Suzuki#Ignis 1.2 Dualjet Hybrid#2017-2022#390#",//--Suzuki--3579
-"Suzuki#Swift Hybrid R1234yf#2017-2022#400#",//--Suzuki--3583
-"Suzuki#Swift for R134a#2017-2022#390#",//--Suzuki--3587
+"Suzuki#Swift Hybrid R1234yf#2017-2024#400#",//--Suzuki--3583
+"Suzuki#Swift for R134a#2017-2024#390#",//--Suzuki--3587
 //"Tata###0#",//--3589-3591Tata--3591
-"Tesla#Model 3 Electric#2018-2022#660#",//--3593-3607Tesla--3595
+"Tesla#Model 3 Electric#2018-2024#660#",//--3593-3607Tesla--3595
 "Tesla#Model S Electric R1234yf#2013-2019#730#",//--Tesla--3599
-"Tesla#Model X Electric#2017-2019#720#",//--Tesla--3603
-"Tesla#Model X Electric A/C with rear#2017-2019#980#",//--Tesla--3607
+"Tesla#Model X Electric#2017-2024#720#",//--Tesla--3603
+"Tesla#Model X Electric A/C with rear#2017-2024#980#",//--Tesla--3607
+"Tesla#Model Y Electric#2020-2024#1020#",//--Tesla--3603
 "Toyota#Auris#2016-2018#400#",//--3609-3795Toyota--3611
 "Toyota#Auris 1.3 VVTI / 1.4 D-4D#2015-2018#420#",//--Toyota--3615
 "Toyota#Avalon#2017-2018#500#",//--Toyota--3619
 "Toyota#Aygo#2015-2022#350#",//--Toyota--3623
 "Toyota#Aygo 1,2#2015-2018#350#",//--Toyota--3627
+"Toyota#Aygo X#2022-2024#320#",//--Toyota--3627
+"Toyota#bZ4X#2022-2024#720#",//--Toyota--3627
 "Toyota#Camry 1.8 Hybrid#2017-2018#470#",//--Toyota--3631
-"Toyota#C-HR Valeo Compresor#2016-2022#400#",//--Toyota--3635
-"Toyota#C-HR Denso Compresor#2016-2022#400#",//--Toyota--3639
+"Toyota#Camry 2.5 Hybrid#2019-2024#550#",//--Toyota--3631
+"Toyota#C-HR Valeo Compresor#2016-2023#400#",//--Toyota--3635
+"Toyota#C-HR Denso Compresor#2016-2023#400#",//--Toyota--3639
 "Toyota#C-HR Hybrid#2016-2022#470#",//--Toyota--3643
 "Toyota#Corolla#2016-2018#420#",//--Toyota--3647
-"Toyota#Corolla#2018-2022#470#",//--Toyota--3651
-"Toyota#GR Supra#2019-2022#550#",//--Toyota--3655
+"Toyota#Corolla#2018-2024#470#",//--Toyota--3651
+"Toyota#GR Supra#2019-2024#550#",//--Toyota--3655
 "Toyota#GT-86#2012-2022#350#",//--Toyota--3659
-"Toyota#Landcruiser Prado coolbox#2016-2022#600#",//--Toyota--3663
-"Toyota#Landcruiser Prado#2016-2022#550#",//--Toyota--3667
-"Toyota#Landcruiser Prado with rear a/c#2016-2022#770#",//--Toyota--3671
-"Toyota#Landcruiser with rear a/c+coolbox#2016-2022#800#",//--Toyota--3675
+"Toyota#Highlander#2021-2024#900#",//--Toyota--3659
+"Toyota#Landcruiser Prado coolbox#2016-2024#600#",//--Toyota--3663
+"Toyota#Landcruiser Prado#2016-2024#550#",//--Toyota--3667
+"Toyota#Landcruiser Prado with rear a/c#2016-2024#770#",//--Toyota--3671
+"Toyota#Landcruiser with rear a/c+coolbox#2016-2024#800#",//--Toyota--3675
 "Toyota#MIRAI#2015-2022#470#",//--Toyota--3679
-"Toyota#Prius  Hybrid#2016-2022#470#",//--Toyota--3683
-"Toyota#PROACE SINGLE ZONE EXCEPT HOTCLIMATE#2016-2022#450#",//--Toyota--3687
-"Toyota#PROACE SINGLE ZONE WITH HOTCLIMATE#2016-2022#650#",//--Toyota--3691
+"Toyota#Prius  Hybrid#2016-2023#470#",//--Toyota--3683
+"Toyota#PROACE SINGLE ZONE EXCEPT HOTCLIMATE#2016-2024#450#",//--Toyota--3687
+"Toyota#PROACE SINGLE ZONE WITH HOTCLIMATE#2016-2024#650#",//--Toyota--3691
 "Toyota#PROACE DUAL ZONE#2016-2022#900#",//--Toyota--3695
 "Toyota#PROACE 2.0 SINGLE ZONE#2016-2022#450#",//--Toyota--3699
 "Toyota#PROACE 2.0 DUAL ZONE#2016-2022#775#",//--Toyota--3703
 "Toyota#PROACE /Verso Electric#2020-2022#525#",//--Toyota--3707
 "Toyota#PROACE /Verso Electric DUAL ZONE#2020-2022#850#",//--Toyota--3711
+"Toyota#PROACE City /Verso City 0 Electric#2021-2024#575#",//--Toyota--3711
 "Toyota#RAV 4#2016-2018#500#",//--Toyota--3715
 "Toyota#RAV 4 2.5 Hybrid#2015-2018#500#",//--Toyota--3719
-"Toyota#RAV 4#2019-2022#550#",//--Toyota--3723
-"Toyota#RAV 4 2.5 PHEV Hybrid#2020-2022#1500#",//--Toyota--3727
+"Toyota#RAV 4#2019-2024#550#",//--Toyota--3723
+"Toyota#RAV 4 2.5 PHEV Hybrid#2020-2024#1500#",//--Toyota--3727
 "Toyota#Tacoma#2017-2020#540#",//--Toyota--3731
 "Toyota#Yaris (P13) 1.5 VVT-i#2017-2020#350#",//--Toyota--3735
-"Toyota#Yaris 5 door gasoline#2020-2022#350#",//--Toyota--3739
-"Toyota#Yaris 5 door Hibrid#2020-2022#450#",//--Toyota--3743
-"Toyota#Yaris 3 door#2020-2022#420#",//--Toyota--3747
-"Toyota#Yaris 1.6 GR Circuit Pack#2020-2022#320#",//--Toyota--3751
-"Toyota#Auris Hibrid#2010-2015#475#",//--Toyota--3755
-"Toyota#Camry Hybrid#2017-2018#580#",//--Toyota--3759
-"Toyota#C-HR Hybrid#2016-2022#470#",//--Toyota--3763
-"Toyota#Corolla Hybrid#2018-2022#470#",//--Toyota--3767
-"Toyota#Mirai#2015-2022#470#",//--Toyota--3771
-"Toyota#Prius  Hybrid#2016-2022#470#",//--Toyota--3775
-"Toyota#PROACE /Verso Electric#2020-2022#525#",//--Toyota--3779
-"Toyota#PROACE /Verso Electric DUAL ZONE#2020-2022#850#",//--Toyota--3783
-"Toyota#RAV 4 Hybrid#2016-2022#550#",//--Toyota--3787
-"Toyota#RAV 4 2.5 PHEV Hybrid#2020-2022#1500#",//--Toyota--3791
-"Toyota#Yaris 5 door Hibrid#2020-2022#450#",//--Toyota--3795
+"Toyota#Yaris 5 door gasoline#2020-2024#350#",//--Toyota--3739
+"Toyota#Yaris 5 door Hibrid#2020-2024#450#",//--Toyota--3743
+"Toyota#Yaris 3 door#2020-2024#420#",//--Toyota--3747
+"Toyota#Yaris 1.6 GR Circuit Pack#2020-2024#320#",//--Toyota--3751
 "Volvo#S60#2016-2018#750#",//--3797-4047Volvo--3799
-"Volvo#S60#2019-2022#600#",//--Volvo--3803
+"Volvo#S60#2019-2024#600#",//--Volvo--3803
 "Volvo#S60 T4#2019-2022#650#",//--Volvo--3807
-"Volvo#S60 T6/T8#2020-2022#675#",//--Volvo--3811
-"Volvo#S90#2016-2022#650#",//--Volvo--3815
+"Volvo#S60 T6/T8#2020-2024#675#",//--Volvo--3811
+"Volvo#S90#2016-2024#650#",//--Volvo--3815
 "Volvo#S90 2.0B4/B5/B6#2020-2022#600#",//--Volvo--3819
-"Volvo#S90 T8 Twin Engine Hybrid#2017-2022#675#",//--Volvo--3823
+"Volvo#S90 T8 Twin Engine Hybrid#2017-2024#675#",//--Volvo--3823
 "Volvo#V40#2016-2019#575#",//--Volvo--3827
 "Volvo#V60#2016-2018#750#",//--Volvo--3831
 "Volvo#V60#2018-2020#650#",//--Volvo--3835
 "Volvo#V60 2.4 D5Plug-in Hybrid/Twin Engine#2015-2018#825#",//--Volvo--3839
-"Volvo#V90#2016-2022#650#",//--Volvo--3843
-"Volvo#V90 Cross Country B4/B5/B6#2020-2022#600#",//--Volvo--3847
-"Volvo#V90 2.0 V8 Twin Engine Hybrid#2016-2018#675#",//--Volvo--3851
+"Volvo#V90#2016-2024#650#",//--Volvo--3843
+"Volvo#V90 Cross Country B4/B5/B6#2020-2024#600#",//--Volvo--3847
+"Volvo#V90 2.0 V8 Twin Engine Hybrid#2016-2024#675#",//--Volvo--3851
 "Volvo#XC 40#2017-2020#480#",//--Volvo--3855
-"Volvo#XC 40 2.0 D3/D4/T4/T5#2017-2022#500#",//--Volvo--3859
-"Volvo#XC 40 2.0 B4/B5#2020-2022#575#",//--Volvo--3863
-"Volvo#XC 40 Electric#2020-2022#725#",//--Volvo--3867
-"Volvo#XC 40 1.5 Recharge Electric#2020-2022#520#",//--Volvo--3871
-"Volvo#XC 40 1.5 T4/T5 Twin Engine#2020-2022#520#",//--Volvo--3875
+"Volvo#XC 40 2.0 D3/D4/T4/T5#2017-2024#500#",//--Volvo--3859
+"Volvo#XC 40 2.0 B4/B5#2020-2024#575#",//--Volvo--3863
+"Volvo#XC 40 Electric#2020-2024#725#",//--Volvo--3867
+"Volvo#XC 40 1.5 Recharge Electric#2020-2024#520#",//--Volvo--3871
+"Volvo#XC 40 1.5 T4/T5 Twin Engine#2020-2024#520#",//--Volvo--3875
 "Volvo#XC 60#2017-2020#650#",//--Volvo--3879
-"Volvo#XC 60 B4/B5#2019-2022#625#",//--Volvo--3883
-"Volvo#XC 60 B4/B5/B6 Hybrid#2019-2022#600#",//--Volvo--3887
-"Volvo#XC 60 2.0 T8 Twin Engine Hybrid#2016-2022#675#",//--Volvo--3891
+"Volvo#XC 60 B4/B5#2019-2024#625#",//--Volvo--3883
+"Volvo#XC 60 B4/B5/B6 Hybrid#2019-2024#600#",//--Volvo--3887
+"Volvo#XC 60 2.0 T8 Twin Engine Hybrid#2016-2024#675#",//--Volvo--3891
 "Volvo#XC 60 D3/D4/D5#2018-2022#650#",//--Volvo--3895
-"Volvo#XC 60 2.0 Recharge T6/T8#2020-2022#675#",//--Volvo--3899
+"Volvo#XC 60 2.0 Recharge T6/T8#2020-2024#675#",//--Volvo--3899
 "Volvo#XC 90#2015-2020#650#",//--Volvo--3903
 "Volvo#XC 90 with rear a/c#2015-2018#900#",//--Volvo--3907
 "Volvo#XC 90 2.0T8 Twin Engine Hybrid#2015-2019#700#",//--Volvo--3911
 "Volvo#XC 90 2.0T8 Twin Engine rear a/c#2015-2019#1000#",//--Volvo--3915
-"Volvo#XC 90 2.0 B5/B6#2019-2022#600#",//--Volvo--3919
-"Volvo#XC 90 2.0 B5/B6 with rear a/c#2019-2022#850#",//--Volvo--3923
-"Volvo#XC 90 2.0 Recharge T8#2020-2022#700#",//--Volvo--3927
-"Volvo#XC 90 2.0 Recharge T8 rear a/c#2020-2022#975#",//--Volvo--3931
-"Volvo#S60#2020-2022#600#",//--Volvo--3935
-"Volvo#S60 For R134a#2020-2022#700#",//--Volvo--3939
-"Volvo#S60 T6/T8 R1234yf#2020-2022#675#",//--Volvo--3943
-"Volvo#S60 T6/T8 For R134a#2020-2022#725#",//--Volvo--3947
-"Volvo#S90#2018-2022#700#",//--Volvo--3951
-"Volvo#S90 2.0B4/B5/B6#2020-2022#600#",//--Volvo--3955
-"Volvo#S90 T8 Twin Engine Hybrid For R1234yf#2017-2022#675#",//--Volvo--3959
-"Volvo#V90 Cross Country B4/B5/B6#2020-2022#600#",//--Volvo--3963
-"Volvo#V90 Cross Country B4/B5/B6 R134a#2020-2022#700#",//--Volvo--3967
+"Volvo#XC 90 2.0 B5/B6#2019-2024#600#",//--Volvo--3919
+"Volvo#XC 90 2.0 B5/B6 with rear a/c#2019-2024#850#",//--Volvo--3923
+"Volvo#XC 90 2.0 Recharge T8#2020-2024#700#",//--Volvo--3927
+"Volvo#XC 90 2.0 Recharge T8 rear a/c#2020-2024#975#",//--Volvo--3931
+"Volvo#S60#2020-2024#600#",//--Volvo--3935
+"Volvo#S60 For R134a#2020-2024#700#",//--Volvo--3939
+"Volvo#S60 T6/T8 R1234yf#2020-2024#675#",//--Volvo--3943
+"Volvo#S60 T6/T8 For R134a#2020-2024#725#",//--Volvo--3947
+"Volvo#S90#2018-2024#700#",//--Volvo--3951
+"Volvo#S90 2.0B4/B5/B6#2020-2024#600#",//--Volvo--3955
+"Volvo#S90 T8 Twin Engine Hybrid For R1234yf#2017-2024#675#",//--Volvo--3959
+"Volvo#V90 Cross Country B4/B5/B6#2020-2024#600#",//--Volvo--3963
+"Volvo#V90 Cross Country B4/B5/B6 R134a#2020-2024#700#",//--Volvo--3967
 "Volvo#V90 2.0 T8 Twin Engine Hybrid For R1234yf#2016-2018#675#",//--Volvo--3971
 "Volvo#XC 40 Electric#2020-2022#725#",//--Volvo--3975
 "Volvo#XC 40 Electric R134a#2020-2022#750#",//--Volvo--3979
@@ -3817,60 +4139,58 @@ const char* const model_1234yf[] PROGMEM = {
 "Volvo#XC 90 2.0 Recharge T8 rear a/c#2020-2022#975#",//--Volvo--4039
 "Volvo#XC 90 2.0 Recharge T8 R134a#2020-2022#775#",//--Volvo--4043
 "Volvo#XC 90 2.0 Recharge T8 rear a/c R134a#2020-2022#1050#",//--Volvo--4047
-"VW#Arteon#2017-2022#460#",//--4049-4263VW--4051
+"VW#Arteon#2017-2024#460#",//--4049-4263VW--4051
 "VW#Beetle Coccinelle/ Maggiolino#2016-2018#460#",//--VW--4055
 "VW#Caddy/ Caddy Maxi#2016-2020#420#",//--VW--4059
-"VW#Caddy/ Caddy Maxi#2020-2022#460#",//--VW--4063
-"VW#Crafer#2016-2022#555#",//--VW--4067
-"VW#Crafter air-conditioned ceiling#2016-2022#800#",//--VW--4071
+"VW#Caddy/ Caddy Maxi#2020-2024#460#",//--VW--4063
+"VW#Crafer#2016-2024#550#",//--VW--4067
+"VW#Crafter air-conditioned ceiling#2016-2024#800#",//--VW--4071
 "VW#E-Golf eaza 100kw#2017-2019#430#",//--VW--4075
 "VW#E-Golf With heat pump#2017-2019#850#",//--VW--4079
-"VW#E-Up 60kw EABA Electric#2016-2020#340#",//--VW--4083
+"VW#E-Up 60kw EABA Electric#2016-2024#340#",//--VW--4083
 "VW#Golf VII#2015-2021#460#",//--VW--4087
-"VW#Golf VIII#2020-2022#460#",//--VW--4091
-"VW#ID.3#2019-2022#460#",//--VW--4095
-"VW#ID.4#2021-2022#460#",//--VW--4099
+"VW#Golf VIII#2020-2024#460#",//--VW--4091
+"VW#ID.3#2019-2024#460#",//--VW--4095
+"VW#ID.4#2021-2024#460#",//--VW--4099
 "VW#Jetta#2014-2018#450#",//--VW--4103
+"VW#Multivan#2021-2024#475#",//--VW--4103
+"VW#Multivan second evaporator#2021-2024#750#",//--VW--4103
+"VW#Multivan 1.4 e Hybrid#2021-2024#650#",//--VW--4103
+"VW#Multivan 1.4 e Hybrid second evaporator#2021-2024#950#",//--VW--4103
 "VW#Passat#2016-2019#460#",//--VW--4107
-"VW#Passat#2019-2022#450#",//--VW--4111
+"VW#Passat#2019-2024#450#",//--VW--4111
 "VW#Polo#2016-2018#450#",//--VW--4115
 "VW#Polo 1.0 MPI / 2.0 TSI#2017-2020#390#",//--VW--4119
 "VW#Polo 1.0 TGI / TSI / TDI#2017-2020#430#",//--VW--4123
+"VW#Polo#2021-2024#390#",//--VW--4115
 "VW#Scirocco#2016-2018#460#",//--VW--4127
-"VW#Sharan 1,4 TSI#2016-2022#480#",//--VW--4131
-"VW#Sharan 2.0 TDI CR SCR/2.0 TSI#2016-2022#500#",//--VW--4135
-"VW#Sharan 2.0 TDI/2.0 TSI with rear a/c#2016-2022#825#",//--VW--4139
-"VW#T-Cross#2019-2022#430#",//--VW--4143
-"VW#Tiguan#2016-2022#460#",//--VW--4147
+"VW#Sharan 1,4 TSI#2016-2024#480#",//--VW--4131
+"VW#Sharan 2.0 TDI CR SCR/2.0 TSI#2016-2024#500#",//--VW--4135
+"VW#Sharan 2.0 TDI/2.0 TSI with rear a/c#2016-2024#825#",//--VW--4139
+"VW#Taigo#2021-2024#430#",//--VW--4143
+"VW#T-Cross#2019-2024#430#",//--VW--4143
+"VW#Tiguan#2016-2024#460#",//--VW--4147
 "VW#Touareg#2016-2018#800#",//--VW--4151
 "VW#Touareg with rear a/c#2016-2018#1000#",//--VW--4155
-"VW#Touareg#2018-2022#680#",//--VW--4159
-"VW#Touareg 3.0 Hibrid#2020-2022#740#",//--VW--4163
+"VW#Touareg#2018-2024#680#",//--VW--4159
+"VW#Touareg 3.0 Hibrid#2020-2024#740#",//--VW--4163
 "VW#Touran#2018-2022#460#",//--VW--4167
 "VW#Transporter T6#2015-2019#530#",//--VW--4171
 "VW#Transporter T6 with rear a/c#2015-2019#830#",//--VW--4175
-"VW#Transporter T6.1#2019-2022#530#",//--VW--4179
-"VW#Transporter T6.1 with rear a/c#2019-2022#830#",//--VW--4183
-"VW#T- Cross#2018-2022#430#",//--VW--4187
-"VW#T-ROC#2017-2022#460#",//--VW--4191
-"VW#Up#2016-2020#340#",//--VW--4195
-"VW#Up 1.0 GTI#2016-2022#450#",//--VW--4199
-"VW#Up 1.0#2020-2022#330#",//--VW--4203
+"VW#Transporter T6.1#2019-2024#530#",//--VW--4179
+"VW#Transporter T6.1 with rear a/c#2019-2024#830#",//--VW--4183
+"VW#T-ROC#2017-2024#460#",//--VW--4191
+"VW#Up 1.0 GTI#2016-2024#450#",//--VW--4199
+"VW#Up 1.0#2020-2024#330#",//--VW--4203
 "VW#E-Crafer Electric R134a#2018-2022#965#",//--VW--4207
-"VW#E-Golf eaza 100kw R1234yf#2017-2019#430#",//--VW--4211
-"VW#E-Golf With heat pump R1234yf#2017-2019#850#",//--VW--4215
 "VW#E-Load Up 60kw Electric For R1234yf#2016-2020#340#",//--VW--4219
 "VW#E-Load Up 60kw Electric For R134a#2016-2020#380#",//--VW--4223
-"VW#Golf VIII#2020-2022#460#",//--VW--4227
-"VW#ID.3 For R1234yf#2019-2022#460#",//--VW--4231
-"VW#ID.3 For R744#2019-2022#420#",//--VW--4235
-"VW#ID.4 For R744#2021-2022#420#",//--VW--4239
-"VW#ID.4#2021-2022#460#",//--VW--4243
-"VW#Passat Hybrid#2018-2022#460#",//--VW--4247
-"VW#Tiguan For R1234yf#2021-2022#450#",//--VW--4251
-"VW#Tiguan For R134a#2021-2022#500#",//--VW--4255
-"VW#Touareg 3.0 Hibrid#2020-2022#740#",//--VW--4259
-"VW#Touareg 3.0 Hibrid For R134a#2020-2022#840#",//--VW--4263
+"VW#ID.3 For R1234yf#2019-2024#460#",//--VW--4231
+"VW#ID.3 For R744#2019-2024#420#",//--VW--4235
+"VW#ID.4 For R744#2021-2024#420#",//--VW--4239
+"VW#ID.4#2021-2024#460#",//--VW--4243
+"VW#ID.5#2021-2024#460#",//--VW--4243
+"VW#ID.Buzz#2022-2024#520#",//--VW--4243
 "*",    // 2419
 };
 
