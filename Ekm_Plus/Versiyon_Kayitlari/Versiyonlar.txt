@@ -114,3 +114,6 @@ V1R2.25 15/02/2024
 
 V1R2.26 09/05/2024
  -Brescon Polonya (Leh dili) güncellendi
+
+V1R2.27 15/05/2024
+ -2024 databank güncellendi 
