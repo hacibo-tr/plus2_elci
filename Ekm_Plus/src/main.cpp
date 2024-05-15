@@ -8845,7 +8845,7 @@ void Sayfalari_Sorgula(void)
     //Yazi_Yaz(6,SATIR_3,EKM.Yaz_Versiyon,1);
     //Yazi_Yaz(9,SATIR_3,EKM.Yaz_Revizyon,1);
     strcpy(EKM.Yaz_Versiyon,"V1");
-    strcpy(EKM.Yaz_Revizyon,"R2.26");
+    strcpy(EKM.Yaz_Revizyon,"R2.27");
     
 
 
