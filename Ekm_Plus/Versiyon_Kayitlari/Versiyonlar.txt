@@ -117,3 +117,10 @@ V1R2.26 09/05/2024
 
 V1R2.27 15/05/2024
  -2024 databank güncellendi 
+
+V1R2.28 08/11/2024
+ -Starka satış eklendi ve Almanca dil eklendi, 
+ -default ayarları firmaya göre ayarlandı, satış Türkiye ise dil Türkçe, Brescon ise İgilizce, Starka ise Almanca olur,
+ -printer ilk ayarıda fitmaya göre yapıldı.
+ -starka için güncelleme klasörü oluşturuldu. mail için google uzantılı mail adresi tanımlandı.
+ -ileriye yönelik iki adet rez dil satırı eklendi

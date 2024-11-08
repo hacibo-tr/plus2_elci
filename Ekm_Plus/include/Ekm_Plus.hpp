@@ -32,9 +32,12 @@
 
 #define TURKIYE                 1
 #define SMARTCON                2
+#define STARKA                  3
+
 
 #define SATIS_YERI              TURKIYE//
-//#define SATIS_YERI              SMARTCON
+// #define SATIS_YERI              SMARTCON
+// #define SATIS_YERI               STARKA 
 #define Geri_Buton     0
 #define Giris_Buton    1
 #define Yukari_Buton   2
@@ -60,6 +63,9 @@
 #define SATIR_3   2
 #define SATIR_4   3
 #define SATIR_5   4
+#define SATIR_6   5
+#define SATIR_7   6
+#define SATIR_8   7
 
 
 #define OLAY_YOK             0

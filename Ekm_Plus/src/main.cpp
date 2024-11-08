@@ -308,21 +308,39 @@ void Eepromdan_Verileri_Al(void)
 
 EEPROM.readString(EEPROM_VERI_KONTROL_YERI, (char*)Eeprom_Kontrolu, 2);
 
-  if ((Eeprom_Kontrolu[0] != 'K') && (SATIS_YERI == TURKIYE))
+  if ((Eeprom_Kontrolu[0] != 'U') && (SATIS_YERI == TURKIYE))
   { 
-      EEPROM.writeString(EEPROM_VERI_KONTROL_YERI, "K");
+      EEPROM.writeString(EEPROM_VERI_KONTROL_YERI, "U");
       EEPROM.writeString(GONDERICI_MAIL_KAYIT_YERI, "elciservis@gmail.com");
       EEPROM.writeString(GONDERICI_MAIL_SIFRE_KAYIT_YERI, "cingfyhreujogpgg");
       EEPROM.writeString(SON_ALICI_MAIL_KAYIT_YERI, "elciservis@gmail.com");//  ibrahimkaya1781@gmail.com
+      EEPROM.writeString(CIHAZ_ADI_KAYIT_YERI, "EKMPLUS");
+      EEPROM.writeUChar(YAZICI_DURUM_KAYIT_YERI, YOK);
+      EEPROM.writeUChar(CIHAZ_DIL_YERI, 0);
   }
 
-  if ((Eeprom_Kontrolu[0] != 'K') && (SATIS_YERI == SMARTCON))
+  if ((Eeprom_Kontrolu[0] != 'U') && (SATIS_YERI == SMARTCON))
   {  
-      EEPROM.writeString(EEPROM_VERI_KONTROL_YERI, "K");
+      EEPROM.writeString(EEPROM_VERI_KONTROL_YERI, "U");
       EEPROM.writeString(GONDERICI_MAIL_KAYIT_YERI, "bresconeu@gmail.com");
       EEPROM.writeString(GONDERICI_MAIL_SIFRE_KAYIT_YERI, "tjqmshawktynubzq");
-      EEPROM.writeString(SON_ALICI_MAIL_KAYIT_YERI, "bresconeu@gmail.com");  
+      EEPROM.writeString(SON_ALICI_MAIL_KAYIT_YERI, "bresconeu@gmail.com");
+      EEPROM.writeString(CIHAZ_ADI_KAYIT_YERI, "SMARTCON");
+      EEPROM.writeUChar(YAZICI_DURUM_KAYIT_YERI, VAR);
+      EEPROM.writeUChar(CIHAZ_DIL_YERI, 1);  
   }
+
+  if ((Eeprom_Kontrolu[0] != 'U') && (SATIS_YERI == STARKA))
+  {  
+      EEPROM.writeString(EEPROM_VERI_KONTROL_YERI, "U");
+      EEPROM.writeString(GONDERICI_MAIL_KAYIT_YERI, "strmail204@gmail.com");
+      EEPROM.writeString(GONDERICI_MAIL_SIFRE_KAYIT_YERI, "bpryjndkqyofvvss");
+      EEPROM.writeString(SON_ALICI_MAIL_KAYIT_YERI, "strmail204@gmail.com"); 
+      EEPROM.writeString(CIHAZ_ADI_KAYIT_YERI, "STR-PLUS"); 
+      EEPROM.writeUChar(YAZICI_DURUM_KAYIT_YERI, YOK);
+      EEPROM.writeUChar(CIHAZ_DIL_YERI, 5);
+  }
+
   Eeprom_Kontrolu[0] = 0;
 
   EEPROM.readString(EEPROM_KONTROL_YERI, (char*)Eeprom_Kontrolu, 2);
@@ -330,9 +348,9 @@ EEPROM.readString(EEPROM_VERI_KONTROL_YERI, (char*)Eeprom_Kontrolu, 2);
   {
     EEPROM.writeString(EEPROM_KONTROL_YERI, "A");
 
-    EEPROM.writeString(CIHAZ_ADI_KAYIT_YERI, "EKMPLUS+");
-    EEPROM.writeString(WIFI_AD_KAYIT_YERI, "EKM_PLUS");
-    EEPROM.writeString(WIFI_SIFRE_KAYIT_YERI, "el11121314");
+    // EEPROM.writeString(CIHAZ_ADI_KAYIT_YERI, "EKMPLUS+");
+    EEPROM.writeString(WIFI_AD_KAYIT_YERI, "Y1");
+    EEPROM.writeString(WIFI_SIFRE_KAYIT_YERI, "!!!!!!!!");
 
     EEPROM.writeString(YAZ_VERSIYON_KAYIT_YERI, "00");
     EEPROM.writeString(YAZ_REVIZYON_KAYIT_YERI, "00");
@@ -354,8 +372,8 @@ EEPROM.readString(EEPROM_VERI_KONTROL_YERI, (char*)Eeprom_Kontrolu, 2);
     EEPROM.writeUChar(TANK_KAPASITE_KAYIT_YERI, 12);
     EEPROM.writeUChar(ISITICI_DURUM_KAYIT_YERI, 1);
     EEPROM.writeUChar(GAZ_SENSORU_DURUM_KAYIT_YERI, 1);
-    EEPROM.writeUChar(YAZICI_DURUM_KAYIT_YERI, VAR);
-    EEPROM.writeUChar(CIHAZ_DIL_YERI, 0);
+    // EEPROM.writeUChar(YAZICI_DURUM_KAYIT_YERI, VAR);
+    // EEPROM.writeUChar(CIHAZ_DIL_YERI, 0);
     EEPROM.writeUChar(KONTRAST_KAYIT_YERI,100);
     EEPROM.writeUChar(GAZ_TIPI_KAYIT_YERI, 0);
 
@@ -1539,57 +1557,43 @@ void Imlec_Yaz(unsigned char Yer)
 {
   static unsigned E_Satir = 0;
 
-  if(Yer == 1)
-  {
-    if(E_Satir != SATIR_1)
-    {
-      lcd.setCursor(0, E_Satir);
-      lcd.print(" ");
-      E_Satir = SATIR_1;
-    }
-    lcd.setCursor(0, SATIR_1);
-  }
-  else if(Yer == 2)
-  {
-    if(E_Satir != SATIR_2)
-    {
-      lcd.setCursor(0, E_Satir);
-      lcd.print(" ");
-      E_Satir = SATIR_2;
-    }
-    lcd.setCursor(0, SATIR_2);
-  }
-  else if(Yer == 3)
-  {
-    if(E_Satir != SATIR_3)
-    {
-      lcd.setCursor(0, E_Satir);
-      lcd.print(" ");
-      E_Satir = SATIR_3;
-    }
-    lcd.setCursor(0, SATIR_3);
-  }
+       if(Yer == 1)
+  {    if(E_Satir != SATIR_1){lcd.setCursor(0, E_Satir); lcd.print(" ");E_Satir = SATIR_1;}
+       lcd.setCursor(0, SATIR_1); }
+    
+  else if(Yer == 2)     
+  {    if(E_Satir != SATIR_2){lcd.setCursor(0, E_Satir); lcd.print(" ");E_Satir = SATIR_2;}
+       lcd.setCursor(0, SATIR_2); }
+    
+  else if(Yer == 3)   
+  {    if(E_Satir != SATIR_3){lcd.setCursor(0, E_Satir); lcd.print(" ");E_Satir = SATIR_3;}
+       lcd.setCursor(0, SATIR_3); }    
+
   else if(Yer == 4)
-  {
-    if(E_Satir != SATIR_4)
-    {
-      lcd.setCursor(0, E_Satir);
-      lcd.print(" ");
-      if(EKM.Sayfa == Dil_Secim_Sayfasi){lcd.setCursor(10, E_Satir);lcd.print(" ");}
-      E_Satir = SATIR_4;
-    }
-    lcd.setCursor(0, SATIR_4); 
-  }
-    else if(Yer == 5)
-  {
-    if(E_Satir != SATIR_5)
-    {
-      lcd.setCursor(0, E_Satir);
-      lcd.print(" ");
-      E_Satir = SATIR_1;
-    }
-    lcd.setCursor(10, SATIR_1); 
-  }
+  {    if(E_Satir != SATIR_4){lcd.setCursor(0, E_Satir); lcd.print(" ");
+       if(EKM.Sayfa == Dil_Secim_Sayfasi){lcd.setCursor(10, E_Satir);lcd.print(" ");}E_Satir = SATIR_4; }
+       lcd.setCursor(0, SATIR_4); }
+
+  else if(Yer == 5)
+  {    if(E_Satir != SATIR_5){lcd.setCursor(0, E_Satir); lcd.print(" ");
+       if(EKM.Sayfa == Dil_Secim_Sayfasi){lcd.setCursor(10, E_Satir);lcd.print(" ");}E_Satir = SATIR_1; }
+       lcd.setCursor(10, SATIR_1); }
+
+  else if(Yer == 6)
+  {    if(E_Satir != SATIR_6){lcd.setCursor(0, E_Satir); lcd.print(" ");
+       if(EKM.Sayfa == Dil_Secim_Sayfasi){lcd.setCursor(10, E_Satir);lcd.print(" ");}E_Satir = SATIR_2; }
+       lcd.setCursor(10, SATIR_2); } 
+
+  else if(Yer == 7)
+  {    if(E_Satir != SATIR_7){lcd.setCursor(0, E_Satir); lcd.print(" ");
+       if(EKM.Sayfa == Dil_Secim_Sayfasi){lcd.setCursor(10, E_Satir);lcd.print(" ");}E_Satir = SATIR_3; }
+       lcd.setCursor(10, SATIR_3); } 
+
+  else if(Yer == 8)
+  {    if(E_Satir != SATIR_8){lcd.setCursor(0, E_Satir); lcd.print(" ");
+       if(EKM.Sayfa == Dil_Secim_Sayfasi){lcd.setCursor(10, E_Satir);lcd.print(" ");}E_Satir = SATIR_4; }
+       lcd.setCursor(10, SATIR_4); } 
+  
   lcd.print(">");
 }
 
@@ -2690,16 +2694,14 @@ void Dil_Secimi(void)
     Secim_Adimi = 1;
     EKM.Imlec = 1;
     Imlec_Yaz(EKM.Imlec);
-    EKM.Dil = 0;
-    Kayittan_Yazi_Yaz(1,SATIR_1,Turkce_Yaz_Yeri);
-    EKM.Dil = 1;
-    Kayittan_Yazi_Yaz(1,SATIR_2,Turkce_Yaz_Yeri);
-    EKM.Dil = 2;
-    Kayittan_Yazi_Yaz(1,SATIR_3,Turkce_Yaz_Yeri); 
-    EKM.Dil = 3;
-    Kayittan_Yazi_Yaz(1,SATIR_4,Turkce_Yaz_Yeri);
-    EKM.Dil = 4;
-    Kayittan_Yazi_Yaz(11,SATIR_1,Turkce_Yaz_Yeri);
+    EKM.Dil = 0;Kayittan_Yazi_Yaz(1 ,SATIR_1,Turkce_Yaz_Yeri);
+    EKM.Dil = 1;Kayittan_Yazi_Yaz(1 ,SATIR_2,Turkce_Yaz_Yeri);
+    EKM.Dil = 2;Kayittan_Yazi_Yaz(1 ,SATIR_3,Turkce_Yaz_Yeri);
+    EKM.Dil = 3;Kayittan_Yazi_Yaz(1 ,SATIR_4,Turkce_Yaz_Yeri);
+    EKM.Dil = 4;Kayittan_Yazi_Yaz(11,SATIR_1,Turkce_Yaz_Yeri);
+    EKM.Dil = 5;Kayittan_Yazi_Yaz(11,SATIR_2,Turkce_Yaz_Yeri);
+    EKM.Dil = 6;Kayittan_Yazi_Yaz(11,SATIR_3,Turkce_Yaz_Yeri);
+    EKM.Dil = 7;Kayittan_Yazi_Yaz(11,SATIR_4,Turkce_Yaz_Yeri);        
      // dil sayısına kadar eklendikçe açılacak
    // EKM.Dil = 3;
     //Kayittan_Yazi_Yaz(1,SATIR_2,Turkce_Yaz_Yeri*4);
@@ -2708,33 +2710,17 @@ void Dil_Secimi(void)
   else if (Secim_Adimi == 1)
   {
     if (Buton[Geri_Buton].Olay == BASILDI_OLAYI)
-    {
-      Buton[Geri_Buton].Olay = OLAYI_TEMIZLE;
-      Secim_Adimi = 0;
-      Cihaz_Ayarlar_Sayfa(1);
-    }
+    {   Buton[Geri_Buton].Olay =  OLAYI_TEMIZLE;Secim_Adimi = 0;Cihaz_Ayarlar_Sayfa(1);}
+      
     if (Buton[Giris_Buton].Olay == BASILDI_OLAYI)
-    {
-      Buton[Giris_Buton].Olay = OLAYI_TEMIZLE;
-      Secim_Adimi = 0;
-      EKM.Dil = EKM.Imlec - 1;    
-      Veri_Kaydet_Uchar(CIHAZ_DIL_YERI, EKM.Dil);
-      Cihaz_Ayarlar_Sayfa(1);
-    }
+    {   Buton[Giris_Buton].Olay =  OLAYI_TEMIZLE;Secim_Adimi = 0;EKM.Dil = EKM.Imlec - 1;Veri_Kaydet_Uchar(CIHAZ_DIL_YERI, EKM.Dil);Cihaz_Ayarlar_Sayfa(1); }
+    
     if (Buton[Yukari_Buton].Olay == BASILDI_OLAYI)
-    {
-      Buton[Yukari_Buton].Olay = OLAYI_TEMIZLE;
-      if(EKM.Imlec > 1)
-        EKM.Imlec --;
-      Imlec_Yaz(EKM.Imlec);
-    }
+    {   Buton[Yukari_Buton].Olay =  OLAYI_TEMIZLE;if(EKM.Imlec > 1) EKM.Imlec --;Imlec_Yaz(EKM.Imlec); }  
+   
     if (Buton[Asagi_Buton].Olay == BASILDI_OLAYI)
-    {
-      Buton[Asagi_Buton].Olay = OLAYI_TEMIZLE;
-      if(EKM.Imlec < DIL_SAYISI)
-        EKM.Imlec ++;
-      Imlec_Yaz(EKM.Imlec);
-    }
+    {   Buton[Asagi_Buton].Olay =  OLAYI_TEMIZLE;if(EKM.Imlec < DIL_SAYISI)EKM.Imlec ++;Imlec_Yaz(EKM.Imlec);}  
+    
   }
 }
 
@@ -8825,14 +8811,14 @@ void Sayfalari_Sorgula(void)
 
   if (EKM.Sayfa == Acilis_Sayfasi)
   {
-    if(SATIS_YERI == TURKIYE)
-    {
-      Yazi_Yaz(1,SATIR_1,"elcielektronik.com",1);
-    }
-    else if (SATIS_YERI == SMARTCON)
-    {
-      Yazi_Yaz(1,SATIR_1,"brescon.eu",1);
-    }
+         if (SATIS_YERI == TURKIYE) {Yazi_Yaz(1,SATIR_1,"elcielektronik.com",1);}
+    else if (SATIS_YERI == SMARTCON){Yazi_Yaz(1,SATIR_1,"brescon.eu",1)        ;}
+    else if (SATIS_YERI == STARKA)  {Yazi_Yaz(1,SATIR_1,"starkaautotech.de",1)        ;}  
+      
+   
+
+
+
     
     if(EKM.Gaz_Tipi == GAZ_134)
     {
@@ -8843,12 +8829,12 @@ void Sayfalari_Sorgula(void)
     {
       Kayittan_Yazi_Yaz(1, SATIR_2, R1234_YF_Yeri);
     }
-    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.27",1);//versiyon no
+    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.28",1);//versiyon no
     //Yazi_Yaz(1,SATIR_3,"Plus_  _",1);
     //Yazi_Yaz(6,SATIR_3,EKM.Yaz_Versiyon,1);
     //Yazi_Yaz(9,SATIR_3,EKM.Yaz_Revizyon,1);
     strcpy(EKM.Yaz_Versiyon,"V1");
-    strcpy(EKM.Yaz_Revizyon,"R2.27");
+    strcpy(EKM.Yaz_Revizyon,"R2.28");
     
 
 
@@ -10036,6 +10022,11 @@ void Yazilim_Guncelle(void)
     {
       strcat(Gonderme_Linki,"http://elcielektronik.com/smartcondata/data_yaz.php?data=");//http://elcielektronik.com/plus2data/data_yaz.php?data=
     }
+    else if (SATIS_YERI == STARKA)
+    {
+      strcat(Gonderme_Linki,"http://elcielektronik.com/str-plusdata/data_yaz.php?data=");//http://elcielektronik.com/plus2data/data_yaz.php?data=
+    }
+
  //   strcat(Gonderme_Linki,"http://elcielektronik.com/smartcondata/data_yaz.php?data=");//http://elcielektronik.com/plus2data/data_yaz.php?data=
     strcat(Gonderme_Linki,Chip_ID);
     strcat(Gonderme_Linki,",");
@@ -10067,6 +10058,11 @@ void Yazilim_Guncelle(void)
     {
       strcat(Indirme_Linki, "https://elcielektronik.com/version/brescon/smartcon");    //smartcharge600/Ver_");
     }
+    else if (SATIS_YERI == STARKA)
+    {
+      strcat(Indirme_Linki, "https://elcielektronik.com/version/starka/str-plus");    
+    }
+
     //strcat(Indirme_Linki, "https://elcielektronik.com/version/brescon/smartcon");    //smartcharge600/Ver_");
     strcat(Indirme_Linki, Chip_ID);
     strcat(Indirme_Linki, Chip_ID);
@@ -10232,6 +10228,14 @@ void Wifi_Baglanti_Kontrol(void)
         {
           strcat(Gonderme_Linki,"http://elcielektronik.com/smartcondata/data_yaz.php?data=");//http://elcielektronik.com/plus2data/data_yaz.php?data=
         }
+        else if (SATIS_YERI == STARKA)
+        {
+          strcat(Gonderme_Linki,"http://elcielektronik.com/str-plusdata/data_yaz.php?data=");//http://elcielektronik.com/plus2data/data_yaz.php?data=
+        }
+
+
+
+
         strcat(Gonderme_Linki,Chip_ID);
         strcat(Gonderme_Linki,",");
         strcat(Gonderme_Linki,"V1");  //// kart versiyonları
