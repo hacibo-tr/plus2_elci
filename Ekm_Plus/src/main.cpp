@@ -1532,6 +1532,9 @@ void Giris_Cikislari_Ayarla(void)
 
 }
 
+
+
+
 void Imlec_Yaz(unsigned char Yer)
 {
   static unsigned E_Satir = 0;
