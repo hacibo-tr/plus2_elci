@@ -35,7 +35,7 @@
 #define STARKA                  3
 
 
-#define SATIS_YERI              TURKIYE//
+ #define SATIS_YERI              TURKIYE//
 // #define SATIS_YERI              SMARTCON
 // #define SATIS_YERI               STARKA 
 #define Geri_Buton     0

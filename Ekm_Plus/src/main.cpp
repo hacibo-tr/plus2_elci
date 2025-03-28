@@ -10032,7 +10032,7 @@ void Yazilim_Guncelle(void)
     strcat(Gonderme_Linki,",");
     strcat(Gonderme_Linki,"V1");  //// kart versiyonları
     strcat(Gonderme_Linki,",");
-    strcat(Gonderme_Linki,"R1");  ///// kart revizyonları
+    strcat(Gonderme_Linki,"R2");  ///// kart revizyonları
     strcat(Gonderme_Linki,",");
     strcat(Gonderme_Linki,EKM.Yaz_Versiyon);  /// yaz. versiyonları
     strcat(Gonderme_Linki,",");
