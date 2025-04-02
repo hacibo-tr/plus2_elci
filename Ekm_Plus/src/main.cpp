@@ -8829,12 +8829,12 @@ void Sayfalari_Sorgula(void)
     {
       Kayittan_Yazi_Yaz(1, SATIR_2, R1234_YF_Yeri);
     }
-    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.28",1);//versiyon no
+    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.29",1);//versiyon no
     //Yazi_Yaz(1,SATIR_3,"Plus_  _",1);
     //Yazi_Yaz(6,SATIR_3,EKM.Yaz_Versiyon,1);
     //Yazi_Yaz(9,SATIR_3,EKM.Yaz_Revizyon,1);
     strcpy(EKM.Yaz_Versiyon,"V1");
-    strcpy(EKM.Yaz_Revizyon,"R2.28");
+    strcpy(EKM.Yaz_Revizyon,"R2.29");
     
 
 
@@ -9105,7 +9105,7 @@ void Markari_Goster(unsigned char Marka_No)
 
 void Model_Yerini_Bul_ve_Goster(void)
 {
-  char Marka[15] = {0}, Model[100] = {0}, Yil[15] = {0};
+  char Marka[15] = {0}, Model[1000] = {0}, Yil[15] = {0};
   char *tok;
   unsigned short ix = 0;
   
@@ -9202,7 +9202,7 @@ void Modelleri_Goster(void)
 {
   unsigned static short ix = 0;
   unsigned static char Gosterim_Adimi = 0;
-  char Marka[15] = {0}, Model[100] = {0}, Yil[15] = {0};
+  char Marka[15] = {0}, Model[200] = {0}, Yil[15] = {0}, Model_[50];
   char *tok;
 
   if(Gosterim_Adimi == 0)
@@ -9233,7 +9233,9 @@ void Modelleri_Goster(void)
             memset(Model,0x00,strlen(Model));
             tok = strtok(NULL,"#");
             strcpy(Model,tok);
-            Yazi_Yaz(0,SATIR_2,Model,99);
+            strncpy(Model_, Model, 40); //İlk 40 karakter atandı
+            Model_[40] = '\0';  
+            Yazi_Yaz(0,SATIR_2,Model_,99);
 
             tok = strtok(NULL,"#");
             strcpy(Yil,tok);
@@ -9249,15 +9251,19 @@ void Modelleri_Goster(void)
             ix --;        //// modeller bitti. Arttırmayı geri aldık
             // Son_Model_Yeri = ix - 1;
             // ix = EKM.Secili_Model_Yeri;
-          }
+          }   
           
         }
       }
       else if (Buton[Yukari_Buton].Olay == BASILDI_OLAYI)
       {
         Buton[Yukari_Buton].Olay = OLAYI_TEMIZLE;
-        ix--;
 
+        if(ix <= 0)
+          ix = 0;
+        else
+          ix--;
+          
         if(strcmp(model_134[ix] , "*") != 0)
         {
           memcpy(Model,model_134[ix],strlen(model_134[ix]));
@@ -9325,7 +9331,9 @@ void Modelleri_Goster(void)
             memset(Model,0x00,strlen(Model));
             tok = strtok(NULL,"#");
             strcpy(Model,tok);
-            Yazi_Yaz(0,SATIR_2,Model,99);
+            strncpy(Model_, Model, 40); //İlk 40 karakter atandı
+            Model_[40] = '\0';
+            Yazi_Yaz(0,SATIR_2,Model_,99);
 
             tok = strtok(NULL,"#");
             strcpy(Yil,tok);
@@ -9346,8 +9354,12 @@ void Modelleri_Goster(void)
       else if (Buton[Yukari_Buton].Olay == BASILDI_OLAYI)
       {
         Buton[Yukari_Buton].Olay = OLAYI_TEMIZLE;
-        ix--;
-
+      
+        if(ix <= 0)
+          ix = 0;
+        else
+          ix--;
+          
         if(strcmp(model_1234yf[ix] , "*") != 0)
         {
           memcpy(Model,model_1234yf[ix],strlen(model_1234yf[ix]));

@@ -86,6 +86,7 @@ const char* const marka_1234yf[] PROGMEM = {
 "Chevrolet",//5
 "Chrysler",//6
 "Citroen",//7
+"Cupra", //Araya eklendi çünkü sıralamanın önemi yok. Sondaki * işaretine bakılıyor
 "Dacia",//8
 //"Daewoo",//9
 //"Daihatsu",//10
@@ -111,7 +112,7 @@ const char* const marka_1234yf[] PROGMEM = {
 "Mazda",//30
 "Mcc/Smart",//31
 "Mercedes",//32
-//"MG Motor",//33
+"MG Motor",//33
 "Mini Cooper",//34
 "Mitsubishi",//35
 "Nissan",//36
@@ -3785,7 +3786,7 @@ const char* const model_1234yf[] PROGMEM = {
 "Opel#Astra L 1930cm2X12mm Condanser#2021-2024#440#",//--Opel--2763
 "Opel#Astra L 2350cm2X16mm Condanser#2021-2024#525#",//--Opel--2763
 "Opel#Astra L 2800cm2X16mm Condanser#2021-2024#550#",//--Opel--2763
-"Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 293 402 80)Condanser For R1234yf#2021-2024#575#",//--Opel--2763
+"Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 293 402 80)Condanser For R1234yf#2021-2024#575#",//--Opel--2763 
 "Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 181 951 80)Condanser For R1234yf#2021-2024#625#",//--Opel--2763
 "Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 293 402 80)Condanser For R134a#2021-2024#625#",//--Opel--2763
 "Opel#Astra L 1.6 Hybrid 2350cm2X16mm Condanser (Part Nubber:98 181 951 80)Condanser For R134a#2021-2024#700#",//--Opel--2763
