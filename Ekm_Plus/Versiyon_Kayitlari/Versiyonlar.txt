@@ -130,3 +130,7 @@ V1R2.28 08/11/2024
  -Araç datalarında 50 karakterden uzun olan model isimlerinin hata verme sorunu giderildi. (Model adı ekranda yazdırıldıktan sonra esp reset atıyordu.)
  -Araç datalarında Alfa romeoda ilk modelde yukarı butonuna basınca esp reset atma sorunu giderildi.
  -Araç datalarına R1234yf de MG Motor ve Cupra eklendi. (Listede zaten vardı, aktif hale getirildi.)
+
+ V1R2.30 02/05/2025
+ -ana menüde sag ve sol tuşlarıyla kontrast ayarı yapılabiliryor.
+ -

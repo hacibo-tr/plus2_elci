@@ -7976,20 +7976,23 @@ void Islem_Secimi(void)
       }
     }
   }
-  // if (Buton[Sag_Buton].Olay == BASILDI_OLAYI)
-  // {
-  //   Buton[Sag_Buton].Olay = OLAYI_TEMIZLE;
-  //   if(EKM.Lcd_Kontrast_Degeri < 255)
-  //     EKM.Lcd_Kontrast_Degeri ++;
-  //   ledcWrite(0,EKM.Lcd_Kontrast_Degeri);
-  // }
-  // if (Buton[Sol_Buton].Olay == BASILDI_OLAYI)
-  // {
-  //   Buton[Sol_Buton].Olay = OLAYI_TEMIZLE;
-  //   if(EKM.Lcd_Kontrast_Degeri > 0)
-  //     EKM.Lcd_Kontrast_Degeri --;
-  //   ledcWrite(0,EKM.Lcd_Kontrast_Degeri);
-  // }
+  if (Buton[Sag_Buton].Olay == BASILDI_OLAYI)
+  {
+    Buton[Sag_Buton].Olay = OLAYI_TEMIZLE;
+    if(EKM.Lcd_Kontrast_Degeri < 255)
+    EKM.Lcd_Kontrast_Degeri +=5;// EKM.Lcd_Kontrast_Degeri ++;
+    ledcWrite(0,EKM.Lcd_Kontrast_Degeri);
+    Veri_Kaydet_Uchar(KONTRAST_KAYIT_YERI,EKM.Lcd_Kontrast_Degeri);//Serial.println(EKM.Lcd_Kontrast_Degeri);
+    
+  }
+  if (Buton[Sol_Buton].Olay == BASILDI_OLAYI)
+  {
+    Buton[Sol_Buton].Olay = OLAYI_TEMIZLE;
+    if(EKM.Lcd_Kontrast_Degeri > 0)
+      EKM.Lcd_Kontrast_Degeri -= 5;
+    ledcWrite(0,EKM.Lcd_Kontrast_Degeri);
+    Veri_Kaydet_Uchar(KONTRAST_KAYIT_YERI,EKM.Lcd_Kontrast_Degeri);//Serial.println(EKM.Lcd_Kontrast_Degeri);
+  }
 }
 
 void Sistem_Bosaltma(void)    ////// guvenliğe gerek yok. bu kısım sadece boşaltma. vakumlama yok
@@ -8829,12 +8832,12 @@ void Sayfalari_Sorgula(void)
     {
       Kayittan_Yazi_Yaz(1, SATIR_2, R1234_YF_Yeri);
     }
-    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.29",1);//versiyon no
+    Yazi_Yaz(1,SATIR_3,"Plus_V1R2.30",1);//versiyon no
     //Yazi_Yaz(1,SATIR_3,"Plus_  _",1);
     //Yazi_Yaz(6,SATIR_3,EKM.Yaz_Versiyon,1);
     //Yazi_Yaz(9,SATIR_3,EKM.Yaz_Revizyon,1);
     strcpy(EKM.Yaz_Versiyon,"V1");
-    strcpy(EKM.Yaz_Revizyon,"R2.29");
+    strcpy(EKM.Yaz_Revizyon,"R2.30");
     
 
 
